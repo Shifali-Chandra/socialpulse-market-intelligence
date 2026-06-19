@@ -179,6 +179,8 @@ def clean_dataset(df: pd.DataFrame, col_types: dict, args: argparse.Namespace) -
     # 3b. Normalize social-media text (URLs, mentions, hashtag symbols, whitespace)
     if args.clean_social_text and col_types["text"]:
         for c in col_types["text"]:
+            if re.search(r"url|link", c, re.IGNORECASE):
+                continue
             before_nulls = df[c].isna().sum()
             mask = df[c].notna()
             df.loc[mask, c] = df.loc[mask, c].apply(_clean_social_text)
