@@ -105,6 +105,17 @@ Outputs are written to CSV and to a SQLite database (data/socialpulse.db):
 - unified_posts - YouTube + Instagram (4,735 rows), balanced and modeling-ready.
 - twitter_eda - Twitter (84,212 rows), isolated for EDA only.
 
+## Exploratory Data Analysis
+
+EDA is performed in notebooks/eda.ipynb on the unified dataset plus the Twitter EDA set, segmented by platform to avoid pooling biased data. Outputs:
+- Charts (data/reports/eda/figures): records per platform, keyword volume, Twitter AWS bias, average engagement by platform and by keyword.
+- Summary tables (data/reports/eda): platform_summary, keyword_distribution, engagement_by_keyword, top_authors.
+
+Key findings:
+- YouTube and Instagram cover all 12 keywords and are balanced, so they are the analysis and modeling sources.
+- Twitter is ~99% AWS, so it is used for descriptive EDA only.
+- Engagement is platform-specific and is compared within a platform, not pooled across platforms.
+
 ## Data Processing Workflow
 
 Collection

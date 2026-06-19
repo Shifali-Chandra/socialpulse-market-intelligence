@@ -54,6 +54,18 @@ Collect, validate, clean, and analyze social media data from YouTube, Instagram,
 
 ---
 
+## Setup
+
+```
+python -m venv .venv
+.venv\Scripts\pip install -r requirements.txt
+.venv\Scripts\python -m ipykernel install --user --name socialpulse --display-name "Python (SocialPulse)"
+```
+
+API keys (YouTube `API_KEY`, Apify `APIFY_API_KEY`) go in a local `.env` file (gitignored). Pipeline scripts run from the project root, e.g. `python src/data_cleaner.py data/raw/youtube_master_dataset.csv`. Open `notebooks/eda.ipynb` with the "Python (SocialPulse)" kernel.
+
+---
+
 ## Project Workflow
 
 Raw Data Collection (YouTube, Instagram, Twitter)
@@ -114,6 +126,8 @@ src/
 - Twitter keyword derivation and EDA-only scoping (AWS bias)
 - Unified dataset builder (cross-platform schema)
 - SQLite integration (unified_posts + twitter_eda tables)
+- Exploratory data analysis notebook (audience interests, engagement patterns, Twitter bias visualization)
+- Reproducible environment (.venv + Jupyter kernel)
 
 ### Dataset Summary
 
@@ -129,9 +143,8 @@ src/
 
 ## Upcoming Work
 
-- Exploratory Data Analysis (EDA)
-- Sentiment Analysis
+- Sentiment Analysis (model-based for YouTube/Instagram; Twitter has a pre-computed score)
+- Topic Modeling
 - Trend Identification
-- Engagement Analysis
-- Visualization & Reporting
+- Visualization expansion (word clouds, dashboard)
 - Marketing Insight Generation
