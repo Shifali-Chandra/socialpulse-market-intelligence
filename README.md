@@ -4,7 +4,7 @@
 
 SocialPulse Market Intelligence is a social media analytics solution designed to collect, process, and analyze public social media discussions to identify emerging trends, audience sentiment, engagement patterns, and potential business opportunities.
 
-The project focuses on technology and digital-business related discussions across platforms such as YouTube and Reddit, helping marketing teams make data-driven marketing and business development decisions.
+The project focuses on technology and digital-business related discussions across platforms such as YouTube, Instagram, and Twitter/X, helping marketing teams make data-driven marketing and business development decisions.
 
 ---
 
@@ -42,10 +42,12 @@ Collect, validate, clean, and analyze social media data from YouTube and Reddit 
 
 - Python
 - YouTube Data API v3
-- Reddit API (PRAW)
+- Apify Instagram Hashtag Scraper
 - Pandas
 - CSV
 - Git & GitHub
+
+> **Note on Reddit:** Reddit was evaluated as a source but **dropped from scope**. Reddit's API requires a data-access application that goes through a manual approval process, and that approval did not complete within the project timeline. To stay on schedule, Reddit was replaced with Instagram (via the Apify Hashtag Scraper) and a public Twitter/X dataset (Kaggle).
 
 ---
 
@@ -88,7 +90,6 @@ src/
 
 - Project planning and objective definition
 - YouTube API integration
-- Reddit API integration
 - Keyword strategy definition
 - Raw data collection
 - Data profiling module
@@ -100,7 +101,6 @@ src/
 | Dataset | Records |
 |----------|----------|
 | YouTube Comments | 4,444 |
-| Reddit Posts/Comments | Available |
 | Keywords Covered | 12 |
 
 ---

@@ -2,10 +2,14 @@
 
 ## Platforms
 - YouTube
-- Reddit
+- Instagram
+- Twitter/X
 
 ## Data Collection Approach
-Data is collected using official platform APIs and keyword-based searches.
+Data is collected using official platform APIs, third-party scrapers, and public datasets, driven by keyword-based searches.
+
+### Dropped Platform: Reddit
+Reddit was originally planned as a source but was **removed from scope**. Reddit's data access requires submitting an API/data-use application that is subject to a manual approval process. That approval was not granted within the project's timeline, so to avoid blocking the pipeline, Reddit was replaced with **Instagram** (Apify Hashtag Scraper) and a public **Twitter/X** dataset (Kaggle).
 
 ## Categories
 
@@ -40,15 +44,25 @@ Data is collected using official platform APIs and keyword-based searches.
 - Published Date
 - Like Count
 
-### Reddit
+### Instagram
 - Keyword
-- Subreddit
-- Title
-- Post Text
+- Post ID
+- Caption
 - Author
-- Created Date
-- Score
+- Published Date
+- Like Count
 - Comment Count
+- Post URL
+
+### Twitter/X
+- TweetID
+- text
+- Lang
+- Likes
+- RetweetCount
+- Reach
+- Sentiment
+- (no reliable timestamp — excluded from time-series analysis)
 
 ## Data Processing Workflow
 
