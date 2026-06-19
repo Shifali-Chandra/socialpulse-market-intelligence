@@ -1,0 +1,31 @@
+﻿Platform,Keyword,records,avg_engagement,max_engagement
+instagram,AI Agents,27,0.33,4.0
+instagram,AWS,27,1.41,8.0
+instagram,Automation,27,0.3,2.0
+instagram,ChatGPT,18,0.5,3.0
+instagram,Data Engineering,30,2.57,12.0
+instagram,Databricks,30,9.67,97.0
+instagram,Digital Marketing,27,-0.04,1.0
+instagram,Digital Transformation,3,0.0,0.0
+instagram,Influencer Marketing,24,6.12,92.0
+instagram,SEO,27,1.04,18.0
+instagram,SaaS,27,0.44,3.0
+instagram,Startup,24,1.12,8.0
+twitter,AWS,83467,7.45,782.0
+twitter,Automation,514,2.46,68.0
+twitter,Digital Marketing,3,0.0,0.0
+twitter,SEO,34,11.91,35.0
+twitter,SaaS,143,6.2,66.0
+twitter,Startup,51,1.51,35.0
+youtube,AI Agents,413,1.99,339.0
+youtube,AWS,450,2.98,260.0
+youtube,Automation,478,8.65,2227.0
+youtube,ChatGPT,446,1.05,154.0
+youtube,Data Engineering,372,1.78,194.0
+youtube,Databricks,375,1.85,171.0
+youtube,Digital Marketing,380,25.2,8645.0
+youtube,Digital Transformation,204,1.09,14.0
+youtube,Influencer Marketing,282,1.73,177.0
+youtube,SEO,442,1.23,100.0
+youtube,SaaS,173,1.5,71.0
+youtube,Startup,429,2.41,673.0

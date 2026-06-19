@@ -34,27 +34,49 @@ def parse_args() -> argparse.Namespace:
         help="Directory for cleaned output (default: data/clean)",
     )
     parser.add_argument(
-        "--drop-duplicates", action="store_true", default=True,
-        help="Drop duplicate rows (default: True)",
+        "--drop-duplicates", action=argparse.BooleanOptionalAction, default=True,
+        help="Drop duplicate rows (use --no-drop-duplicates to disable; default: True)",
     )
     parser.add_argument(
-        "--strip-html", action="store_true", default=True,
-        help="Strip HTML tags from text columns (default: True)",
+        "--strip-html", action=argparse.BooleanOptionalAction, default=True,
+        help="Strip HTML tags from text columns (use --no-strip-html to disable; default: True)",
+    )
+    parser.add_argument(
+        "--clean-social-text", action=argparse.BooleanOptionalAction, default=True,
+        help="Remove URLs/mentions/hashtag symbols and normalize whitespace in text "
+             "columns (use --no-clean-social-text to disable; default: True)",
     )
     return parser.parse_args()
+
+
+def _normalize_column_names(df: pd.DataFrame) -> pd.DataFrame:
+    """Strip surrounding whitespace from column names."""
+    renamed = {c: c.strip() for c in df.columns if c != c.strip()}
+    if renamed:
+        df = df.rename(columns=renamed)
+        logger.info("Normalized %d column name(s): %s", len(renamed), list(renamed.values()))
+    return df
 
 
 def load_dataset(filepath: Path) -> pd.DataFrame:
     if not filepath.exists():
         logger.error("File not found: %s", filepath)
         sys.exit(1)
-    try:
-        df = pd.read_csv(filepath)
-        logger.info("Loaded: %s (rows=%d, cols=%d)", filepath, len(df), len(df.columns))
-        return df
-    except Exception as e:
-        logger.error("Failed to load dataset: %s", e)
-        sys.exit(1)
+    for encoding in ("utf-8", "cp1252", "latin-1"):
+        try:
+            df = pd.read_csv(filepath, encoding=encoding)
+            if encoding != "utf-8":
+                logger.warning("Read using fallback encoding '%s' (not UTF-8).", encoding)
+            df = _normalize_column_names(df)
+            logger.info("Loaded: %s (rows=%d, cols=%d)", filepath, len(df), len(df.columns))
+            return df
+        except UnicodeDecodeError:
+            continue
+        except Exception as e:
+            logger.error("Failed to load dataset: %s", e)
+            sys.exit(1)
+    logger.error("Failed to load dataset: could not decode with utf-8/cp1252/latin-1.")
+    sys.exit(1)
 
 
 def _classify_columns(df: pd.DataFrame) -> dict:
@@ -101,6 +123,27 @@ def _strip_html_tags(text: str) -> str:
     return re.sub(r"<[^>]+>", "", str(text)).strip()
 
 
+# Pre-compiled patterns (compiled once, reused per cell — faster on large datasets).
+_URL_RE = re.compile(r"https?://\S+|www\.\S+")
+_MENTION_RE = re.compile(r"@\w+")
+_HASHTAG_SYMBOL_RE = re.compile(r"#(?=\w)")
+_WHITESPACE_RE = re.compile(r"\s+")
+
+
+def _clean_social_text(text: str) -> str:
+    """Normalize social-media text: drop URLs and @mentions, strip the '#'
+    symbol while keeping the hashtag word, and collapse whitespace.
+
+    Note: casing is intentionally preserved — modern sentiment/transformer
+    models use it, and lowercasing can always be applied later if needed.
+    """
+    text = _URL_RE.sub(" ", str(text))
+    text = _MENTION_RE.sub(" ", text)
+    text = _HASHTAG_SYMBOL_RE.sub("", text)  # "#AI" -> "AI", keeps the topic word
+    text = _WHITESPACE_RE.sub(" ", text)
+    return text.strip()
+
+
 def clean_dataset(df: pd.DataFrame, col_types: dict, args: argparse.Namespace) -> pd.DataFrame:
     """Apply cleaning operations and log each step."""
     original_count = len(df)
@@ -131,6 +174,23 @@ def clean_dataset(df: pd.DataFrame, col_types: dict, args: argparse.Namespace) -
             if after_nulls > before_nulls:
                 logger.info(
                     "Stripped HTML from '%s' (%d rows became empty → marked as NA).", c, after_nulls - before_nulls
+                )
+
+    # 3b. Normalize social-media text (URLs, mentions, hashtag symbols, whitespace)
+    if args.clean_social_text and col_types["text"]:
+        for c in col_types["text"]:
+            if re.search(r"url|link", c, re.IGNORECASE):
+                continue
+            before_nulls = df[c].isna().sum()
+            mask = df[c].notna()
+            df.loc[mask, c] = df.loc[mask, c].apply(_clean_social_text)
+            df[c] = df[c].replace("", pd.NA)
+            after_nulls = df[c].isna().sum()
+            logger.info("Normalized social text in '%s'.", c)
+            if after_nulls > before_nulls:
+                logger.info(
+                    "  '%s': %d rows became empty after normalization → marked as NA.",
+                    c, after_nulls - before_nulls,
                 )
 
     # 4. Handle missing values

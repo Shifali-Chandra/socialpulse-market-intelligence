@@ -36,17 +36,34 @@ def parse_args() -> argparse.Namespace:
     return parser.parse_args()
 
 
+def _normalize_column_names(df: pd.DataFrame) -> pd.DataFrame:
+    """Strip surrounding whitespace from column names."""
+    renamed = {c: c.strip() for c in df.columns if c != c.strip()}
+    if renamed:
+        df = df.rename(columns=renamed)
+        logger.info("Normalized %d column name(s): %s", len(renamed), list(renamed.values()))
+    return df
+
+
 def load_dataset(filepath: Path) -> pd.DataFrame:
     if not filepath.exists():
         logger.error("File not found: %s", filepath)
         sys.exit(1)
-    try:
-        df = pd.read_csv(filepath)
-        logger.info("Loaded: %s (rows=%d, cols=%d)", filepath, len(df), len(df.columns))
-        return df
-    except Exception as e:
-        logger.error("Failed to load dataset: %s", e)
-        sys.exit(1)
+    for encoding in ("utf-8", "cp1252", "latin-1"):
+        try:
+            df = pd.read_csv(filepath, encoding=encoding)
+            if encoding != "utf-8":
+                logger.warning("Read using fallback encoding '%s' (not UTF-8).", encoding)
+            df = _normalize_column_names(df)
+            logger.info("Loaded: %s (rows=%d, cols=%d)", filepath, len(df), len(df.columns))
+            return df
+        except UnicodeDecodeError:
+            continue
+        except Exception as e:
+            logger.error("Failed to load dataset: %s", e)
+            sys.exit(1)
+    logger.error("Failed to load dataset: could not decode with utf-8/cp1252/latin-1.")
+    sys.exit(1)
 
 
 def _classify_columns(df: pd.DataFrame) -> dict:
@@ -74,6 +91,8 @@ def _classify_columns(df: pd.DataFrame) -> dict:
                     category_cols.append(c)
                 else:
                     text_cols.append(c)
+        elif pd.api.types.is_bool_dtype(df[c]):
+            category_cols.append(c)
         elif pd.api.types.is_numeric_dtype(df[c]):
             if c not in numeric_cols:
                 numeric_cols.append(c)
@@ -95,6 +114,11 @@ def _derive_platform(input_file: Path) -> str:
     if match:
         return match.group(1).lower().replace(" ", "_")
     return stem.lower().replace(" ", "_")
+
+
+def _derive_stage(input_file: Path) -> str:
+    """Return 'clean' if the filename marks cleaned data, else 'raw'."""
+    return "clean" if "clean" in input_file.stem.lower() else "raw"
 
 
 def generate_profile(df: pd.DataFrame, col_types: dict) -> str:
@@ -178,9 +202,11 @@ def _build_profile_csv(df: pd.DataFrame, col_types: dict) -> pd.DataFrame:
         add("Missing Values", "None")
     add("Duplicate Row Count", df.duplicated().sum())
     add("", "")
-    add("--- Category Cardinality ---", "")
+    add("--- Category Distributions ---", "")
     for col in col_types["category"]:
-        add(f"  Unique '{col}'", df[col].nunique())
+        add(f"[{col}] unique values", df[col].nunique())
+        for val, cnt in df[col].value_counts().head(20).items():
+            add(f"  {val}", cnt)
     add("", "")
     add("--- Numeric Statistics ---", "")
     if col_types["numeric"]:
@@ -218,18 +244,6 @@ def save_profile_csv(df_profile: pd.DataFrame, filepath: Path) -> None:
         logger.error("Failed to save profile CSV: %s", e)
 
 
-def save_category_distribution(df: pd.DataFrame, col_types: dict, output_dir: Path) -> None:
-    for col in col_types["category"]:
-        counts = df[col].value_counts().reset_index()
-        counts.columns = [col, "Count"]
-        out_path = output_dir / f"{col}_distribution.csv"
-        try:
-            counts.to_csv(out_path, index=False, encoding="utf-8-sig")
-            logger.info("Distribution saved: %s", out_path)
-        except Exception as e:
-            logger.error("Failed to save %s: %s", out_path, e)
-
-
 def main() -> None:
     args = parse_args()
     logger.info("Starting data profiling for: %s", args.input_file)
@@ -241,12 +255,12 @@ def main() -> None:
     print("\n" + report)
 
     platform = _derive_platform(args.input_file)
+    stage = _derive_stage(args.input_file)
     subfolder = args.output_dir / platform
     subfolder.mkdir(parents=True, exist_ok=True)
 
     df_profile = _build_profile_csv(df, col_types)
-    save_profile_csv(df_profile, subfolder / f"{platform}_profile_report.csv")
-    save_category_distribution(df, col_types, subfolder)
+    save_profile_csv(df_profile, subfolder / f"{platform}_{stage}_profile_report.csv")
 
     logger.info("Data profiling complete.")
 

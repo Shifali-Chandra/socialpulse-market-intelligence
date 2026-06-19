@@ -4,13 +4,13 @@
 
 SocialPulse Market Intelligence is a social media analytics solution designed to collect, process, and analyze public social media discussions to identify emerging trends, audience sentiment, engagement patterns, and potential business opportunities.
 
-The project focuses on technology and digital-business related discussions across platforms such as YouTube and Reddit, helping marketing teams make data-driven marketing and business development decisions.
+The project focuses on technology and digital-business related discussions across platforms such as YouTube, Instagram, and Twitter/X, helping marketing teams make data-driven marketing and business development decisions.
 
 ---
 
 ## Project Objective
 
-Collect, validate, clean, and analyze social media data from YouTube and Reddit to generate actionable marketing insights through trend analysis, sentiment analysis, and engagement analysis.
+Collect, validate, clean, and analyze social media data from YouTube, Instagram, and Twitter/X to generate actionable marketing insights through trend analysis, sentiment analysis, and engagement analysis.
 
 ---
 
@@ -42,26 +42,47 @@ Collect, validate, clean, and analyze social media data from YouTube and Reddit 
 
 - Python
 - YouTube Data API v3
-- Reddit API (PRAW)
+- Apify Instagram Hashtag Scraper
+- Twitter/X (public Kaggle dataset)
 - Pandas
-- CSV
+- SQLite
+- Matplotlib, Seaborn
+- Jupyter Notebook
 - Git & GitHub
+
+> **Note on Reddit:** Reddit was evaluated as a source but **dropped from scope**. Reddit's API requires a data-access application that goes through a manual approval process, and that approval did not complete within the project timeline. To stay on schedule, Reddit was replaced with Instagram (via the Apify Hashtag Scraper) and a public Twitter/X dataset (Kaggle).
+
+---
+
+## Setup
+
+```
+python -m venv .venv
+.venv\Scripts\pip install -r requirements.txt
+.venv\Scripts\python -m ipykernel install --user --name socialpulse --display-name "Python (SocialPulse)"
+```
+
+API keys (YouTube `API_KEY`, Apify `APIFY_API_KEY`) go in a local `.env` file (gitignored). Pipeline scripts run from the project root, e.g. `python src/data_cleaner.py data/raw/youtube_master_dataset.csv`. Open `notebooks/eda.ipynb` with the "Python (SocialPulse)" kernel.
 
 ---
 
 ## Project Workflow
 
-Raw Data Collection
+Raw Data Collection (YouTube, Instagram, Twitter)
 ↓
-Data Validation & Profiling
+Profiling (raw)
 ↓
 Data Cleaning & Preprocessing
 ↓
-Exploratory Data Analysis
+Profiling (clean)
 ↓
-Trend Discovery
+Unified Dataset (YouTube + Instagram)  +  Twitter EDA set (kept separate)
 ↓
-Sentiment Analysis
+SQLite Storage
+↓
+Exploratory Data Analysis & Visualization
+↓
+Sentiment Analysis (next phase)
 ↓
 Marketing Insights
 
@@ -71,13 +92,21 @@ Marketing Insights
 
 ```
 data/
-├── raw/
-├── clean/
-└── reports/
+├── raw/          # source datasets (youtube, instagram, twitter)
+├── clean/        # cleaned per-platform + unified datasets
+├── reports/      # profiling reports (raw/clean) + eda outputs
+└── socialpulse.db  # SQLite (gitignored, regenerable from CSVs)
 
-docs/
-research/
+docs/             # objective, business problem, methodology
+notebooks/        # eda.ipynb (analysis + visuals)
+research/         # keyword strategy, platform notes
 src/
+├── youtube_collector.py
+├── instagram_collector.py
+├── data_profiler.py
+├── data_cleaner.py
+├── build_unified_dataset.py
+└── eda.py
 ```
 
 ---
@@ -87,29 +116,35 @@ src/
 ### Completed
 
 - Project planning and objective definition
-- YouTube API integration
-- Reddit API integration
-- Keyword strategy definition
-- Raw data collection
-- Data profiling module
-- Data cleaning module
-- Initial dataset generation
+- Keyword strategy definition (12 keywords, 4 categories)
+- YouTube API integration and collection
+- Instagram collection via Apify Hashtag Scraper
+- Twitter/X dataset integration (Kaggle)
+- Platform-agnostic profiling module with raw and clean reports
+- Data cleaning module with social-media text normalization
+- Robust loader (encoding fallback, column-name normalization)
+- Twitter keyword derivation and EDA-only scoping (AWS bias)
+- Unified dataset builder (cross-platform schema)
+- SQLite integration (unified_posts + twitter_eda tables)
+- Exploratory data analysis notebook (audience interests, engagement patterns, Twitter bias visualization)
+- Reproducible environment (.venv + Jupyter kernel)
 
 ### Dataset Summary
 
-| Dataset | Records |
-|----------|----------|
-| YouTube Comments | 4,444 |
-| Reddit Posts/Comments | Available |
-| Keywords Covered | 12 |
+| Dataset | Records | Use |
+|----------|----------|----------|
+| YouTube Comments | 4,444 | analysis + modeling |
+| Instagram Posts | 291 | analysis + modeling |
+| Twitter Tweets (keyword-matched) | 84,212 | EDA only (AWS-biased) |
+| Unified (YouTube + Instagram) | 4,735 | modeling-ready |
+| Keywords Covered | 12 | |
 
 ---
 
 ## Upcoming Work
 
-- Exploratory Data Analysis (EDA)
-- Sentiment Analysis
+- Sentiment Analysis (model-based for YouTube/Instagram; Twitter has a pre-computed score)
+- Topic Modeling
 - Trend Identification
-- Engagement Analysis
-- Visualization & Reporting
+- Visualization expansion (word clouds, dashboard)
 - Marketing Insight Generation

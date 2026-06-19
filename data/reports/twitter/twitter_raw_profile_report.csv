@@ -1,0 +1,126 @@
+﻿Metric,Value
+Total Records,100001
+Total Columns,14
+Column Names,"TweetID, Weekday, Hour, Day, Lang, IsReshare, Reach, RetweetCount, Likes, Klout, Sentiment, text, LocationID, UserID"
+,
+--- Column Types ---,
+numeric,"Hour, Day, Reach, RetweetCount, Likes, Klout, Sentiment, LocationID"
+text,text
+category,"Weekday, Lang, IsReshare"
+id,"TweetID, UserID"
+author,—
+date,—
+,
+--- Missing Values ---,
+  Missing: TweetID,1
+  Missing: Weekday,1
+  Missing: Hour,1
+  Missing: Day,1
+  Missing: Lang,1
+  Missing: IsReshare,1
+  Missing: Reach,1
+  Missing: RetweetCount,1
+  Missing: Likes,1
+  Missing: Klout,1
+  Missing: Sentiment,1
+  Missing: text,1
+  Missing: LocationID,1
+  Missing: UserID,1
+Duplicate Row Count,0
+,
+--- Category Distributions ---,
+[Weekday] unique values,7
+  Tuesday,18468
+  Thursday,18458
+  Wednesday,18236
+  Monday,15420
+  Friday,15004
+  Saturday,7421
+  Sunday,6993
+[Lang] unique values,36
+  en,91886
+  es,1700
+  fr,1085
+  tr,877
+  _u,861
+  ja,671
+  de,563
+  in,416
+  tl,370
+  ko,330
+  pt,222
+  nl,172
+  it,135
+  zh,110
+  th,81
+  pl,77
+  cs,74
+  ru,56
+  fi,52
+  et,42
+[IsReshare] unique values,2
+  False,64538
+  True,35462
+,
+--- Numeric Statistics ---,
+  Mean (Hour),11.41
+  Std (Hour),6.05
+  Min (Hour),0.0
+  25% (Hour),7.0
+  50% (Hour),11.0
+  75% (Hour),16.0
+  Max (Hour),23.0
+  Mean (Day),15.89
+  Std (Day),8.4
+  Min (Day),1.0
+  25% (Day),9.0
+  50% (Day),16.0
+  75% (Day),23.0
+  Max (Day),31.0
+  Mean (Reach),8542.4
+  Std (Reach),88670.27
+  Min (Reach),0.0
+  25% (Reach),151.0
+  50% (Reach),448.5
+  75% (Reach),1496.0
+  Max (Reach),10342452.0
+  Mean (RetweetCount),8.05
+  Std (RetweetCount),97.86
+  Min (RetweetCount),0.0
+  25% (RetweetCount),0.0
+  50% (RetweetCount),0.0
+  75% (RetweetCount),3.0
+  Max (RetweetCount),26127.0
+  Mean (Likes),0.15
+  Std (Likes),2.58
+  Min (Likes),0.0
+  25% (Likes),0.0
+  50% (Likes),0.0
+  75% (Likes),0.0
+  Max (Likes),133.0
+  Mean (Klout),40.39
+  Std (Klout),13.64
+  Min (Klout),0.0
+  25% (Klout),32.0
+  50% (Klout),43.0
+  75% (Klout),49.0
+  Max (Klout),99.0
+  Mean (Sentiment),0.38
+  Std (Sentiment),1.05
+  Min (Sentiment),-6.0
+  25% (Sentiment),0.0
+  50% (Sentiment),0.0
+  75% (Sentiment),0.666666687
+  Max (Sentiment),7.333333492
+  Mean (LocationID),2836.16
+  Std (LocationID),1323.14
+  Min (LocationID),1.0
+  25% (LocationID),1601.0
+  50% (LocationID),3738.0
+  75% (LocationID),3775.0
+  Max (LocationID),6289.0
+,
+--- Text Statistics ---,
+  Avg length (text),195.91 chars
+  Min length (text),3.0 chars
+  Max length (text),1000.0 chars
