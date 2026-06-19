@@ -1,1 +1,8 @@
 .env
+
+# Python build artifacts
+__pycache__/
+*.pyc
+
+# Project brief (not part of deliverables)
+Topic.pdf
