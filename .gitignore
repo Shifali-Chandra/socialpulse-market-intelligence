@@ -4,5 +4,8 @@
 __pycache__/
 *.pyc
 
+# SQLite (regenerable from CSVs via build_unified_dataset.py)
+*.db
+
 # Project brief (not part of deliverables)
 Topic.pdf
