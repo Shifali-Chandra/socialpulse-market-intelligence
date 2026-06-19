@@ -15,8 +15,20 @@ date,Published Date
 Missing Values,None
 Duplicate Row Count,0
 ,
---- Category Cardinality ---,
-  Unique 'Keyword',12
+--- Category Distributions ---,
+[Keyword] unique values,12
+  Automation,478
+  AWS,450
+  ChatGPT,446
+  SEO,442
+  Startup,429
+  AI Agents,413
+  Digital Marketing,380
+  Databricks,375
+  Data Engineering,372
+  Influencer Marketing,282
+  Digital Transformation,204
+  SaaS,173
 ,
 --- Numeric Statistics ---,
   Mean (Like Count),4.56
