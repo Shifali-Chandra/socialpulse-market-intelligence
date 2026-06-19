@@ -49,17 +49,34 @@ def parse_args() -> argparse.Namespace:
     return parser.parse_args()
 
 
+def _normalize_column_names(df: pd.DataFrame) -> pd.DataFrame:
+    """Strip surrounding whitespace from column names."""
+    renamed = {c: c.strip() for c in df.columns if c != c.strip()}
+    if renamed:
+        df = df.rename(columns=renamed)
+        logger.info("Normalized %d column name(s): %s", len(renamed), list(renamed.values()))
+    return df
+
+
 def load_dataset(filepath: Path) -> pd.DataFrame:
     if not filepath.exists():
         logger.error("File not found: %s", filepath)
         sys.exit(1)
-    try:
-        df = pd.read_csv(filepath)
-        logger.info("Loaded: %s (rows=%d, cols=%d)", filepath, len(df), len(df.columns))
-        return df
-    except Exception as e:
-        logger.error("Failed to load dataset: %s", e)
-        sys.exit(1)
+    for encoding in ("utf-8", "cp1252", "latin-1"):
+        try:
+            df = pd.read_csv(filepath, encoding=encoding)
+            if encoding != "utf-8":
+                logger.warning("Read using fallback encoding '%s' (not UTF-8).", encoding)
+            df = _normalize_column_names(df)
+            logger.info("Loaded: %s (rows=%d, cols=%d)", filepath, len(df), len(df.columns))
+            return df
+        except UnicodeDecodeError:
+            continue
+        except Exception as e:
+            logger.error("Failed to load dataset: %s", e)
+            sys.exit(1)
+    logger.error("Failed to load dataset: could not decode with utf-8/cp1252/latin-1.")
+    sys.exit(1)
 
 
 def _classify_columns(df: pd.DataFrame) -> dict:
