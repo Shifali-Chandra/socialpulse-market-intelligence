@@ -1,0 +1,67 @@
+﻿Metric,Value
+Total Records,291
+Total Columns,8
+Column Names,"Keyword, Post ID, Caption, Author, Published Date, Like Count, Comment Count, Post URL"
+,
+--- Column Types ---,
+numeric,"Post ID, Like Count, Comment Count, Post URL"
+text,Caption
+category,Keyword
+id,—
+author,Author
+date,Published Date
+,
+--- Missing Values ---,
+  Missing: Caption,7
+  Missing: Post URL,291
+Duplicate Row Count,0
+,
+--- Category Distributions ---,
+[Keyword] unique values,12
+  Databricks,30
+  Data Engineering,30
+  AI Agents,27
+  Automation,27
+  AWS,27
+  Digital Marketing,27
+  SEO,27
+  SaaS,27
+  Influencer Marketing,24
+  Startup,24
+  ChatGPT,18
+  Digital Transformation,3
+,
+--- Numeric Statistics ---,
+  Mean (Post ID),3.922992160359234e+18
+  Std (Post ID),818444600738891.6
+  Min (Post ID),3909117709060021650
+  25% (Post ID),3.9230392293260667e+18
+  50% (Post ID),3.923065385805245e+18
+  75% (Post ID),3.923071688099501e+18
+  Max (Post ID),3923076449423455278
+  Mean (Like Count),2.04
+  Std (Like Count),9.33
+  Min (Like Count),-1.0
+  25% (Like Count),0.0
+  50% (Like Count),0.0
+  75% (Like Count),1.0
+  Max (Like Count),96.0
+  Mean (Comment Count),0.17
+  Std (Comment Count),0.92
+  Min (Comment Count),0
+  25% (Comment Count),0.0
+  50% (Comment Count),0.0
+  75% (Comment Count),0.0
+  Max (Comment Count),13
+  Mean (Post URL),
+  Std (Post URL),
+  Min (Post URL),
+  25% (Post URL),
+  50% (Post URL),
+  75% (Post URL),
+  Max (Post URL),
+,
+--- Text Statistics ---,
+  Avg length (Caption),676.83 chars
+  Min length (Caption),21.0 chars
+  Max length (Caption),2175.0 chars
