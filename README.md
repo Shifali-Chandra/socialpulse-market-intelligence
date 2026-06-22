@@ -49,6 +49,7 @@ Collect, validate, clean, and analyze social media data from YouTube, Instagram,
 - Matplotlib, Seaborn
 - Jupyter Notebook
 - Git & GitHub
+- GitHub Actions (scheduled daily collection)
 
 > **Note on Reddit:** Reddit was evaluated as a source but **dropped from scope**. Reddit's API requires a data-access application that goes through a manual approval process, and that approval did not complete within the project timeline. To stay on schedule, Reddit was replaced with Instagram (via the Apify Hashtag Scraper) and a public Twitter/X dataset (Kaggle).
 
@@ -66,9 +67,15 @@ API keys (YouTube `API_KEY`, Apify `APIFY_API_KEY`) go in a local `.env` file (g
 
 ---
 
+## Automation
+
+A scheduled GitHub Actions workflow (`.github/workflows/daily-collection.yml`) runs daily: it collects new YouTube + Instagram content, cleans it, rebuilds the unified dataset, and commits the updated data back to the repo. Collection is incremental and deduplicated (new-content-only), so the dataset grows over time without duplicates. Twitter is static and not part of the schedule. The workflow reads `API_KEY` and `APIFY_API_KEY` from GitHub repository Secrets.
+
+---
+
 ## Project Workflow
 
-Raw Data Collection (YouTube, Instagram, Twitter)
+Automated Daily Collection - YouTube + Instagram (GitHub Actions, incremental + deduped); Twitter static
 ↓
 Profiling (raw)
 ↓
@@ -97,15 +104,16 @@ data/
 ├── reports/      # profiling reports (raw/clean) + eda outputs
 └── socialpulse.db  # SQLite (gitignored, regenerable from CSVs)
 
+.github/workflows/  # daily-collection.yml (scheduled GitHub Actions pipeline)
 docs/             # methodology report
 notebooks/        # eda.ipynb (analysis + visuals)
 src/
 ├── youtube_collector.py
 ├── instagram_collector.py
+├── collector_utils.py      # incremental append + dedupe
 ├── data_profiler.py
 ├── data_cleaner.py
-├── build_unified_dataset.py
-└── eda.py
+└── build_unified_dataset.py
 ```
 
 ---
@@ -127,15 +135,19 @@ src/
 - SQLite integration (unified_posts + twitter_eda tables)
 - Exploratory data analysis notebook (audience interests, engagement patterns, Twitter bias visualization)
 - Reproducible environment (.venv + Jupyter kernel)
+- Incremental, deduplicated collection (append, not overwrite)
+- Automated daily collection pipeline (GitHub Actions, scheduled)
 
 ### Dataset Summary
 
-| Dataset | Records | Use |
+YouTube and Instagram grow daily via the scheduled collection; the counts below are a snapshot.
+
+| Dataset | Records (snapshot) | Use |
 |----------|----------|----------|
-| YouTube Comments | 4,444 | analysis + modeling |
-| Instagram Posts | 291 | analysis + modeling |
-| Twitter Tweets (keyword-matched) | 84,212 | EDA only (AWS-biased) |
-| Unified (YouTube + Instagram) | 4,735 | modeling-ready |
+| YouTube Comments | ~7,200 (growing daily) | analysis + modeling |
+| Instagram Posts | ~560 (growing daily) | analysis + modeling |
+| Twitter Tweets (keyword-matched) | 84,212 (static) | EDA only (AWS-biased) |
+| Unified (YouTube + Instagram) | growing daily | modeling-ready |
 | Keywords Covered | 12 | |
 
 ---

@@ -70,6 +70,12 @@ Reddit was originally planned as a source but was **removed from scope**. Reddit
 - Instagram - Apify Instagram Hashtag Scraper; each keyword queried as a hashtag in weekly batches. Free-tier returns one page per hashtag. 291 posts.
 - Twitter/X - Static public Kaggle dataset (~100k tweets). Integrated directly rather than collected via API. The file is Windows-1252 encoded, handled by the loader's encoding fallback.
 
+## Automated Collection (Scheduling)
+
+YouTube and Instagram collection is automated with a scheduled GitHub Actions workflow (.github/workflows/daily-collection.yml) that runs daily. Each run collects new content, cleans it, rebuilds the unified dataset, and commits the updated data back to the repository.
+
+Collection is incremental and new-content-only: each collector appends to its master CSV and drops duplicates on stable keys (YouTube: Video ID + Author + Comment Text; Instagram: Post ID), then stamps a Collected At date. This grows the dataset over time without duplicates and provides a time axis for trend analysis. Twitter is static and excluded from the schedule. API keys are supplied via GitHub repository Secrets.
+
 ## Cleaning and Preprocessing
 
 A single platform-agnostic cleaner is reused across all sources:
