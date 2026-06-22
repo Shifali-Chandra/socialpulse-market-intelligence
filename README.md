@@ -97,9 +97,8 @@ data/
 ├── reports/      # profiling reports (raw/clean) + eda outputs
 └── socialpulse.db  # SQLite (gitignored, regenerable from CSVs)
 
-docs/             # objective, business problem, methodology
+docs/             # methodology report
 notebooks/        # eda.ipynb (analysis + visuals)
-research/         # keyword strategy, platform notes
 src/
 ├── youtube_collector.py
 ├── instagram_collector.py
