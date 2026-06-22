@@ -1,7 +1,8 @@
 from apify_client import ApifyClient
 from dotenv import load_dotenv
-import pandas as pd
 import os
+
+from collector_utils import save_incremental
 
 load_dotenv()
 
@@ -58,9 +59,7 @@ def main():
         except Exception as e:
             print(f"  Error for {keyword}: {e}")
 
-    df = pd.DataFrame(data)
-    df.to_csv(OUTPUT_FILE, index=False, encoding="utf-8-sig")
-    print(f"\nDone! Total records: {len(df)}")
+    save_incremental(data, OUTPUT_FILE, key_cols=["Post ID"])
 
 
 if __name__ == "__main__":
