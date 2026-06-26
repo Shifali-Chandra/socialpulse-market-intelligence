@@ -1,0 +1,7 @@
+﻿model,family,dataset,macro_f1,accuracy,f1_negative,f1_neutral,f1_positive
+tfidf_linsvc,supervised,twitter_test,0.8928,0.9461,0.7814,0.9659,0.9313
+tfidf_logreg,supervised,twitter_test,0.85,0.9208,0.6904,0.9492,0.9103
+tfidf_nb,supervised,twitter_test,0.7786,0.8728,0.6133,0.9157,0.8069
+vader,lexicon,twitter_test,0.6799,0.7114,0.6146,0.7497,0.6754
+textblob,lexicon,twitter_test,0.5111,0.6233,0.3013,0.7098,0.5221
+majority_baseline,baseline,twitter_test,0.267,0.6679,0.0,0.8009,0.0

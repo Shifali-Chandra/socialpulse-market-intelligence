@@ -1,0 +1,4 @@
+﻿sentiment_label,posts,avg_engagement_pct,pct_high
+negative,254,0.509,0.291
+neutral,1123,0.501,0.277
+positive,2134,0.511,0.301
