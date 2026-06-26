@@ -45,8 +45,10 @@ Collect, validate, clean, and analyze social media data from YouTube, Instagram,
 - Apify Instagram Hashtag Scraper
 - Twitter/X (public Kaggle dataset)
 - Pandas
-- SQLite
-- Matplotlib, Seaborn
+- scikit-learn (TF-IDF, NMF/LDA, classifiers, LSA)
+- NLTK / VADER / TextBlob (sentiment), langdetect
+- SQLite (with FTS5 full-text search)
+- Matplotlib, Seaborn, WordCloud
 - Jupyter Notebook
 - Git & GitHub
 - GitHub Actions (scheduled daily collection)
@@ -89,7 +91,9 @@ SQLite Storage
 ↓
 Exploratory Data Analysis & Visualization
 ↓
-Sentiment Analysis (next phase)
+Feature Engineering (sentiment, topics, embeddings, engagement)
+↓
+Trend Analysis & Dashboard (next phase)
 ↓
 Marketing Insights
 
@@ -100,20 +104,28 @@ Marketing Insights
 ```
 data/
 ├── raw/          # source datasets (youtube, instagram, twitter)
-├── clean/        # cleaned per-platform + unified datasets
-├── reports/      # profiling reports (raw/clean) + eda outputs
+├── clean/        # cleaned per-platform + unified + features dataset
+├── gold/         # labeled sentiment gold set (model validation)
+├── reports/      # profiling, model_eval, feature reports, eda outputs
 └── socialpulse.db  # SQLite (gitignored, regenerable from CSVs)
 
 .github/workflows/  # daily-collection.yml (scheduled GitHub Actions pipeline)
-docs/             # methodology report
-notebooks/        # eda.ipynb (analysis + visuals)
+docs/             # methodology report, feature engineering docs
+notebooks/        # eda.ipynb, 04_feature_engineering.ipynb
 src/
 ├── youtube_collector.py
 ├── instagram_collector.py
-├── collector_utils.py      # incremental append + dedupe
+├── collector_utils.py        # incremental append + dedupe
 ├── data_profiler.py
 ├── data_cleaner.py
-└── build_unified_dataset.py
+├── build_unified_dataset.py
+├── text_features.py          # language, clean text, structural counts
+├── sentiment_model.py        # lexicon + supervised sentiment + benchmark
+├── topic_model.py            # TF-IDF -> NMF/LDA topics + LSA embeddings
+├── engagement_features.py    # within-platform engagement transforms
+├── build_features.py         # feature-engineering orchestrator
+├── load_features_db.py       # SQLite feature store + indexes + FTS5
+└── make_feature_reports.py   # marketing summary reports
 ```
 
 ---
@@ -137,6 +149,12 @@ src/
 - Reproducible environment (.venv + Jupyter kernel)
 - Incremental, deduplicated collection (append, not overwrite)
 - Automated daily collection pipeline (GitHub Actions, scheduled)
+- Feature engineering pipeline (37-column feature-rich dataset)
+- Sentiment scoring + model benchmark (lexicon vs supervised), production model selected on a labeled gold set
+- Topic modeling (NMF/LDA, coherence-selected) + TF-IDF/LSA embeddings
+- Within-platform engagement features
+- SQLite feature store with b-tree indexes + FTS5 full-text search
+- Feature engineering documentation ([docs/feature_engineering.md](docs/feature_engineering.md))
 
 ### Dataset Summary
 
@@ -154,8 +172,8 @@ YouTube and Instagram grow daily via the scheduled collection; the counts below 
 
 ## Upcoming Work
 
-- Sentiment Analysis (model-based for YouTube/Instagram; Twitter has a pre-computed score)
-- Topic Modeling
-- Trend Identification
-- Visualization expansion (word clouds, dashboard)
-- Marketing Insight Generation
+- Trend analysis (sentiment, volume, and topics over time, using the accumulating daily data)
+- Interactive dashboard (sentiment over time, top themes/keywords, engagement, word clouds)
+- Final marketing-insights report
+- AI-tool-usage documentation
+- Optional: comment-graph network analysis, semantic embeddings, title/caption-based topics

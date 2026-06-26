@@ -122,6 +122,21 @@ Key findings:
 - Twitter is ~99% AWS, so it is used for descriptive EDA only.
 - Engagement is platform-specific and is compared within a platform, not pooled across platforms.
 
+## Feature Engineering and Modeling
+
+The cleaned unified dataset is enriched into a feature-rich table (one row per post)
+covering text, sentiment, topic, embedding, and engagement features, then stored in
+SQLite with indexes and a full-text index. Summary of the approach:
+
+- Text: language detection, a modeling-ready cleaned text, and structural counts (length, hashtags, mentions, emojis, etc.).
+- Sentiment: lexicon scorers (VADER, TextBlob) and supervised TF-IDF classifiers trained on Twitter's labeled sentiment; the production model is chosen by macro-F1 on an independent YouTube/Instagram labeled set rather than the training score, because the Twitter-trained model does not transfer across domains.
+- Topics: TF-IDF then NMF (primary) with LDA as a comparison; number of topics chosen by a coherence sweep.
+- Embeddings: TruncatedSVD/LSA dense vectors over the TF-IDF matrix.
+- Engagement: log, within-platform percentile, and tier features (never pooled across platforms).
+
+Full feature definitions, model leaderboards, and limitations are documented in
+docs/feature_engineering.md.
+
 ## Data Processing Workflow
 
 Collection
