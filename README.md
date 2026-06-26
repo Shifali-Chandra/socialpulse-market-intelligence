@@ -45,10 +45,13 @@ Collect, validate, clean, and analyze social media data from YouTube, Instagram,
 - Apify Instagram Hashtag Scraper
 - Twitter/X (public Kaggle dataset)
 - Pandas
-- SQLite
-- Matplotlib, Seaborn
+- scikit-learn (TF-IDF, NMF/LDA, classifiers, LSA)
+- NLTK / VADER / TextBlob (sentiment), langdetect
+- SQLite (with FTS5 full-text search)
+- Matplotlib, Seaborn, WordCloud
 - Jupyter Notebook
 - Git & GitHub
+- GitHub Actions (scheduled daily collection)
 
 > **Note on Reddit:** Reddit was evaluated as a source but **dropped from scope**. Reddit's API requires a data-access application that goes through a manual approval process, and that approval did not complete within the project timeline. To stay on schedule, Reddit was replaced with Instagram (via the Apify Hashtag Scraper) and a public Twitter/X dataset (Kaggle).
 
@@ -66,9 +69,15 @@ API keys (YouTube `API_KEY`, Apify `APIFY_API_KEY`) go in a local `.env` file (g
 
 ---
 
+## Automation
+
+A scheduled GitHub Actions workflow (`.github/workflows/daily-collection.yml`) runs daily: it collects new YouTube + Instagram content, cleans it, rebuilds the unified dataset, and commits the updated data back to the repo. Collection is incremental and deduplicated (new-content-only), so the dataset grows over time without duplicates. Twitter is static and not part of the schedule. The workflow reads `API_KEY` and `APIFY_API_KEY` from GitHub repository Secrets.
+
+---
+
 ## Project Workflow
 
-Raw Data Collection (YouTube, Instagram, Twitter)
+Automated Daily Collection - YouTube + Instagram (GitHub Actions, incremental + deduped); Twitter static
 ↓
 Profiling (raw)
 ↓
@@ -82,7 +91,9 @@ SQLite Storage
 ↓
 Exploratory Data Analysis & Visualization
 ↓
-Sentiment Analysis (next phase)
+Feature Engineering (sentiment, topics, embeddings, engagement)
+↓
+Trend Analysis & Dashboard (next phase)
 ↓
 Marketing Insights
 
@@ -93,19 +104,28 @@ Marketing Insights
 ```
 data/
 ├── raw/          # source datasets (youtube, instagram, twitter)
-├── clean/        # cleaned per-platform + unified datasets
-├── reports/      # profiling reports (raw/clean) + eda outputs
+├── clean/        # cleaned per-platform + unified + features dataset
+├── gold/         # labeled sentiment gold set (model validation)
+├── reports/      # profiling, model_eval, feature reports, eda outputs
 └── socialpulse.db  # SQLite (gitignored, regenerable from CSVs)
 
-docs/             # methodology report
-notebooks/        # eda.ipynb (analysis + visuals)
+.github/workflows/  # daily-collection.yml (scheduled GitHub Actions pipeline)
+docs/             # methodology report, feature engineering docs
+notebooks/        # eda.ipynb, 04_feature_engineering.ipynb
 src/
 ├── youtube_collector.py
 ├── instagram_collector.py
+├── collector_utils.py        # incremental append + dedupe
 ├── data_profiler.py
 ├── data_cleaner.py
 ├── build_unified_dataset.py
-└── eda.py
+├── text_features.py          # language, clean text, structural counts
+├── sentiment_model.py        # lexicon + supervised sentiment + benchmark
+├── topic_model.py            # TF-IDF -> NMF/LDA topics + LSA embeddings
+├── engagement_features.py    # within-platform engagement transforms
+├── build_features.py         # feature-engineering orchestrator
+├── load_features_db.py       # SQLite feature store + indexes + FTS5
+└── make_feature_reports.py   # marketing summary reports
 ```
 
 ---
@@ -127,23 +147,33 @@ src/
 - SQLite integration (unified_posts + twitter_eda tables)
 - Exploratory data analysis notebook (audience interests, engagement patterns, Twitter bias visualization)
 - Reproducible environment (.venv + Jupyter kernel)
+- Incremental, deduplicated collection (append, not overwrite)
+- Automated daily collection pipeline (GitHub Actions, scheduled)
+- Feature engineering pipeline (37-column feature-rich dataset)
+- Sentiment scoring + model benchmark (lexicon vs supervised), production model selected on a labeled gold set
+- Topic modeling (NMF/LDA, coherence-selected) + TF-IDF/LSA embeddings
+- Within-platform engagement features
+- SQLite feature store with b-tree indexes + FTS5 full-text search
+- Feature engineering documentation ([docs/feature_engineering.md](docs/feature_engineering.md))
 
 ### Dataset Summary
 
-| Dataset | Records | Use |
+YouTube and Instagram grow daily via the scheduled collection; the counts below are a snapshot.
+
+| Dataset | Records (snapshot) | Use |
 |----------|----------|----------|
-| YouTube Comments | 4,444 | analysis + modeling |
-| Instagram Posts | 291 | analysis + modeling |
-| Twitter Tweets (keyword-matched) | 84,212 | EDA only (AWS-biased) |
-| Unified (YouTube + Instagram) | 4,735 | modeling-ready |
+| YouTube Comments | ~7,200 (growing daily) | analysis + modeling |
+| Instagram Posts | ~560 (growing daily) | analysis + modeling |
+| Twitter Tweets (keyword-matched) | 84,212 (static) | EDA only (AWS-biased) |
+| Unified (YouTube + Instagram) | growing daily | modeling-ready |
 | Keywords Covered | 12 | |
 
 ---
 
 ## Upcoming Work
 
-- Sentiment Analysis (model-based for YouTube/Instagram; Twitter has a pre-computed score)
-- Topic Modeling
-- Trend Identification
-- Visualization expansion (word clouds, dashboard)
-- Marketing Insight Generation
+- Trend analysis (sentiment, volume, and topics over time, using the accumulating daily data)
+- Interactive dashboard (sentiment over time, top themes/keywords, engagement, word clouds)
+- Final marketing-insights report
+- AI-tool-usage documentation
+- Optional: comment-graph network analysis, semantic embeddings, title/caption-based topics

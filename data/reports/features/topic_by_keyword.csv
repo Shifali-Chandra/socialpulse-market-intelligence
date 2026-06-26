@@ -1,0 +1,109 @@
+﻿Keyword,dominant_topic_label,count
+AI Agents,"T0: business, start, time, help",127
+AI Agents,"T6: just, working, agent, knowledge",90
+AI Agents,"T5: wow, interesting, look, thought",35
+AI Agents,"T2: like, looks, clearly, looks like",29
+AI Agents,"T8: simple, ipweb, post, man",27
+AI Agents,"T7: actually, free, actually clutch, free actually",23
+AI Agents,"T3: understand, easy, easy understand, tutorial",15
+AI Agents,"T4: clear, water, brief, presentation",15
+AI Agents,"T1: course, 2025, tell, completed",4
+AWS,"T0: business, start, time, help",215
+AWS,"T6: just, working, agent, knowledge",57
+AWS,"T1: course, 2025, tell, completed",42
+AWS,"T3: understand, easy, easy understand, tutorial",16
+AWS,"T4: clear, water, brief, presentation",16
+AWS,"T2: like, looks, clearly, looks like",15
+AWS,"T7: actually, free, actually clutch, free actually",10
+AWS,"T5: wow, interesting, look, thought",7
+AWS,"T8: simple, ipweb, post, man",6
+Automation,"T0: business, start, time, help",215
+Automation,"T6: just, working, agent, knowledge",61
+Automation,"T2: like, looks, clearly, looks like",33
+Automation,"T5: wow, interesting, look, thought",22
+Automation,"T7: actually, free, actually clutch, free actually",18
+Automation,"T8: simple, ipweb, post, man",17
+Automation,"T3: understand, easy, easy understand, tutorial",13
+Automation,"T1: course, 2025, tell, completed",10
+Automation,"T4: clear, water, brief, presentation",5
+ChatGPT,"T0: business, start, time, help",153
+ChatGPT,"T6: just, working, agent, knowledge",25
+ChatGPT,"T1: course, 2025, tell, completed",12
+ChatGPT,"T2: like, looks, clearly, looks like",12
+ChatGPT,"T8: simple, ipweb, post, man",12
+ChatGPT,"T5: wow, interesting, look, thought",9
+ChatGPT,"T7: actually, free, actually clutch, free actually",9
+ChatGPT,"T4: clear, water, brief, presentation",4
+ChatGPT,"T3: understand, easy, easy understand, tutorial",2
+Data Engineering,"T0: business, start, time, help",242
+Data Engineering,"T1: course, 2025, tell, completed",37
+Data Engineering,"T6: just, working, agent, knowledge",33
+Data Engineering,"T2: like, looks, clearly, looks like",24
+Data Engineering,"T8: simple, ipweb, post, man",9
+Data Engineering,"T5: wow, interesting, look, thought",7
+Data Engineering,"T4: clear, water, brief, presentation",6
+Data Engineering,"T7: actually, free, actually clutch, free actually",4
+Data Engineering,"T3: understand, easy, easy understand, tutorial",3
+Databricks,"T0: business, start, time, help",183
+Databricks,"T6: just, working, agent, knowledge",48
+Databricks,"T2: like, looks, clearly, looks like",28
+Databricks,"T1: course, 2025, tell, completed",20
+Databricks,"T5: wow, interesting, look, thought",15
+Databricks,"T3: understand, easy, easy understand, tutorial",14
+Databricks,"T4: clear, water, brief, presentation",13
+Databricks,"T7: actually, free, actually clutch, free actually",11
+Databricks,"T8: simple, ipweb, post, man",8
+Digital Marketing,"T0: business, start, time, help",179
+Digital Marketing,"T6: just, working, agent, knowledge",31
+Digital Marketing,"T5: wow, interesting, look, thought",28
+Digital Marketing,"T1: course, 2025, tell, completed",19
+Digital Marketing,"T4: clear, water, brief, presentation",15
+Digital Marketing,"T7: actually, free, actually clutch, free actually",15
+Digital Marketing,"T8: simple, ipweb, post, man",15
+Digital Marketing,"T2: like, looks, clearly, looks like",14
+Digital Marketing,"T3: understand, easy, easy understand, tutorial",13
+Digital Transformation,"T0: business, start, time, help",75
+Digital Transformation,"T4: clear, water, brief, presentation",15
+Digital Transformation,"T6: just, working, agent, knowledge",14
+Digital Transformation,"T2: like, looks, clearly, looks like",10
+Digital Transformation,"T8: simple, ipweb, post, man",9
+Digital Transformation,"T3: understand, easy, easy understand, tutorial",7
+Digital Transformation,"T5: wow, interesting, look, thought",6
+Digital Transformation,"T1: course, 2025, tell, completed",3
+Digital Transformation,"T7: actually, free, actually clutch, free actually",2
+Influencer Marketing,"T0: business, start, time, help",143
+Influencer Marketing,"T6: just, working, agent, knowledge",37
+Influencer Marketing,"T1: course, 2025, tell, completed",26
+Influencer Marketing,"T2: like, looks, clearly, looks like",11
+Influencer Marketing,"T5: wow, interesting, look, thought",10
+Influencer Marketing,"T4: clear, water, brief, presentation",7
+Influencer Marketing,"T7: actually, free, actually clutch, free actually",7
+Influencer Marketing,"T8: simple, ipweb, post, man",6
+Influencer Marketing,"T3: understand, easy, easy understand, tutorial",4
+SEO,"T0: business, start, time, help",170
+SEO,"T8: simple, ipweb, post, man",69
+SEO,"T6: just, working, agent, knowledge",34
+SEO,"T2: like, looks, clearly, looks like",33
+SEO,"T4: clear, water, brief, presentation",30
+SEO,"T3: understand, easy, easy understand, tutorial",24
+SEO,"T7: actually, free, actually clutch, free actually",22
+SEO,"T5: wow, interesting, look, thought",8
+SEO,"T1: course, 2025, tell, completed",6
+SaaS,"T0: business, start, time, help",75
+SaaS,"T2: like, looks, clearly, looks like",28
+SaaS,"T6: just, working, agent, knowledge",11
+SaaS,"T8: simple, ipweb, post, man",10
+SaaS,"T4: clear, water, brief, presentation",8
+SaaS,"T5: wow, interesting, look, thought",7
+SaaS,"T1: course, 2025, tell, completed",3
+SaaS,"T3: understand, easy, easy understand, tutorial",3
+SaaS,"T7: actually, free, actually clutch, free actually",1
+Startup,"T0: business, start, time, help",202
+Startup,"T6: just, working, agent, knowledge",55
+Startup,"T2: like, looks, clearly, looks like",19
+Startup,"T5: wow, interesting, look, thought",15
+Startup,"T8: simple, ipweb, post, man",15
+Startup,"T4: clear, water, brief, presentation",11
+Startup,"T7: actually, free, actually clutch, free actually",11
+Startup,"T1: course, 2025, tell, completed",7
+Startup,"T3: understand, easy, easy understand, tutorial",3
