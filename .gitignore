@@ -11,6 +11,10 @@ venv/
 # SQLite (regenerable from CSVs via build_unified_dataset.py)
 *.db
 
+# Model artifacts and embeddings (regenerable from the feature pipeline)
+*.joblib
+*.npy
+
 # Project brief (not part of deliverables)
 Topic.pdf
 
