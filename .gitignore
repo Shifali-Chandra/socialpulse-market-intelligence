@@ -15,6 +15,9 @@ venv/
 *.joblib
 *.npy
 
+# Local working notes
+*_NOTES.md
+
 # Project brief (not part of deliverables)
 Topic.pdf
 
