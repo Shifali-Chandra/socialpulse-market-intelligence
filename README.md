@@ -106,12 +106,12 @@ data/
 ├── raw/          # source datasets (youtube, instagram, twitter)
 ├── clean/        # cleaned per-platform + unified + features dataset
 ├── gold/         # labeled sentiment gold set (model validation)
-├── reports/      # profiling, model_eval, feature reports, eda outputs
+├── reports/      # profiling, model_eval, feature reports, trends, insights_summary.md, eda outputs
 └── socialpulse.db  # SQLite (gitignored, regenerable from CSVs)
 
-.github/workflows/  # daily-collection.yml (scheduled GitHub Actions pipeline)
+.github/workflows/  # daily-collection.yml, feature-refresh.yml (scheduled pipelines)
 docs/             # methodology report, feature engineering docs
-notebooks/        # eda.ipynb, 04_feature_engineering.ipynb
+notebooks/        # eda.ipynb, 04_feature_engineering.ipynb, 05_analysis.ipynb
 src/
 ├── youtube_collector.py
 ├── instagram_collector.py
@@ -125,14 +125,16 @@ src/
 ├── engagement_features.py    # within-platform engagement transforms
 ├── build_features.py         # feature-engineering orchestrator
 ├── load_features_db.py       # SQLite feature store + indexes + FTS5
-└── make_feature_reports.py   # marketing summary reports
+├── make_feature_reports.py   # marketing summary reports
+├── trends.py                 # time-series trend analysis (Week 5)
+└── make_insights.py          # auto-generated key-findings summary
 ```
 
 ---
 
 ## Current Progress
 
-**Checkpoint (entering Week 5):** Phases 1-2 are complete - data collection, automated daily pipeline, SQLite storage, feature engineering, and the sentiment/topic models are done and committed. The feature dataset and models have been refreshed on the full ~14,300-post corpus (production sentiment scorer: VADER, selected on an independent gold set). Phase 3 (Week 5) begins next: trend analysis over time, the dashboard, and the final report.
+**Checkpoint (Week 5 in progress):** Phases 1-2 complete (collection, automated pipeline, SQLite storage, feature engineering, sentiment/topic models), refreshed on the full ~14,300-post corpus (production sentiment scorer: VADER). Week 5 advanced analysis is done - time-series trends, emerging-topic detection, top influencers, and model validation, with an auto-generated insights summary. Remaining (Week 6): the interactive dashboard and the final marketing-insights report.
 
 ### Completed
 
@@ -157,6 +159,10 @@ src/
 - Within-platform engagement features
 - SQLite feature store with b-tree indexes + FTS5 full-text search
 - Feature engineering documentation ([docs/feature_engineering.md](docs/feature_engineering.md))
+- Time-series trend analysis (sentiment, volume, and topics over time)
+- Emerging-topic detection and top-influencer analysis
+- Auto-generated key-findings summary (insights_summary.md)
+- Week 5 analysis notebook with sentiment plots and validation metrics
 
 ### Dataset Summary
 
@@ -174,7 +180,6 @@ YouTube and Instagram grow daily via the scheduled collection; the counts below 
 
 ## Upcoming Work
 
-- Trend analysis (sentiment, volume, and topics over time, using the accumulating daily data)
 - Interactive dashboard (sentiment over time, top themes/keywords, engagement, word clouds)
 - Final marketing-insights report
 - AI-tool-usage documentation
