@@ -1,91 +1,111 @@
 ﻿topic_id,rank,term
 0,1,business
-0,2,start
-0,3,time
-0,4,help
-0,5,use
-0,6,real
-0,7,using
-0,8,engineer
-0,9,new
-0,10,build
+0,2,help
+0,3,build
+0,4,real
+0,5,time
+0,6,start
+0,7,right
+0,8,new
+0,9,growth
+0,10,digitalmarketing
 1,1,course
-1,2,2025
-1,3,tell
-1,4,completed
-1,5,date
-1,6,udemy
-1,7,beginner
-1,8,notes
+1,2,hey
+1,3,complete
+1,4,tell
+1,5,free course
+1,6,starting
+1,7,completed
+1,8,step
 1,9,engineer
-1,10,pls
+1,10,plz
 2,1,like
-2,2,looks
-2,3,clearly
-2,4,looks like
-2,5,doing
-2,6,feel
-2,7,just like
-2,8,feel like
-2,9,making
+2,2,feel
+2,3,doing
+2,4,people
+2,5,feel like
+2,6,looks
+2,7,looks like
+2,8,clearly
+2,9,sounds
 2,10,wish
-3,1,understand
-3,2,easy
-3,3,easy understand
-3,4,tutorial
-3,5,nicely
-3,6,don understand
-3,7,saying
-3,8,don
-3,9,people
-3,10,quite
-4,1,clear
-4,2,water
-4,3,brief
-4,4,presentation
-4,5,understandable
-4,6,clearly
-4,7,clear understandable
-4,8,wish like
-4,9,understandable wish
-4,10,explaining
-5,1,wow
-5,2,interesting
-5,3,look
-5,4,thought
-5,5,idea
-5,6,cool
-5,7,tutorial
-5,8,didn
-5,9,sounds
-5,10,paid
-6,1,just
-6,2,working
-6,3,agent
-6,4,knowledge
-6,5,just like
-6,6,did
-6,7,guy
-6,8,started
-6,9,built
-6,10,people
-7,1,actually
-7,2,free
-7,3,actually clutch
-7,4,free actually
-7,5,clutch praise
-7,6,putting free
-7,7,clutch
-7,8,praise
-7,9,putting
-7,10,paid
-8,1,simple
-8,2,ipweb
-8,3,post
-8,4,man
-8,5,earning
-8,6,interesting
-8,7,knew
-8,8,online
-8,9,platform
-8,10,dude
+3,1,clear
+3,2,wish
+3,3,understandable
+3,4,clear understandable
+3,5,understandable wish
+3,6,wish like
+3,7,water
+3,8,brief
+3,9,clear water
+3,10,clear brief
+4,1,just
+4,2,lol
+4,3,started
+4,4,did
+4,5,don
+4,6,ve
+4,7,agent
+4,8,think
+4,9,say
+4,10,time
+5,1,chat
+5,2,gpt
+5,3,chat gpt
+5,4,using
+5,5,use chat
+5,6,ve
+5,7,used
+5,8,said
+5,9,talking
+5,10,new
+6,1,understand
+6,2,easy
+6,3,easy understand
+6,4,simple
+6,5,ipweb
+6,6,didn
+6,7,tutorial
+6,8,making
+6,9,don understand
+6,10,idea
+7,1,wow
+7,2,interesting
+7,3,thought
+7,4,actually
+7,5,look
+7,6,cool
+7,7,idea
+7,8,lol
+7,9,tutorial
+7,10,try
+8,1,man
+8,2,new
+8,3,stuff
+8,4,simple
+8,5,helped
+8,6,hey
+8,7,cool
+8,8,started
+8,9,did
+8,10,fast
+9,1,use
+9,2,don
+9,3,don use
+9,4,people
+9,5,hey
+9,6,using
+9,7,code
+9,8,tool
+9,9,think
+9,10,youtube
+10,1,free
+10,2,actually
+10,3,putting
+10,4,clutch praise
+10,5,actually clutch
+10,6,free actually
+10,7,putting free
+10,8,clutch
+10,9,paid
+10,10,praise
