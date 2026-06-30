@@ -26,17 +26,19 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Rebuild features on the current dataset
+      - name: Rebuild features and analysis on the current dataset
         run: |
           python src/build_features.py
           python src/load_features_db.py
           python src/make_feature_reports.py
+          python src/trends.py
+          python src/make_insights.py
 
-      - name: Commit refreshed features
+      - name: Commit refreshed features and analysis
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/clean/features_dataset.csv data/reports/model_eval data/reports/features
+          git add data/clean/features_dataset.csv data/reports/model_eval data/reports/features data/reports/trends data/reports/insights_summary.md
           if git diff --staged --quiet; then
             echo "No feature changes to commit."
           else
