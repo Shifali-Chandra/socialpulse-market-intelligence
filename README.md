@@ -132,6 +132,8 @@ src/
 
 ## Current Progress
 
+**Checkpoint (entering Week 5):** Phases 1-2 are complete - data collection, automated daily pipeline, SQLite storage, feature engineering, and the sentiment/topic models are done and committed. The feature dataset and models have been refreshed on the full ~14,300-post corpus (production sentiment scorer: VADER, selected on an independent gold set). Phase 3 (Week 5) begins next: trend analysis over time, the dashboard, and the final report.
+
 ### Completed
 
 - Project planning and objective definition
@@ -162,10 +164,10 @@ YouTube and Instagram grow daily via the scheduled collection; the counts below 
 
 | Dataset | Records (snapshot) | Use |
 |----------|----------|----------|
-| YouTube Comments | ~7,200 (growing daily) | analysis + modeling |
-| Instagram Posts | ~560 (growing daily) | analysis + modeling |
+| YouTube Comments | ~12,400 (growing daily) | analysis + modeling |
+| Instagram Posts | ~1,900 (growing daily) | analysis + modeling |
 | Twitter Tweets (keyword-matched) | 84,212 (static) | EDA only (AWS-biased) |
-| Unified (YouTube + Instagram) | growing daily | modeling-ready |
+| Unified / Feature dataset | ~14,300 (growing daily) | modeling-ready |
 | Keywords Covered | 12 | |
 
 ---
