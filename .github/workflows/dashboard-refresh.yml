@@ -1,0 +1,46 @@
+name: Dashboard Refresh (manual)
+
+on:
+  workflow_dispatch: {}    # manual only - click "Run workflow" to refresh on demand
+
+permissions:
+  contents: write
+
+concurrency:
+  group: dashboard-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Rebuild features, analysis, and dashboard on the current data
+        run: |
+          python src/build_features.py
+          python src/load_features_db.py
+          python src/make_feature_reports.py
+          python src/trends.py
+          python src/make_insights.py
+          python src/build_dashboard.py --cdn
+
+      - name: Commit refreshed dashboard and analysis
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/clean/features_dataset.csv data/reports/model_eval data/reports/features data/reports/trends data/reports/insights_summary.md data/reports/dashboard.html
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "manual dashboard refresh"
+            git push
+          fi
