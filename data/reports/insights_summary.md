@@ -15,18 +15,18 @@ Factual rollup of the current feature dataset. Interpretation lives in the final
 - Relationship is essentially flat (sentiment does not predict engagement).
 
 ## Dominant topics (by volume)
-- T0: business, help, build, real - 5,499 posts.
-- T4: just, lol, started, did - 1,391 posts.
-- T9: use, don, don use, people - 1,085 posts.
-- T10: free, actually, putting, clutch praise - 900 posts.
-- T2: like, feel, doing, people - 824 posts.
+- T0: business, time, help, real - 9,363 posts.
+- T4: understand, easy, easy understand, simple - 762 posts.
+- T5: free, free praise, praise, paid - 578 posts.
+- T1: course, complete, free course, completed - 432 posts.
+- T2: clear, wish, understandable, clear understandable - 379 posts.
 
 ## Emerging vs declining topics (recent vs earlier in window)
-- Rising: T0: business, help, build, real (+11.93 pts).
-- Rising: T9: use, don, don use, people (+2.29 pts).
-- Rising: T5: chat, gpt, chat gpt, using (+1.08 pts).
-- Declining: T10: free, actually, putting, clutch praise (-2.22 pts).
-- Declining: T3: clear, wish, understandable, clear understandable (-5.05 pts).
+- Rising: T0: business, time, help, real (+9.35 pts).
+- Rising: T3: chat, gpt, chat gpt, used (+1.94 pts).
+- Rising: T5: free, free praise, praise, paid (-1.12 pts).
+- Declining: T4: understand, easy, easy understand, simple (-3.12 pts).
+- Declining: T2: clear, wish, understandable, clear understandable (-4.69 pts).
 
 ## Top keywords (by volume)
 - ChatGPT - 2,222 posts.
@@ -37,4 +37,4 @@ Factual rollup of the current feature dataset. Interpretation lives in the final
 
 ## Models
 - Production sentiment model: vader (deploy-domain macro-F1 0.6493).
-- Topic model: NMF, k=11, UMass coherence -1.8343 (more coherent than LDA).
+- Topic model: NMF, k=6, UMass coherence -1.1892 (more coherent than LDA).
