@@ -31,7 +31,14 @@ PRAISE_META = {
     "lot", "really", "video", "videos", "content", "explanation", "explained", "explain",
     "teaching", "taught", "learn", "learnt", "learned", "learning", "watch", "watching",
     "subscribe", "subscribed", "channel", "keep", "work", "job", "well", "make", "made",
-    "got", "way", "things", "thing", "want", "need", "know", "going", "lot", "yes", "yeah",
+    "got", "way", "things", "thing", "want", "need", "know", "going", "yes", "yeah",
+    # generic reaction / filler words that otherwise form junk topics
+    "wow", "interesting", "thought", "actually", "cool", "lol", "lmao", "haha", "feel",
+    "feels", "looks", "look", "did", "ve", "hey", "man", "stuff", "doing", "putting",
+    "clutch", "oh", "ok", "okay", "gonna", "wanna", "kinda", "yep", "nah", "hmm", "dude",
+    "guy", "pretty", "maybe", "probably", "basically", "literally", "honestly", "seems",
+    "seem", "started", "just", "people", "don", "use", "using", "like", "come", "let",
+    "said", "say", "tell", "told", "lot", "bit", "kind", "sort", "stuff",
 }
 MARKETING_STOPWORDS = sorted(
     set(KEYWORDS) | PRAISE_META | {"https", "http", "amp", "com", "www", "quot", "39"}
