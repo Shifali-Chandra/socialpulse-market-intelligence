@@ -70,3 +70,22 @@ for topic relevance, not emotional tone.
 - The sentiment validation set is LLM-labeled (no human annotators), a documented proxy.
 - Sentiment counts are model-dependent; compare trends over time rather than absolute
   counts across model changes.
+
+## Conclusion
+
+Over the six-week build, SocialPulse went from raw, noisy social media data to a
+continuously updating analytics system. The insights it produces are directional signals
+rather than direct campaign levers, but they give the marketing team an evidence base for
+strategic decisions - which platform to lean on, which themes to build content and
+technical-tool campaigns around, and where the audience is most receptive.
+
+Concretely, the analysis points SocialPulse toward: prioritizing Instagram for positive
+brand and community building and YouTube for engaged discussion and product feedback;
+centering campaigns on the rising, high-attention themes (business/startup, AI agents,
+ChatGPT usage, and automation); and not optimizing for "positive" content to chase reach,
+since engagement is independent of sentiment.
+
+Because collection is automated and the dataset keeps growing, these are ever-growing
+insights: the picture sharpens over time, emerging topics surface as they appear, and the
+pipeline can be refreshed on demand. The result is a reusable foundation for data-driven
+platform and campaign decisions, rather than a one-off snapshot.
