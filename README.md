@@ -71,7 +71,11 @@ API keys (YouTube `API_KEY`, Apify `APIFY_API_KEY`) go in a local `.env` file (g
 
 ## Automation
 
-A scheduled GitHub Actions workflow (`.github/workflows/daily-collection.yml`) runs daily: it collects new YouTube + Instagram content, cleans it, rebuilds the unified dataset, and commits the updated data back to the repo. Collection is incremental and deduplicated (new-content-only), so the dataset grows over time without duplicates. Twitter is static and not part of the schedule. The workflow reads `API_KEY` and `APIFY_API_KEY` from GitHub repository Secrets.
+Three GitHub Actions workflows:
+
+- **daily-collection.yml** (daily): collects new YouTube + Instagram content, cleans it, rebuilds the unified dataset, and commits the updated data. Collection is incremental and deduplicated (new-content-only), so the dataset grows without duplicates. Twitter is static and not scheduled. Reads `API_KEY` and `APIFY_API_KEY` from GitHub repository Secrets.
+- **feature-refresh.yml** (weekly + manual): re-runs feature engineering, feature reports, trend analysis, and the insights summary on the current data and commits them.
+- **dashboard-refresh.yml** (manual only): on demand (Actions -> Run workflow), rebuilds features, analysis, and the interactive dashboard on the current data and commits a refreshed dashboard. It uses `build_dashboard.py --cdn` for a small committed HTML; the default local build embeds Plotly.js for offline viewing.
 
 ---
 
@@ -106,11 +110,11 @@ data/
 ├── raw/          # source datasets (youtube, instagram, twitter)
 ├── clean/        # cleaned per-platform + unified + features dataset
 ├── gold/         # labeled sentiment gold set (model validation)
-├── reports/      # profiling, model_eval, feature reports, trends, insights_summary.md, eda outputs
+├── reports/      # profiling, model_eval, feature reports, trends, insights_summary.md, dashboard.html, eda outputs
 └── socialpulse.db  # SQLite (gitignored, regenerable from CSVs)
 
-.github/workflows/  # daily-collection.yml, feature-refresh.yml (scheduled pipelines)
-docs/             # methodology report, feature engineering docs
+.github/workflows/  # daily-collection.yml (daily), feature-refresh.yml (weekly), dashboard-refresh.yml (manual)
+docs/             # methodology, feature engineering, final report, AI-tool usage
 notebooks/        # eda.ipynb, 04_feature_engineering.ipynb, 05_analysis.ipynb
 src/
 ├── youtube_collector.py
@@ -127,14 +131,15 @@ src/
 ├── load_features_db.py       # SQLite feature store + indexes + FTS5
 ├── make_feature_reports.py   # marketing summary reports
 ├── trends.py                 # time-series trend analysis (Week 5)
-└── make_insights.py          # auto-generated key-findings summary
+├── make_insights.py          # auto-generated key-findings summary
+└── build_dashboard.py        # interactive Plotly dashboard (Week 6)
 ```
 
 ---
 
 ## Current Progress
 
-**Checkpoint (Week 5 in progress):** Phases 1-2 complete (collection, automated pipeline, SQLite storage, feature engineering, sentiment/topic models), refreshed on the full ~14,300-post corpus (production sentiment scorer: VADER). Week 5 advanced analysis is done - time-series trends, emerging-topic detection, top influencers, and model validation, with an auto-generated insights summary. Remaining (Week 6): the interactive dashboard and the final marketing-insights report.
+**Status (all 6 weeks delivered):** data collection, automated daily pipeline, SQLite storage, feature engineering, sentiment/topic models, advanced time-series analysis, the interactive dashboard, and the final report are complete on the full ~14,300-post corpus (production sentiment scorer: VADER). Optional enhancements (semantic embeddings, title/caption-based topics, network analysis) remain as future work.
 
 ### Completed
 
@@ -163,6 +168,8 @@ src/
 - Emerging-topic detection and top-influencer analysis
 - Auto-generated key-findings summary (insights_summary.md)
 - Week 5 analysis notebook with sentiment plots and validation metrics
+- Interactive dashboard ([data/reports/dashboard.html](data/reports/dashboard.html), Plotly)
+- Final marketing-insights report ([docs/final_report.md](docs/final_report.md)) and AI-tool-usage notes ([docs/ai_tool_usage.md](docs/ai_tool_usage.md))
 
 ### Dataset Summary
 
@@ -178,9 +185,8 @@ YouTube and Instagram grow daily via the scheduled collection; the counts below 
 
 ---
 
-## Upcoming Work
+## Future Enhancements (optional)
 
-- Interactive dashboard (sentiment over time, top themes/keywords, engagement, word clouds)
-- Final marketing-insights report
-- AI-tool-usage documentation
-- Optional: comment-graph network analysis, semantic embeddings, title/caption-based topics
+- Semantic (sentence-transformer) embeddings to replace LSA
+- Title/caption-based topic modeling for sharper emerging-topic themes
+- Comment-graph network analysis of user interactions
