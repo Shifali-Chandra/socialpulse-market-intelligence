@@ -1,73 +1,73 @@
 ﻿Keyword,dominant_topic_label,count
-AI Agents,"T0: business, time, help, real",857
-AI Agents,"T4: understand, easy, easy understand, simple",120
-AI Agents,"T2: clear, wish, understandable, clear understandable",50
-AI Agents,"T5: free, free praise, praise, paid",45
-AI Agents,"T3: chat, gpt, chat gpt, used",22
-AI Agents,"T1: course, complete, free course, completed",10
-AWS,"T0: business, time, help, real",793
-AWS,"T1: course, complete, free course, completed",73
-AWS,"T4: understand, easy, easy understand, simple",69
-AWS,"T5: free, free praise, praise, paid",57
-AWS,"T2: clear, wish, understandable, clear understandable",32
-AWS,"T3: chat, gpt, chat gpt, used",6
-Automation,"T0: business, time, help, real",1095
-Automation,"T5: free, free praise, praise, paid",106
-Automation,"T4: understand, easy, easy understand, simple",105
-Automation,"T1: course, complete, free course, completed",50
-Automation,"T2: clear, wish, understandable, clear understandable",28
-Automation,"T3: chat, gpt, chat gpt, used",17
-ChatGPT,"T0: business, time, help, real",1281
-ChatGPT,"T3: chat, gpt, chat gpt, used",230
-ChatGPT,"T4: understand, easy, easy understand, simple",74
-ChatGPT,"T5: free, free praise, praise, paid",63
-ChatGPT,"T1: course, complete, free course, completed",34
-ChatGPT,"T2: clear, wish, understandable, clear understandable",30
-Data Engineering,"T0: business, time, help, real",655
-Data Engineering,"T1: course, complete, free course, completed",68
-Data Engineering,"T4: understand, easy, easy understand, simple",34
-Data Engineering,"T5: free, free praise, praise, paid",29
-Data Engineering,"T2: clear, wish, understandable, clear understandable",14
-Data Engineering,"T3: chat, gpt, chat gpt, used",1
-Databricks,"T0: business, time, help, real",563
-Databricks,"T4: understand, easy, easy understand, simple",67
-Databricks,"T1: course, complete, free course, completed",44
+AI Agents,"T0: business, time, help, real",1155
+AI Agents,"T3: understand, easy, easy understand, simple",122
+AI Agents,"T2: clear, wish, understandable, clear understandable",59
+AI Agents,"T5: free, free praise, praise, paid",52
+AI Agents,"T4: chat, gpt, chat gpt, used",28
+AI Agents,"T1: course, completed, complete, interested",12
+AWS,"T0: business, time, help, real",881
+AWS,"T1: course, completed, complete, interested",78
+AWS,"T3: understand, easy, easy understand, simple",63
+AWS,"T5: free, free praise, praise, paid",58
+AWS,"T2: clear, wish, understandable, clear understandable",37
+AWS,"T4: chat, gpt, chat gpt, used",11
+Automation,"T0: business, time, help, real",1321
+Automation,"T3: understand, easy, easy understand, simple",102
+Automation,"T5: free, free praise, praise, paid",101
+Automation,"T1: course, completed, complete, interested",59
+Automation,"T2: clear, wish, understandable, clear understandable",32
+Automation,"T4: chat, gpt, chat gpt, used",29
+ChatGPT,"T0: business, time, help, real",1664
+ChatGPT,"T4: chat, gpt, chat gpt, used",278
+ChatGPT,"T3: understand, easy, easy understand, simple",75
+ChatGPT,"T5: free, free praise, praise, paid",56
+ChatGPT,"T1: course, completed, complete, interested",40
+ChatGPT,"T2: clear, wish, understandable, clear understandable",32
+Data Engineering,"T0: business, time, help, real",669
+Data Engineering,"T1: course, completed, complete, interested",73
+Data Engineering,"T3: understand, easy, easy understand, simple",27
+Data Engineering,"T5: free, free praise, praise, paid",21
+Data Engineering,"T2: clear, wish, understandable, clear understandable",13
+Data Engineering,"T4: chat, gpt, chat gpt, used",3
+Databricks,"T0: business, time, help, real",622
+Databricks,"T3: understand, easy, easy understand, simple",64
+Databricks,"T1: course, completed, complete, interested",49
 Databricks,"T5: free, free praise, praise, paid",33
-Databricks,"T2: clear, wish, understandable, clear understandable",27
-Databricks,"T3: chat, gpt, chat gpt, used",1
-Digital Marketing,"T0: business, time, help, real",717
-Digital Marketing,"T1: course, complete, free course, completed",84
-Digital Marketing,"T4: understand, easy, easy understand, simple",65
-Digital Marketing,"T5: free, free praise, praise, paid",64
-Digital Marketing,"T2: clear, wish, understandable, clear understandable",33
-Digital Marketing,"T3: chat, gpt, chat gpt, used",10
-Digital Transformation,"T0: business, time, help, real",334
-Digital Transformation,"T4: understand, easy, easy understand, simple",35
-Digital Transformation,"T2: clear, wish, understandable, clear understandable",14
-Digital Transformation,"T1: course, complete, free course, completed",7
+Databricks,"T2: clear, wish, understandable, clear understandable",26
+Databricks,"T4: chat, gpt, chat gpt, used",1
+Digital Marketing,"T0: business, time, help, real",873
+Digital Marketing,"T1: course, completed, complete, interested",92
+Digital Marketing,"T3: understand, easy, easy understand, simple",64
+Digital Marketing,"T5: free, free praise, praise, paid",59
+Digital Marketing,"T2: clear, wish, understandable, clear understandable",37
+Digital Marketing,"T4: chat, gpt, chat gpt, used",13
+Digital Transformation,"T0: business, time, help, real",336
+Digital Transformation,"T3: understand, easy, easy understand, simple",29
+Digital Transformation,"T2: clear, wish, understandable, clear understandable",16
+Digital Transformation,"T1: course, completed, complete, interested",7
 Digital Transformation,"T5: free, free praise, praise, paid",7
-Digital Transformation,"T3: chat, gpt, chat gpt, used",3
-Influencer Marketing,"T0: business, time, help, real",606
-Influencer Marketing,"T5: free, free praise, praise, paid",29
-Influencer Marketing,"T1: course, complete, free course, completed",25
+Digital Transformation,"T4: chat, gpt, chat gpt, used",3
+Influencer Marketing,"T0: business, time, help, real",613
+Influencer Marketing,"T5: free, free praise, praise, paid",28
+Influencer Marketing,"T1: course, completed, complete, interested",27
 Influencer Marketing,"T2: clear, wish, understandable, clear understandable",23
-Influencer Marketing,"T4: understand, easy, easy understand, simple",19
-Influencer Marketing,"T3: chat, gpt, chat gpt, used",3
-SEO,"T0: business, time, help, real",563
-SEO,"T2: clear, wish, understandable, clear understandable",92
-SEO,"T4: understand, easy, easy understand, simple",86
-SEO,"T5: free, free praise, praise, paid",66
-SEO,"T1: course, complete, free course, completed",14
-SEO,"T3: chat, gpt, chat gpt, used",9
-SaaS,"T0: business, time, help, real",855
-SaaS,"T4: understand, easy, easy understand, simple",48
-SaaS,"T5: free, free praise, praise, paid",41
+Influencer Marketing,"T3: understand, easy, easy understand, simple",16
+Influencer Marketing,"T4: chat, gpt, chat gpt, used",5
+SEO,"T0: business, time, help, real",614
+SEO,"T2: clear, wish, understandable, clear understandable",109
+SEO,"T3: understand, easy, easy understand, simple",74
+SEO,"T5: free, free praise, praise, paid",65
+SEO,"T1: course, completed, complete, interested",19
+SEO,"T4: chat, gpt, chat gpt, used",14
+SaaS,"T0: business, time, help, real",870
+SaaS,"T5: free, free praise, praise, paid",42
+SaaS,"T3: understand, easy, easy understand, simple",38
 SaaS,"T2: clear, wish, understandable, clear understandable",16
-SaaS,"T1: course, complete, free course, completed",12
-SaaS,"T3: chat, gpt, chat gpt, used",11
-Startup,"T0: business, time, help, real",1044
-Startup,"T4: understand, easy, easy understand, simple",40
-Startup,"T5: free, free praise, praise, paid",38
-Startup,"T2: clear, wish, understandable, clear understandable",20
-Startup,"T3: chat, gpt, chat gpt, used",17
-Startup,"T1: course, complete, free course, completed",11
+SaaS,"T4: chat, gpt, chat gpt, used",13
+SaaS,"T1: course, completed, complete, interested",11
+Startup,"T0: business, time, help, real",1118
+Startup,"T5: free, free praise, praise, paid",36
+Startup,"T3: understand, easy, easy understand, simple",30
+Startup,"T2: clear, wish, understandable, clear understandable",21
+Startup,"T1: course, completed, complete, interested",16
+Startup,"T4: chat, gpt, chat gpt, used",15

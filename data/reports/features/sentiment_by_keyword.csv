@@ -35,39 +35,39 @@ instagram,SaaS,positive,96,82.8
 instagram,Startup,negative,6,6.5
 instagram,Startup,neutral,11,12.0
 instagram,Startup,positive,75,81.5
-youtube,AI Agents,negative,133,13.5
-youtube,AI Agents,neutral,193,19.7
-youtube,AI Agents,positive,656,66.8
-youtube,AWS,negative,81,9.5
-youtube,AWS,neutral,183,21.5
-youtube,AWS,positive,588,69.0
-youtube,Automation,negative,146,12.7
-youtube,Automation,neutral,280,24.4
-youtube,Automation,positive,723,62.9
-youtube,ChatGPT,negative,354,24.3
-youtube,ChatGPT,neutral,343,23.5
-youtube,ChatGPT,positive,762,52.2
+youtube,AI Agents,negative,189,14.5
+youtube,AI Agents,neutral,246,18.8
+youtube,AI Agents,positive,871,66.7
+youtube,AWS,negative,90,9.5
+youtube,AWS,neutral,205,21.7
+youtube,AWS,positive,651,68.8
+youtube,Automation,negative,172,12.6
+youtube,Automation,neutral,329,24.1
+youtube,Automation,positive,865,63.3
+youtube,ChatGPT,negative,467,24.6
+youtube,ChatGPT,neutral,428,22.5
+youtube,ChatGPT,positive,1007,52.9
 youtube,Data Engineering,negative,56,9.1
-youtube,Data Engineering,neutral,142,23.1
-youtube,Data Engineering,positive,416,67.8
-youtube,Databricks,negative,49,7.8
-youtube,Databricks,neutral,105,16.6
-youtube,Databricks,positive,477,75.6
-youtube,Digital Marketing,negative,60,7.6
-youtube,Digital Marketing,neutral,156,19.7
-youtube,Digital Marketing,positive,575,72.7
+youtube,Data Engineering,neutral,142,23.0
+youtube,Data Engineering,positive,420,68.0
+youtube,Databricks,negative,52,7.5
+youtube,Databricks,neutral,114,16.5
+youtube,Databricks,positive,525,76.0
+youtube,Digital Marketing,negative,71,7.4
+youtube,Digital Marketing,neutral,188,19.7
+youtube,Digital Marketing,positive,696,72.9
 youtube,Digital Transformation,negative,28,9.2
 youtube,Digital Transformation,neutral,34,11.2
 youtube,Digital Transformation,positive,241,79.5
-youtube,Influencer Marketing,negative,51,9.2
-youtube,Influencer Marketing,neutral,121,21.9
-youtube,Influencer Marketing,positive,380,68.8
-youtube,SEO,negative,49,7.1
-youtube,SEO,neutral,95,13.8
-youtube,SEO,positive,543,79.0
-youtube,SaaS,negative,148,18.5
-youtube,SaaS,neutral,167,20.9
-youtube,SaaS,positive,485,60.6
-youtube,Startup,negative,158,15.8
-youtube,Startup,neutral,236,23.6
-youtube,Startup,positive,608,60.7
+youtube,Influencer Marketing,negative,52,9.4
+youtube,Influencer Marketing,neutral,121,21.8
+youtube,Influencer Marketing,positive,383,68.9
+youtube,SEO,negative,56,7.5
+youtube,SEO,neutral,105,14.0
+youtube,SEO,positive,589,78.5
+youtube,SaaS,negative,149,18.5
+youtube,SaaS,neutral,169,21.0
+youtube,SaaS,positive,486,60.4
+youtube,Startup,negative,169,15.6
+youtube,Startup,neutral,251,23.1
+youtube,Startup,positive,665,61.3
