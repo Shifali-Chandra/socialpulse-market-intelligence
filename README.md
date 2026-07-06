@@ -8,6 +8,17 @@ The project focuses on technology and digital-business related discussions acros
 
 ---
 
+## Team (Group 8)
+
+| Name | Roll No |
+|------|---------|
+| Shifali Chandra | G25AI1040 |
+| Rubansakthi KL | G25AI1036 |
+| Ruchit Gandhi | G25AI1037 |
+| Ruchita Bhandari | G25AI1038 |
+
+---
+
 ## Project Objective
 
 Collect, validate, clean, and analyze social media data from YouTube, Instagram, and Twitter/X to generate actionable marketing insights through trend analysis, sentiment analysis, and engagement analysis.
