@@ -57,13 +57,13 @@ def add_lexicon_sentiment(
     df["textblob_polarity"] = tb.apply(lambda s: round(s.polarity, 4))
     df["textblob_subjectivity"] = tb.apply(lambda s: round(s.subjectivity, 4))
 
-    # Production scorer = TextBlob: it wins macro-F1 on the independent YouTube/Instagram
-    # gold set (see sentiment_gold_eval). VADER scores are kept as features for comparison.
+    # Production scorer = VADER: it wins macro-F1 on the independent YouTube/Instagram
+    # gold set (see sentiment_gold_eval). TextBlob scores are kept as features for comparison.
     is_en = df[lang_col] == "en"
     df["sentiment_label"] = "undetermined"
-    df.loc[is_en, "sentiment_label"] = df.loc[is_en, "textblob_polarity"].apply(label_from_compound)
-    df["sentiment_score"] = df["textblob_polarity"].where(is_en)
-    df["sentiment_model"] = "textblob"
+    df.loc[is_en, "sentiment_label"] = df.loc[is_en, "vader_compound"].apply(label_from_compound)
+    df["sentiment_score"] = df["vader_compound"].where(is_en)
+    df["sentiment_model"] = "vader"
     return df
 
 

@@ -1,4 +1,4 @@
 ﻿model,dataset,macro_f1,accuracy
-textblob,yt_ig_gold,0.6241,0.7556
-vader,yt_ig_gold,0.5717,0.7667
-tfidf_supervised,yt_ig_gold,0.5074,0.7167
+vader,yt_ig_gold,0.6493,0.7584
+textblob,yt_ig_gold,0.528,0.6854
+tfidf_supervised,yt_ig_gold,0.5221,0.6461

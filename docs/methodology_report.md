@@ -137,6 +137,18 @@ SQLite with indexes and a full-text index. Summary of the approach:
 Full feature definitions, model leaderboards, and limitations are documented in
 docs/feature_engineering.md.
 
+## Advanced Analysis (Week 5)
+
+Time-series analysis (src/trends.py) computes sentiment share, post volume, and topic
+prevalence per week, windowed to the recent dense period (older YouTube comments are
+sparse). Emerging topics are flagged by comparing each topic's share in the recent half
+of the window vs the earlier half. Outputs are written to data/reports/trends, and an
+auto-generated factual rollup is written to data/reports/insights_summary.md (src/make_insights.py).
+Model validation metrics (sentiment in-domain and deploy-domain leaderboards, topic
+coherence) live in the model_eval reports. The analysis and sentiment plots are presented
+in notebooks/05_analysis.ipynb; interpretation and marketing recommendations are reserved
+for the final report.
+
 ## Data Processing Workflow
 
 Collection

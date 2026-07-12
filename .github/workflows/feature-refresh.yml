@@ -1,0 +1,47 @@
+name: Feature Refresh
+
+on:
+  schedule:
+    - cron: "0 7 * * 0"   # weekly, Sunday 07:00 UTC
+  workflow_dispatch: {}    # manual "Run workflow" button
+
+permissions:
+  contents: write
+
+concurrency:
+  group: feature-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Rebuild features and analysis on the current dataset
+        run: |
+          python src/build_features.py
+          python src/load_features_db.py
+          python src/make_feature_reports.py
+          python src/trends.py
+          python src/make_insights.py
+
+      - name: Commit refreshed features and analysis
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/clean/features_dataset.csv data/reports/model_eval data/reports/features data/reports/trends data/reports/insights_summary.md
+          if git diff --staged --quiet; then
+            echo "No feature changes to commit."
+          else
+            git commit -m "weekly feature refresh"
+            git push
+          fi
