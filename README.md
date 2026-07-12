@@ -61,7 +61,7 @@ SQLite feature store with full-text search, and surfaced as an interactive dashb
 
 ### Medallion Architecture
 
-![Medallion Architecture](diagrams/architecture.png)
+![Medallion Architecture](diagrams/medallion-architecture.png)
 
 *Sources → Bronze (raw CSV) → Silver (cleaned, unified CSV) → Gold (features + models in SQLite) → Serving (dashboard, report). Stack: Python + pandas + scikit-learn + SQLite. Automated with GitHub Actions.*
 
