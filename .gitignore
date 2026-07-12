@@ -23,17 +23,7 @@ Topic.pdf
 
 *.png
 !docs/architecture.png
-!diagrams/medallion-architecture.png
 
-# architecture in progress
+# architecture and extra files
 *.pptx
 Extra/
-src/make_architecture.py
-make_architecture_ppt.py
-make_ppt_diagrams.py
-architecture.png
-architecture.md
-~$diagrams.pptx
-*.html
-demo_runbook.html
-SocialPulse PPT - Capstone Project.pdf
