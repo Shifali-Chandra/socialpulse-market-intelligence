@@ -23,6 +23,7 @@ Topic.pdf
 
 *.png
 !docs/architecture.png
+!diagrams/medallion-architecture.png
 
 # architecture in progress
 *.pptx
