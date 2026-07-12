@@ -1,77 +1,78 @@
 ﻿week,dominant_topic_label,posts
-2026-04-06,"T0: business, time, help, real",15
-2026-04-06,"T5: free, free praise, praise, paid",3
-2026-04-06,"T1: course, completed, complete, interested",2
-2026-04-06,"T3: understand, easy, easy understand, simple",2
-2026-04-13,"T0: business, time, help, real",169
-2026-04-13,"T2: clear, wish, understandable, clear understandable",14
-2026-04-13,"T3: understand, easy, easy understand, simple",12
-2026-04-13,"T1: course, completed, complete, interested",11
-2026-04-13,"T5: free, free praise, praise, paid",10
-2026-04-13,"T4: chat, gpt, chat gpt, used",2
-2026-04-20,"T0: business, time, help, real",149
-2026-04-20,"T2: clear, wish, understandable, clear understandable",29
-2026-04-20,"T3: understand, easy, easy understand, simple",14
-2026-04-20,"T5: free, free praise, praise, paid",9
-2026-04-20,"T4: chat, gpt, chat gpt, used",8
-2026-04-20,"T1: course, completed, complete, interested",5
-2026-04-27,"T0: business, time, help, real",182
-2026-04-27,"T3: understand, easy, easy understand, simple",20
-2026-04-27,"T5: free, free praise, praise, paid",18
+2026-04-13,"T0: business, time, start, help",16
+2026-04-13,"T5: free, free praise, praise, paid",4
+2026-04-13,"T2: clear, wish, understandable, clear understandable",3
+2026-04-13,"T4: understand, easy, easy understand, simple",2
+2026-04-13,"T1: course, completed, complete, free course",1
+2026-04-20,"T0: business, time, start, help",165
+2026-04-20,"T2: clear, wish, understandable, clear understandable",28
+2026-04-20,"T4: understand, easy, easy understand, simple",16
+2026-04-20,"T5: free, free praise, praise, paid",10
+2026-04-20,"T3: chat, gpt, chat gpt, voice",6
+2026-04-20,"T1: course, completed, complete, free course",5
+2026-04-27,"T0: business, time, start, help",204
+2026-04-27,"T4: understand, easy, easy understand, simple",21
+2026-04-27,"T5: free, free praise, praise, paid",19
 2026-04-27,"T2: clear, wish, understandable, clear understandable",13
-2026-04-27,"T1: course, completed, complete, interested",8
-2026-04-27,"T4: chat, gpt, chat gpt, used",6
-2026-05-04,"T0: business, time, help, real",176
-2026-05-04,"T2: clear, wish, understandable, clear understandable",19
-2026-05-04,"T3: understand, easy, easy understand, simple",16
-2026-05-04,"T5: free, free praise, praise, paid",13
-2026-05-04,"T1: course, completed, complete, interested",12
-2026-05-04,"T4: chat, gpt, chat gpt, used",4
-2026-05-11,"T0: business, time, help, real",301
-2026-05-11,"T3: understand, easy, easy understand, simple",32
-2026-05-11,"T1: course, completed, complete, interested",20
+2026-04-27,"T1: course, completed, complete, free course",7
+2026-04-27,"T3: chat, gpt, chat gpt, voice",5
+2026-05-04,"T0: business, time, start, help",198
+2026-05-04,"T2: clear, wish, understandable, clear understandable",21
+2026-05-04,"T4: understand, easy, easy understand, simple",16
+2026-05-04,"T5: free, free praise, praise, paid",15
+2026-05-04,"T1: course, completed, complete, free course",13
+2026-05-04,"T3: chat, gpt, chat gpt, voice",3
+2026-05-11,"T0: business, time, start, help",336
+2026-05-11,"T4: understand, easy, easy understand, simple",35
+2026-05-11,"T1: course, completed, complete, free course",19
 2026-05-11,"T5: free, free praise, praise, paid",16
-2026-05-11,"T4: chat, gpt, chat gpt, used",11
-2026-05-11,"T2: clear, wish, understandable, clear understandable",9
-2026-05-18,"T0: business, time, help, real",348
-2026-05-18,"T4: chat, gpt, chat gpt, used",31
-2026-05-18,"T3: understand, easy, easy understand, simple",29
-2026-05-18,"T1: course, completed, complete, interested",19
-2026-05-18,"T2: clear, wish, understandable, clear understandable",16
+2026-05-11,"T3: chat, gpt, chat gpt, voice",12
+2026-05-11,"T2: clear, wish, understandable, clear understandable",10
+2026-05-18,"T0: business, time, start, help",389
+2026-05-18,"T4: understand, easy, easy understand, simple",33
+2026-05-18,"T1: course, completed, complete, free course",27
+2026-05-18,"T3: chat, gpt, chat gpt, voice",26
+2026-05-18,"T2: clear, wish, understandable, clear understandable",17
 2026-05-18,"T5: free, free praise, praise, paid",12
-2026-05-25,"T0: business, time, help, real",387
-2026-05-25,"T3: understand, easy, easy understand, simple",34
-2026-05-25,"T5: free, free praise, praise, paid",28
-2026-05-25,"T4: chat, gpt, chat gpt, used",24
-2026-05-25,"T1: course, completed, complete, interested",18
-2026-05-25,"T2: clear, wish, understandable, clear understandable",11
-2026-06-01,"T0: business, time, help, real",447
-2026-06-01,"T3: understand, easy, easy understand, simple",34
-2026-06-01,"T5: free, free praise, praise, paid",29
-2026-06-01,"T1: course, completed, complete, interested",28
-2026-06-01,"T4: chat, gpt, chat gpt, used",19
-2026-06-01,"T2: clear, wish, understandable, clear understandable",13
-2026-06-08,"T0: business, time, help, real",375
-2026-06-08,"T3: understand, easy, easy understand, simple",39
-2026-06-08,"T5: free, free praise, praise, paid",28
-2026-06-08,"T1: course, completed, complete, interested",16
-2026-06-08,"T2: clear, wish, understandable, clear understandable",15
-2026-06-08,"T4: chat, gpt, chat gpt, used",7
-2026-06-15,"T0: business, time, help, real",830
-2026-06-15,"T4: chat, gpt, chat gpt, used",47
-2026-06-15,"T3: understand, easy, easy understand, simple",35
-2026-06-15,"T5: free, free praise, praise, paid",34
-2026-06-15,"T1: course, completed, complete, interested",26
-2026-06-15,"T2: clear, wish, understandable, clear understandable",14
-2026-06-22,"T0: business, time, help, real",2766
-2026-06-22,"T4: chat, gpt, chat gpt, used",133
-2026-06-22,"T5: free, free praise, praise, paid",97
-2026-06-22,"T3: understand, easy, easy understand, simple",92
-2026-06-22,"T1: course, completed, complete, interested",43
-2026-06-22,"T2: clear, wish, understandable, clear understandable",31
-2026-06-29,"T0: business, time, help, real",998
-2026-06-29,"T3: understand, easy, easy understand, simple",54
-2026-06-29,"T4: chat, gpt, chat gpt, used",48
-2026-06-29,"T5: free, free praise, praise, paid",47
-2026-06-29,"T2: clear, wish, understandable, clear understandable",40
-2026-06-29,"T1: course, completed, complete, interested",26
+2026-05-25,"T0: business, time, start, help",427
+2026-05-25,"T4: understand, easy, easy understand, simple",39
+2026-05-25,"T3: chat, gpt, chat gpt, voice",25
+2026-05-25,"T5: free, free praise, praise, paid",25
+2026-05-25,"T1: course, completed, complete, free course",21
+2026-05-25,"T2: clear, wish, understandable, clear understandable",16
+2026-06-01,"T0: business, time, start, help",513
+2026-06-01,"T4: understand, easy, easy understand, simple",38
+2026-06-01,"T1: course, completed, complete, free course",34
+2026-06-01,"T5: free, free praise, praise, paid",31
+2026-06-01,"T3: chat, gpt, chat gpt, voice",15
+2026-06-01,"T2: clear, wish, understandable, clear understandable",12
+2026-06-08,"T0: business, time, start, help",429
+2026-06-08,"T4: understand, easy, easy understand, simple",38
+2026-06-08,"T1: course, completed, complete, free course",27
+2026-06-08,"T5: free, free praise, praise, paid",22
+2026-06-08,"T2: clear, wish, understandable, clear understandable",17
+2026-06-08,"T3: chat, gpt, chat gpt, voice",7
+2026-06-15,"T0: business, time, start, help",903
+2026-06-15,"T3: chat, gpt, chat gpt, voice",39
+2026-06-15,"T4: understand, easy, easy understand, simple",37
+2026-06-15,"T1: course, completed, complete, free course",32
+2026-06-15,"T5: free, free praise, praise, paid",30
+2026-06-15,"T2: clear, wish, understandable, clear understandable",15
+2026-06-22,"T0: business, time, start, help",2917
+2026-06-22,"T3: chat, gpt, chat gpt, voice",106
+2026-06-22,"T4: understand, easy, easy understand, simple",97
+2026-06-22,"T5: free, free praise, praise, paid",82
+2026-06-22,"T1: course, completed, complete, free course",50
+2026-06-22,"T2: clear, wish, understandable, clear understandable",34
+2026-06-29,"T0: business, time, start, help",1404
+2026-06-29,"T4: understand, easy, easy understand, simple",65
+2026-06-29,"T2: clear, wish, understandable, clear understandable",56
+2026-06-29,"T3: chat, gpt, chat gpt, voice",55
+2026-06-29,"T5: free, free praise, praise, paid",50
+2026-06-29,"T1: course, completed, complete, free course",33
+2026-07-06,"T0: business, time, start, help",1254
+2026-07-06,"T3: chat, gpt, chat gpt, voice",94
+2026-07-06,"T4: understand, easy, easy understand, simple",70
+2026-07-06,"T1: course, completed, complete, free course",44
+2026-07-06,"T5: free, free praise, praise, paid",40
+2026-07-06,"T2: clear, wish, understandable, clear understandable",26
