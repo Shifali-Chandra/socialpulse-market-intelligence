@@ -8,7 +8,7 @@
 0,7,build
 0,8,new
 0,9,think
-0,10,agent
+0,10,building
 1,1,course
 1,2,completed
 1,3,complete
@@ -25,9 +25,9 @@
 2,4,clear understandable
 2,5,understandable wish
 2,6,brief
-2,7,clear water
-2,8,brief clear
-2,9,clear brief
+2,7,clear brief
+2,8,clear water
+2,9,brief clear
 2,10,water
 3,1,chat
 3,2,gpt
@@ -35,8 +35,8 @@
 3,4,voice
 3,5,used
 3,6,claude
-3,7,does
-3,8,new
+3,7,new
+3,8,does
 3,9,talking
 3,10,therapist
 4,1,understand
