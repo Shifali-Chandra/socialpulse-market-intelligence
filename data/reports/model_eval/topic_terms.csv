@@ -1,24 +1,24 @@
 ﻿topic_id,rank,term
 0,1,business
-0,2,time
-0,3,start
-0,4,help
-0,5,real
-0,6,right
+0,2,help
+0,3,digitalmarketing
+0,4,brand
+0,5,businessgrowth
+0,6,website
 0,7,build
-0,8,new
-0,9,think
-0,10,building
+0,8,grow
+0,9,growth
+0,10,right
 1,1,course
-1,2,completed
-1,3,complete
-1,4,free course
-1,5,sql
-1,6,engineer
-1,7,join
-1,8,hi
-1,9,interested
-1,10,starting
+1,2,step
+1,3,completed
+1,4,step step
+1,5,complete
+1,6,free course
+1,7,hi
+1,8,sql
+1,9,join
+1,10,pls
 2,1,clear
 2,2,wish
 2,3,understandable
@@ -26,36 +26,56 @@
 2,5,understandable wish
 2,6,brief
 2,7,clear brief
-2,8,clear water
-2,9,brief clear
+2,8,brief clear
+2,9,clear water
 2,10,water
-3,1,chat
-3,2,gpt
-3,3,chat gpt
-3,4,voice
-3,5,used
-3,6,claude
-3,7,new
-3,8,does
-3,9,talking
-3,10,therapist
-4,1,understand
-4,2,easy
-4,3,easy understand
-4,4,simple
-4,5,ipweb
-4,6,didn
-4,7,easy follow
-4,8,making
-4,9,makes
-4,10,follow
-5,1,free
-5,2,free praise
-5,3,praise
-5,4,paid
-5,5,pay
-5,6,guide
-5,7,free course
-5,8,plan
-5,9,money
-5,10,tool
+3,1,time
+3,2,real
+3,3,new
+3,4,think
+3,5,agent
+3,6,does
+3,7,cloud
+3,8,world
+3,9,code
+3,10,better
+4,1,free
+4,2,free praise
+4,3,praise
+4,4,paid
+4,5,courses
+4,6,free courses
+4,7,pay
+4,8,guide
+4,9,free course
+4,10,plan
+5,1,chat
+5,2,gpt
+5,3,chat gpt
+5,4,voice
+5,5,claude
+5,6,new
+5,7,used
+5,8,personal
+5,9,talking
+5,10,version
+6,1,start
+6,2,right
+6,3,company
+6,4,scratch
+6,5,skills
+6,6,stop
+6,7,journey
+6,8,start business
+6,9,interested
+6,10,knowledge
+7,1,understand
+7,2,easy
+7,3,easy understand
+7,4,simple
+7,5,ipweb
+7,6,easy follow
+7,7,didn
+7,8,follow
+7,9,making
+7,10,makes
