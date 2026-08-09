@@ -1,79 +1,91 @@
 ﻿week,dominant_topic_label,posts
-2026-05-04,"T0: business, time, build, real",39
-2026-05-04,"T5: understand, easy, easy understand, simple",6
-2026-05-04,"T1: course, step, completed, engineer",4
-2026-05-04,"T4: start, step, ready start, scratch",4
-2026-05-04,"T2: clear, wish, understandable, clear understandable",2
-2026-05-04,"T3: free, free praise, praise, paid",2
-2026-05-11,"T0: business, time, build, real",360
-2026-05-11,"T5: understand, easy, easy understand, simple",49
-2026-05-11,"T3: free, free praise, praise, paid",28
-2026-05-11,"T1: course, step, completed, engineer",25
-2026-05-11,"T4: start, step, ready start, scratch",21
-2026-05-11,"T2: clear, wish, understandable, clear understandable",10
-2026-05-18,"T0: business, time, build, real",448
-2026-05-18,"T5: understand, easy, easy understand, simple",49
-2026-05-18,"T1: course, step, completed, engineer",26
-2026-05-18,"T4: start, step, ready start, scratch",18
-2026-05-18,"T3: free, free praise, praise, paid",17
-2026-05-18,"T2: clear, wish, understandable, clear understandable",16
-2026-05-25,"T0: business, time, build, real",485
-2026-05-25,"T5: understand, easy, easy understand, simple",57
-2026-05-25,"T3: free, free praise, praise, paid",36
-2026-05-25,"T1: course, step, completed, engineer",30
-2026-05-25,"T4: start, step, ready start, scratch",27
-2026-05-25,"T2: clear, wish, understandable, clear understandable",12
-2026-06-01,"T0: business, time, build, real",537
-2026-06-01,"T5: understand, easy, easy understand, simple",46
-2026-06-01,"T1: course, step, completed, engineer",39
-2026-06-01,"T3: free, free praise, praise, paid",38
-2026-06-01,"T4: start, step, ready start, scratch",27
+2026-05-11,"T0: business, time, real, build",44
+2026-05-11,"T6: understand, easy, easy understand, simple",8
+2026-05-11,"T4: start, ready, step, scratch",3
+2026-05-11,"T5: chat, gpt, chat gpt, voice",3
+2026-05-11,"T2: clear, wish, understandable, clear understandable",1
+2026-05-11,"T3: free, free praise, praise, paid",1
+2026-05-18,"T0: business, time, real, build",420
+2026-05-18,"T6: understand, easy, easy understand, simple",53
+2026-05-18,"T5: chat, gpt, chat gpt, voice",36
+2026-05-18,"T1: course, step, complete, completed",25
+2026-05-18,"T4: start, ready, step, scratch",16
+2026-05-18,"T2: clear, wish, understandable, clear understandable",15
+2026-05-18,"T3: free, free praise, praise, paid",15
+2026-05-25,"T0: business, time, real, build",463
+2026-05-25,"T6: understand, easy, easy understand, simple",61
+2026-05-25,"T5: chat, gpt, chat gpt, voice",37
+2026-05-25,"T3: free, free praise, praise, paid",35
+2026-05-25,"T1: course, step, complete, completed",26
+2026-05-25,"T4: start, ready, step, scratch",23
+2026-05-25,"T2: clear, wish, understandable, clear understandable",13
+2026-06-01,"T0: business, time, real, build",524
+2026-06-01,"T6: understand, easy, easy understand, simple",53
+2026-06-01,"T1: course, step, complete, completed",37
+2026-06-01,"T3: free, free praise, praise, paid",37
+2026-06-01,"T4: start, ready, step, scratch",26
+2026-06-01,"T5: chat, gpt, chat gpt, voice",18
 2026-06-01,"T2: clear, wish, understandable, clear understandable",14
-2026-06-08,"T0: business, time, build, real",465
-2026-06-08,"T5: understand, easy, easy understand, simple",54
-2026-06-08,"T3: free, free praise, praise, paid",31
-2026-06-08,"T1: course, step, completed, engineer",25
-2026-06-08,"T4: start, step, ready start, scratch",17
-2026-06-08,"T2: clear, wish, understandable, clear understandable",16
-2026-06-15,"T0: business, time, build, real",982
-2026-06-15,"T5: understand, easy, easy understand, simple",87
-2026-06-15,"T3: free, free praise, praise, paid",41
-2026-06-15,"T1: course, step, completed, engineer",30
-2026-06-15,"T4: start, step, ready start, scratch",22
-2026-06-15,"T2: clear, wish, understandable, clear understandable",20
-2026-06-22,"T0: business, time, build, real",2959
-2026-06-22,"T5: understand, easy, easy understand, simple",141
-2026-06-22,"T3: free, free praise, praise, paid",110
-2026-06-22,"T4: start, step, ready start, scratch",94
-2026-06-22,"T1: course, step, completed, engineer",56
-2026-06-22,"T2: clear, wish, understandable, clear understandable",46
-2026-06-29,"T0: business, time, build, real",1482
-2026-06-29,"T5: understand, easy, easy understand, simple",104
-2026-06-29,"T3: free, free praise, praise, paid",68
-2026-06-29,"T2: clear, wish, understandable, clear understandable",58
-2026-06-29,"T1: course, step, completed, engineer",52
-2026-06-29,"T4: start, step, ready start, scratch",41
-2026-07-06,"T0: business, time, build, real",1937
-2026-07-06,"T5: understand, easy, easy understand, simple",124
-2026-07-06,"T3: free, free praise, praise, paid",76
-2026-07-06,"T1: course, step, completed, engineer",74
-2026-07-06,"T4: start, step, ready start, scratch",67
-2026-07-06,"T2: clear, wish, understandable, clear understandable",36
-2026-07-13,"T0: business, time, build, real",2391
+2026-06-08,"T0: business, time, real, build",463
+2026-06-08,"T6: understand, easy, easy understand, simple",60
+2026-06-08,"T3: free, free praise, praise, paid",30
+2026-06-08,"T1: course, step, complete, completed",26
+2026-06-08,"T2: clear, wish, understandable, clear understandable",15
+2026-06-08,"T4: start, ready, step, scratch",13
+2026-06-08,"T5: chat, gpt, chat gpt, voice",8
+2026-06-15,"T0: business, time, real, build",954
+2026-06-15,"T6: understand, easy, easy understand, simple",95
+2026-06-15,"T5: chat, gpt, chat gpt, voice",48
+2026-06-15,"T3: free, free praise, praise, paid",38
+2026-06-15,"T1: course, step, complete, completed",34
+2026-06-15,"T4: start, ready, step, scratch",20
+2026-06-15,"T2: clear, wish, understandable, clear understandable",19
+2026-06-22,"T0: business, time, real, build",2837
+2026-06-22,"T6: understand, easy, easy understand, simple",171
+2026-06-22,"T5: chat, gpt, chat gpt, voice",135
+2026-06-22,"T3: free, free praise, praise, paid",107
+2026-06-22,"T4: start, ready, step, scratch",77
+2026-06-22,"T1: course, step, complete, completed",54
+2026-06-22,"T2: clear, wish, understandable, clear understandable",41
+2026-06-29,"T0: business, time, real, build",1440
+2026-06-29,"T6: understand, easy, easy understand, simple",113
+2026-06-29,"T5: chat, gpt, chat gpt, voice",77
+2026-06-29,"T3: free, free praise, praise, paid",67
+2026-06-29,"T2: clear, wish, understandable, clear understandable",59
+2026-06-29,"T1: course, step, complete, completed",50
+2026-06-29,"T4: start, ready, step, scratch",36
+2026-07-06,"T0: business, time, real, build",1795
+2026-07-06,"T5: chat, gpt, chat gpt, voice",177
+2026-07-06,"T6: understand, easy, easy understand, simple",137
+2026-07-06,"T3: free, free praise, praise, paid",78
+2026-07-06,"T1: course, step, complete, completed",72
+2026-07-06,"T4: start, ready, step, scratch",58
+2026-07-06,"T2: clear, wish, understandable, clear understandable",38
+2026-07-13,"T0: business, time, real, build",2350
+2026-07-13,"T6: understand, easy, easy understand, simple",125
 2026-07-13,"T3: free, free praise, praise, paid",105
-2026-07-13,"T5: understand, easy, easy understand, simple",104
-2026-07-13,"T4: start, step, ready start, scratch",83
-2026-07-13,"T1: course, step, completed, engineer",50
-2026-07-13,"T2: clear, wish, understandable, clear understandable",32
-2026-07-20,"T0: business, time, build, real",929
-2026-07-20,"T5: understand, easy, easy understand, simple",79
-2026-07-20,"T3: free, free praise, praise, paid",50
-2026-07-20,"T4: start, step, ready start, scratch",33
-2026-07-20,"T1: course, step, completed, engineer",32
+2026-07-13,"T5: chat, gpt, chat gpt, voice",90
+2026-07-13,"T4: start, ready, step, scratch",77
+2026-07-13,"T1: course, step, complete, completed",51
+2026-07-13,"T2: clear, wish, understandable, clear understandable",33
+2026-07-20,"T0: business, time, real, build",941
+2026-07-20,"T6: understand, easy, easy understand, simple",89
+2026-07-20,"T5: chat, gpt, chat gpt, voice",61
+2026-07-20,"T3: free, free praise, praise, paid",45
+2026-07-20,"T1: course, step, complete, completed",32
+2026-07-20,"T4: start, ready, step, scratch",32
 2026-07-20,"T2: clear, wish, understandable, clear understandable",22
-2026-07-27,"T0: business, time, build, real",1118
-2026-07-27,"T5: understand, easy, easy understand, simple",106
-2026-07-27,"T4: start, step, ready start, scratch",64
-2026-07-27,"T3: free, free praise, praise, paid",50
-2026-07-27,"T1: course, step, completed, engineer",45
-2026-07-27,"T2: clear, wish, understandable, clear understandable",26
+2026-07-27,"T0: business, time, real, build",1274
+2026-07-27,"T6: understand, easy, easy understand, simple",133
+2026-07-27,"T5: chat, gpt, chat gpt, voice",99
+2026-07-27,"T4: start, ready, step, scratch",66
+2026-07-27,"T1: course, step, complete, completed",59
+2026-07-27,"T3: free, free praise, praise, paid",54
+2026-07-27,"T2: clear, wish, understandable, clear understandable",31
+2026-08-03,"T0: business, time, real, build",735
+2026-08-03,"T6: understand, easy, easy understand, simple",54
+2026-08-03,"T5: chat, gpt, chat gpt, voice",40
+2026-08-03,"T3: free, free praise, praise, paid",38
+2026-08-03,"T1: course, step, complete, completed",33
+2026-08-03,"T4: start, ready, step, scratch",26
+2026-08-03,"T2: clear, wish, understandable, clear understandable",21

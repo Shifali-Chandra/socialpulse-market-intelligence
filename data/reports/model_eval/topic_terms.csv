@@ -1,31 +1,31 @@
 ﻿topic_id,rank,term
 0,1,business
 0,2,time
-0,3,build
-0,4,real
+0,3,real
+0,4,build
 0,5,help
-0,6,new
-0,7,right
+0,6,right
+0,7,new
 0,8,think
 0,9,agent
 0,10,today
 1,1,course
 1,2,step
-1,3,completed
-1,4,engineer
-1,5,complete
-1,6,sql
-1,7,hi
+1,3,complete
+1,4,completed
+1,5,sql
+1,6,hi
+1,7,engineer
 1,8,step step
-1,9,pls
-1,10,free course
+1,9,free course
+1,10,pls
 2,1,clear
 2,2,wish
 2,3,understandable
 2,4,clear understandable
 2,5,understandable wish
-2,6,clearly
-2,7,explaining
+2,6,explaining
+2,7,clearly
 2,8,clearly clear
 2,9,explaining clearly
 2,10,brief
@@ -40,22 +40,32 @@
 3,9,month
 3,10,free course
 4,1,start
-4,2,step
-4,3,ready start
+4,2,ready
+4,3,step
 4,4,scratch
-4,5,right
-4,6,start business
+4,5,start business
+4,6,company
 4,7,skills
-4,8,company
-4,9,pls
-4,10,ready
-5,1,understand
-5,2,easy
-5,3,easy understand
-5,4,simple
-5,5,didn
-5,6,ipweb
-5,7,easy follow
-5,8,follow
-5,9,makes
-5,10,making
+4,8,journey
+4,9,right
+4,10,pls
+5,1,chat
+5,2,gpt
+5,3,chat gpt
+5,4,voice
+5,5,claude
+5,6,does
+5,7,new
+5,8,used
+5,9,ask
+5,10,app
+6,1,understand
+6,2,easy
+6,3,easy understand
+6,4,simple
+6,5,didn
+6,6,follow
+6,7,easy follow
+6,8,making
+6,9,makes
+6,10,ipweb

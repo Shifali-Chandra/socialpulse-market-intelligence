@@ -1,7 +1,8 @@
 ﻿dominant_topic_label,posts,avg_engagement_pct,pct_high
-"T1: course, step, completed, engineer",870,0.516,0.276
-"T4: start, step, ready start, scratch",784,0.516,0.279
-"T3: free, free praise, praise, paid",1020,0.511,0.267
-"T0: business, time, build, real",20080,0.505,0.264
-"T5: understand, easy, easy understand, simple",1672,0.497,0.242
-"T2: clear, wish, understandable, clear understandable",664,0.473,0.193
+"T1: course, step, complete, completed",920,0.521,0.287
+"T4: start, ready, step, scratch",730,0.514,0.277
+"T3: free, free praise, praise, paid",1035,0.513,0.27
+"T0: business, time, real, build",20616,0.506,0.267
+"T6: understand, easy, easy understand, simple",1934,0.493,0.232
+"T5: chat, gpt, chat gpt, voice",964,0.472,0.197
+"T2: clear, wish, understandable, clear understandable",697,0.47,0.188
