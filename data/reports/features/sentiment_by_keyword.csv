@@ -1,73 +1,73 @@
 ﻿Platform,Keyword,sentiment_label,count,pct_within_group
-instagram,AI Agents,negative,41,13.5
-instagram,AI Agents,neutral,16,5.3
-instagram,AI Agents,positive,246,81.2
-instagram,AWS,negative,15,6.2
-instagram,AWS,neutral,13,5.3
-instagram,AWS,positive,215,88.5
-instagram,Automation,negative,28,9.3
-instagram,Automation,neutral,26,8.6
-instagram,Automation,positive,247,82.1
-instagram,ChatGPT,negative,17,9.8
-instagram,ChatGPT,neutral,43,24.9
-instagram,ChatGPT,positive,113,65.3
-instagram,Data Engineering,negative,21,6.9
-instagram,Data Engineering,neutral,7,2.3
-instagram,Data Engineering,positive,278,90.8
-instagram,Databricks,negative,17,8.3
-instagram,Databricks,neutral,14,6.8
-instagram,Databricks,positive,175,85.0
-instagram,Digital Marketing,negative,15,5.6
-instagram,Digital Marketing,neutral,17,6.3
-instagram,Digital Marketing,positive,236,88.1
-instagram,Digital Transformation,negative,5,2.0
-instagram,Digital Transformation,neutral,3,1.2
-instagram,Digital Transformation,positive,241,96.8
-instagram,Influencer Marketing,negative,10,4.3
-instagram,Influencer Marketing,neutral,25,10.7
-instagram,Influencer Marketing,positive,198,85.0
-instagram,SEO,negative,7,3.8
-instagram,SEO,neutral,12,6.6
-instagram,SEO,positive,164,89.6
-instagram,SaaS,negative,24,10.9
-instagram,SaaS,neutral,14,6.4
-instagram,SaaS,positive,182,82.7
-instagram,Startup,negative,8,4.3
-instagram,Startup,neutral,19,10.3
-instagram,Startup,positive,157,85.3
-youtube,AI Agents,negative,516,15.7
-youtube,AI Agents,neutral,670,20.4
-youtube,AI Agents,positive,2104,64.0
-youtube,AWS,negative,177,11.7
-youtube,AWS,neutral,304,20.1
-youtube,AWS,positive,1028,68.1
-youtube,Automation,negative,320,12.3
-youtube,Automation,neutral,631,24.2
-youtube,Automation,positive,1661,63.6
-youtube,ChatGPT,negative,973,23.8
-youtube,ChatGPT,neutral,882,21.6
-youtube,ChatGPT,positive,2230,54.6
-youtube,Data Engineering,negative,156,10.6
-youtube,Data Engineering,neutral,334,22.7
-youtube,Data Engineering,positive,983,66.7
-youtube,Databricks,negative,102,9.2
-youtube,Databricks,neutral,195,17.6
-youtube,Databricks,positive,812,73.2
-youtube,Digital Marketing,negative,139,9.0
-youtube,Digital Marketing,neutral,332,21.4
-youtube,Digital Marketing,positive,1077,69.6
+instagram,AI Agents,negative,61,14.4
+instagram,AI Agents,neutral,30,7.1
+instagram,AI Agents,positive,332,78.5
+instagram,AWS,negative,26,7.3
+instagram,AWS,neutral,19,5.3
+instagram,AWS,positive,311,87.4
+instagram,Automation,negative,38,9.2
+instagram,Automation,neutral,32,7.8
+instagram,Automation,positive,342,83.0
+instagram,ChatGPT,negative,22,8.9
+instagram,ChatGPT,neutral,70,28.5
+instagram,ChatGPT,positive,154,62.6
+instagram,Data Engineering,negative,24,6.0
+instagram,Data Engineering,neutral,14,3.5
+instagram,Data Engineering,positive,365,90.6
+instagram,Databricks,negative,26,9.1
+instagram,Databricks,neutral,15,5.2
+instagram,Databricks,positive,246,85.7
+instagram,Digital Marketing,negative,15,4.0
+instagram,Digital Marketing,neutral,24,6.4
+instagram,Digital Marketing,positive,337,89.6
+instagram,Digital Transformation,negative,6,1.7
+instagram,Digital Transformation,neutral,7,2.0
+instagram,Digital Transformation,positive,338,96.3
+instagram,Influencer Marketing,negative,11,3.4
+instagram,Influencer Marketing,neutral,30,9.2
+instagram,Influencer Marketing,positive,285,87.4
+instagram,SEO,negative,12,4.6
+instagram,SEO,neutral,15,5.8
+instagram,SEO,positive,233,89.6
+instagram,SaaS,negative,31,10.1
+instagram,SaaS,neutral,17,5.5
+instagram,SaaS,positive,259,84.4
+instagram,Startup,negative,11,4.4
+instagram,Startup,neutral,25,10.0
+instagram,Startup,positive,215,85.7
+youtube,AI Agents,negative,629,16.5
+youtube,AI Agents,neutral,772,20.3
+youtube,AI Agents,positive,2410,63.2
+youtube,AWS,negative,178,11.6
+youtube,AWS,neutral,312,20.4
+youtube,AWS,positive,1042,68.0
+youtube,Automation,negative,346,12.2
+youtube,Automation,neutral,698,24.6
+youtube,Automation,positive,1796,63.2
+youtube,ChatGPT,negative,1047,23.6
+youtube,ChatGPT,neutral,963,21.7
+youtube,ChatGPT,positive,2422,54.6
+youtube,Data Engineering,negative,161,10.7
+youtube,Data Engineering,neutral,336,22.4
+youtube,Data Engineering,positive,1005,66.9
+youtube,Databricks,negative,103,9.1
+youtube,Databricks,neutral,198,17.5
+youtube,Databricks,positive,828,73.3
+youtube,Digital Marketing,negative,141,8.8
+youtube,Digital Marketing,neutral,342,21.4
+youtube,Digital Marketing,positive,1117,69.8
 youtube,Digital Transformation,negative,45,10.7
 youtube,Digital Transformation,neutral,61,14.5
 youtube,Digital Transformation,positive,314,74.8
-youtube,Influencer Marketing,negative,148,14.1
-youtube,Influencer Marketing,neutral,234,22.2
-youtube,Influencer Marketing,positive,670,63.7
-youtube,SEO,negative,134,9.0
-youtube,SEO,neutral,207,13.9
-youtube,SEO,positive,1152,77.2
-youtube,SaaS,negative,313,19.4
-youtube,SaaS,neutral,351,21.8
-youtube,SaaS,positive,948,58.8
-youtube,Startup,negative,430,17.2
-youtube,Startup,neutral,600,24.0
-youtube,Startup,positive,1471,58.8
+youtube,Influencer Marketing,negative,181,15.7
+youtube,Influencer Marketing,neutral,249,21.6
+youtube,Influencer Marketing,positive,721,62.6
+youtube,SEO,negative,153,9.3
+youtube,SEO,neutral,227,13.7
+youtube,SEO,positive,1273,77.0
+youtube,SaaS,negative,327,19.3
+youtube,SaaS,neutral,365,21.6
+youtube,SaaS,positive,1000,59.1
+youtube,Startup,negative,457,17.1
+youtube,Startup,neutral,645,24.1
+youtube,Startup,positive,1574,58.8
