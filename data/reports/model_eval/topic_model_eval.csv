@@ -1,3 +1,3 @@
 ﻿model,family,k,umass_coherence,perplexity
-nmf,topic,12,-0.8329,
-lda,topic,12,-3.1854,9492.8
+nmf,topic,11,-0.6687,
+lda,topic,11,-3.2397,8756.8

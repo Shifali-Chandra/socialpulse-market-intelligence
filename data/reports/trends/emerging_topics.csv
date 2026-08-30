@@ -1,13 +1,12 @@
 ﻿dominant_topic_label,early_share,late_share,change_pct_points
-"T0: business, help, digitalmarketing, brand",0.12125778581474785,0.14232995051580977,2.11
-"T10: real, cloud, engineer, world",0.234277677315652,0.2475048226117588,1.32
-"T5: start, ready, company, scratch",0.024211372312638136,0.02910341357041013,0.49
-"T1: clear, explaining, clearly, clearly clear",0.012155917219208359,0.015180743101568398,0.3
-"T9: time, save, save time, real time",0.0433996383363472,0.04470351421622075,0.13
-"T11: wish, understandable, clear understandable, understandable wish",0.005726341169379144,0.006374234672481758,0.06
-"T3: free, free praise, praise, courses",0.02843078159533856,0.02725824037574436,-0.12
-"T6: chat, gpt, chat gpt, voice",0.029435402853124373,0.027006625849199026,-0.24
-"T2: course, step, completed, hi",0.023608599557966646,0.019793676088232827,-0.38
-"T8: easy, understand, easy understand, simple",0.037371910789632305,0.03237440241549946,-0.5
-"T7: rich, smart, broke, dumb",0.03938115330520394,0.03338086052168079,-0.6
-"T4: think, new, agent, does",0.4007434197307615,0.37498951606139397,-2.58
+"T0: new, agent, think, real",0.5877704159016525,0.6070776718718313,1.93
+"T10: easy, understand, easy understand, simple",0.034565338868045026,0.04167511660920706,0.71
+"T9: clear, explaining, clearly, clearly clear",0.012053963438971822,0.017643480024335835,0.56
+"T1: wish, understandable, clear understandable, understandable wish",0.0039115510497325775,0.007706347596836341,0.38
+"T6: start, ready, company, right",0.026662409196136345,0.030318393834921922,0.37
+"T4: chat, gpt, chat gpt, voice",0.027221202203241,0.030723991076860677,0.35
+"T7: smart, rich, broke, dumb",0.03536361459248024,0.03863313729466639,0.33
+"T2: course, step, beginners, hi",0.021313961842420372,0.023017643480024337,0.17
+"T3: free, free praise, praise, courses",0.026662409196136345,0.025755424863110932,-0.09
+"T8: time, save, save time, real time",0.0450227508581464,0.04157371729872237,-0.34
+"T5: business, help, digitalmarketing, brand",0.17945238285303744,0.13587507604948287,-4.36

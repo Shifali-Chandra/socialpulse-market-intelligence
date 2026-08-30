@@ -1,145 +1,133 @@
 ﻿Keyword,dominant_topic_label,count
-AI Agents,"T4: think, new, agent, does",2223
-AI Agents,"T10: real, cloud, engineer, world",914
-AI Agents,"T7: rich, smart, broke, dumb",270
-AI Agents,"T0: business, help, digitalmarketing, brand",262
-AI Agents,"T8: easy, understand, easy understand, simple",247
-AI Agents,"T9: time, save, save time, real time",224
-AI Agents,"T3: free, free praise, praise, courses",107
-AI Agents,"T1: clear, explaining, clearly, clearly clear",97
-AI Agents,"T5: start, ready, company, scratch",79
-AI Agents,"T2: course, step, completed, hi",72
-AI Agents,"T6: chat, gpt, chat gpt, voice",63
-AI Agents,"T11: wish, understandable, clear understandable, understandable wish",28
-AWS,"T10: real, cloud, engineer, world",1069
-AWS,"T4: think, new, agent, does",494
-AWS,"T2: course, step, completed, hi",109
-AWS,"T0: business, help, digitalmarketing, brand",95
-AWS,"T8: easy, understand, easy understand, simple",90
-AWS,"T3: free, free praise, praise, courses",66
-AWS,"T5: start, ready, company, scratch",61
-AWS,"T9: time, save, save time, real time",49
-AWS,"T1: clear, explaining, clearly, clearly clear",41
-AWS,"T7: rich, smart, broke, dumb",30
-AWS,"T11: wish, understandable, clear understandable, understandable wish",12
-AWS,"T6: chat, gpt, chat gpt, voice",10
-Automation,"T4: think, new, agent, does",1401
-Automation,"T10: real, cloud, engineer, world",809
-Automation,"T0: business, help, digitalmarketing, brand",388
-Automation,"T9: time, save, save time, real time",218
-Automation,"T8: easy, understand, easy understand, simple",180
-Automation,"T3: free, free praise, praise, courses",163
-Automation,"T2: course, step, completed, hi",137
-Automation,"T5: start, ready, company, scratch",113
-Automation,"T7: rich, smart, broke, dumb",109
-Automation,"T1: clear, explaining, clearly, clearly clear",42
-Automation,"T11: wish, understandable, clear understandable, understandable wish",31
-Automation,"T6: chat, gpt, chat gpt, voice",26
-ChatGPT,"T4: think, new, agent, does",2935
-ChatGPT,"T10: real, cloud, engineer, world",644
-ChatGPT,"T6: chat, gpt, chat gpt, voice",556
-ChatGPT,"T0: business, help, digitalmarketing, brand",312
-ChatGPT,"T9: time, save, save time, real time",241
-ChatGPT,"T7: rich, smart, broke, dumb",170
-ChatGPT,"T8: easy, understand, easy understand, simple",169
-ChatGPT,"T3: free, free praise, praise, courses",133
-ChatGPT,"T5: start, ready, company, scratch",120
-ChatGPT,"T2: course, step, completed, hi",69
-ChatGPT,"T1: clear, explaining, clearly, clearly clear",60
-ChatGPT,"T11: wish, understandable, clear understandable, understandable wish",26
-Data Engineering,"T10: real, cloud, engineer, world",1285
-Data Engineering,"T4: think, new, agent, does",337
-Data Engineering,"T2: course, step, completed, hi",143
-Data Engineering,"T9: time, save, save time, real time",86
-Data Engineering,"T8: easy, understand, easy understand, simple",73
-Data Engineering,"T5: start, ready, company, scratch",71
-Data Engineering,"T0: business, help, digitalmarketing, brand",69
-Data Engineering,"T3: free, free praise, praise, courses",43
-Data Engineering,"T7: rich, smart, broke, dumb",29
-Data Engineering,"T1: clear, explaining, clearly, clearly clear",23
-Data Engineering,"T11: wish, understandable, clear understandable, understandable wish",10
-Data Engineering,"T6: chat, gpt, chat gpt, voice",5
-Databricks,"T10: real, cloud, engineer, world",801
-Databricks,"T4: think, new, agent, does",368
-Databricks,"T2: course, step, completed, hi",85
-Databricks,"T8: easy, understand, easy understand, simple",83
-Databricks,"T0: business, help, digitalmarketing, brand",55
-Databricks,"T9: time, save, save time, real time",42
-Databricks,"T3: free, free praise, praise, courses",37
-Databricks,"T1: clear, explaining, clearly, clearly clear",30
-Databricks,"T5: start, ready, company, scratch",28
-Databricks,"T7: rich, smart, broke, dumb",14
-Databricks,"T11: wish, understandable, clear understandable, understandable wish",4
-Databricks,"T6: chat, gpt, chat gpt, voice",3
-Digital Marketing,"T0: business, help, digitalmarketing, brand",640
-Digital Marketing,"T4: think, new, agent, does",638
-Digital Marketing,"T10: real, cloud, engineer, world",414
-Digital Marketing,"T2: course, step, completed, hi",141
-Digital Marketing,"T8: easy, understand, easy understand, simple",123
-Digital Marketing,"T5: start, ready, company, scratch",108
-Digital Marketing,"T7: rich, smart, broke, dumb",97
-Digital Marketing,"T3: free, free praise, praise, courses",82
-Digital Marketing,"T9: time, save, save time, real time",62
-Digital Marketing,"T1: clear, explaining, clearly, clearly clear",43
-Digital Marketing,"T11: wish, understandable, clear understandable, understandable wish",15
-Digital Marketing,"T6: chat, gpt, chat gpt, voice",13
-Digital Transformation,"T10: real, cloud, engineer, world",288
-Digital Transformation,"T0: business, help, digitalmarketing, brand",212
-Digital Transformation,"T4: think, new, agent, does",146
-Digital Transformation,"T9: time, save, save time, real time",41
-Digital Transformation,"T8: easy, understand, easy understand, simple",35
-Digital Transformation,"T7: rich, smart, broke, dumb",21
-Digital Transformation,"T3: free, free praise, praise, courses",17
-Digital Transformation,"T5: start, ready, company, scratch",17
-Digital Transformation,"T1: clear, explaining, clearly, clearly clear",12
-Digital Transformation,"T2: course, step, completed, hi",6
-Digital Transformation,"T11: wish, understandable, clear understandable, understandable wish",3
-Digital Transformation,"T6: chat, gpt, chat gpt, voice",2
-Influencer Marketing,"T0: business, help, digitalmarketing, brand",586
-Influencer Marketing,"T4: think, new, agent, does",494
-Influencer Marketing,"T10: real, cloud, engineer, world",182
-Influencer Marketing,"T9: time, save, save time, real time",75
+AI Agents,"T0: new, agent, think, real",3183
+AI Agents,"T5: business, help, digitalmarketing, brand",361
+AI Agents,"T7: smart, rich, broke, dumb",292
+AI Agents,"T10: easy, understand, easy understand, simple",261
+AI Agents,"T8: time, save, save time, real time",220
+AI Agents,"T9: clear, explaining, clearly, clearly clear",109
+AI Agents,"T3: free, free praise, praise, courses",102
+AI Agents,"T6: start, ready, company, right",99
+AI Agents,"T2: course, step, beginners, hi",77
+AI Agents,"T4: chat, gpt, chat gpt, voice",66
+AI Agents,"T1: wish, understandable, clear understandable, understandable wish",21
+AWS,"T0: new, agent, think, real",1512
+AWS,"T5: business, help, digitalmarketing, brand",172
+AWS,"T2: course, step, beginners, hi",137
+AWS,"T10: easy, understand, easy understand, simple",102
+AWS,"T6: start, ready, company, right",80
+AWS,"T3: free, free praise, praise, courses",68
+AWS,"T8: time, save, save time, real time",62
+AWS,"T9: clear, explaining, clearly, clearly clear",51
+AWS,"T7: smart, rich, broke, dumb",32
+AWS,"T1: wish, understandable, clear understandable, understandable wish",11
+AWS,"T4: chat, gpt, chat gpt, voice",6
+Automation,"T0: new, agent, think, real",2177
+Automation,"T5: business, help, digitalmarketing, brand",485
+Automation,"T8: time, save, save time, real time",207
+Automation,"T10: easy, understand, easy understand, simple",192
+Automation,"T3: free, free praise, praise, courses",155
+Automation,"T2: course, step, beginners, hi",147
+Automation,"T6: start, ready, company, right",124
+Automation,"T7: smart, rich, broke, dumb",107
+Automation,"T9: clear, explaining, clearly, clearly clear",46
+Automation,"T1: wish, understandable, clear understandable, understandable wish",26
+Automation,"T4: chat, gpt, chat gpt, voice",20
+ChatGPT,"T0: new, agent, think, real",3856
+ChatGPT,"T4: chat, gpt, chat gpt, voice",596
+ChatGPT,"T5: business, help, digitalmarketing, brand",384
+ChatGPT,"T8: time, save, save time, real time",251
+ChatGPT,"T7: smart, rich, broke, dumb",192
+ChatGPT,"T10: easy, understand, easy understand, simple",191
+ChatGPT,"T3: free, free praise, praise, courses",141
+ChatGPT,"T6: start, ready, company, right",110
+ChatGPT,"T2: course, step, beginners, hi",84
+ChatGPT,"T9: clear, explaining, clearly, clearly clear",56
+ChatGPT,"T1: wish, understandable, clear understandable, understandable wish",20
+Data Engineering,"T0: new, agent, think, real",1612
+Data Engineering,"T2: course, step, beginners, hi",156
+Data Engineering,"T5: business, help, digitalmarketing, brand",139
+Data Engineering,"T8: time, save, save time, real time",100
+Data Engineering,"T6: start, ready, company, right",89
+Data Engineering,"T10: easy, understand, easy understand, simple",87
+Data Engineering,"T3: free, free praise, praise, courses",52
+Data Engineering,"T9: clear, explaining, clearly, clearly clear",29
+Data Engineering,"T7: smart, rich, broke, dumb",25
+Data Engineering,"T1: wish, understandable, clear understandable, understandable wish",10
+Data Engineering,"T4: chat, gpt, chat gpt, voice",4
+Databricks,"T0: new, agent, think, real",1166
+Databricks,"T5: business, help, digitalmarketing, brand",91
+Databricks,"T10: easy, understand, easy understand, simple",84
+Databricks,"T2: course, step, beginners, hi",78
+Databricks,"T8: time, save, save time, real time",55
+Databricks,"T3: free, free praise, praise, courses",42
+Databricks,"T9: clear, explaining, clearly, clearly clear",39
+Databricks,"T6: start, ready, company, right",33
+Databricks,"T7: smart, rich, broke, dumb",15
+Databricks,"T1: wish, understandable, clear understandable, understandable wish",4
+Databricks,"T4: chat, gpt, chat gpt, voice",4
+Digital Marketing,"T0: new, agent, think, real",1008
+Digital Marketing,"T5: business, help, digitalmarketing, brand",719
+Digital Marketing,"T2: course, step, beginners, hi",147
+Digital Marketing,"T10: easy, understand, easy understand, simple",129
+Digital Marketing,"T6: start, ready, company, right",117
+Digital Marketing,"T7: smart, rich, broke, dumb",105
+Digital Marketing,"T3: free, free praise, praise, courses",78
+Digital Marketing,"T8: time, save, save time, real time",56
+Digital Marketing,"T9: clear, explaining, clearly, clearly clear",45
+Digital Marketing,"T1: wish, understandable, clear understandable, understandable wish",13
+Digital Marketing,"T4: chat, gpt, chat gpt, voice",13
+Digital Transformation,"T5: business, help, digitalmarketing, brand",353
+Digital Transformation,"T0: new, agent, think, real",287
+Digital Transformation,"T8: time, save, save time, real time",44
+Digital Transformation,"T10: easy, understand, easy understand, simple",38
+Digital Transformation,"T6: start, ready, company, right",22
+Digital Transformation,"T7: smart, rich, broke, dumb",22
+Digital Transformation,"T3: free, free praise, praise, courses",14
+Digital Transformation,"T9: clear, explaining, clearly, clearly clear",12
+Digital Transformation,"T2: course, step, beginners, hi",7
+Digital Transformation,"T1: wish, understandable, clear understandable, understandable wish",3
+Digital Transformation,"T4: chat, gpt, chat gpt, voice",1
+Influencer Marketing,"T0: new, agent, think, real",669
+Influencer Marketing,"T5: business, help, digitalmarketing, brand",611
+Influencer Marketing,"T8: time, save, save time, real time",79
 Influencer Marketing,"T3: free, free praise, praise, courses",59
-Influencer Marketing,"T7: rich, smart, broke, dumb",46
-Influencer Marketing,"T5: start, ready, company, scratch",39
-Influencer Marketing,"T2: course, step, completed, hi",35
-Influencer Marketing,"T8: easy, understand, easy understand, simple",32
-Influencer Marketing,"T1: clear, explaining, clearly, clearly clear",31
-Influencer Marketing,"T11: wish, understandable, clear understandable, understandable wish",8
-Influencer Marketing,"T6: chat, gpt, chat gpt, voice",5
-SEO,"T4: think, new, agent, does",858
-SEO,"T0: business, help, digitalmarketing, brand",567
-SEO,"T10: real, cloud, engineer, world",262
-SEO,"T1: clear, explaining, clearly, clearly clear",152
-SEO,"T8: easy, understand, easy understand, simple",148
-SEO,"T7: rich, smart, broke, dumb",96
-SEO,"T3: free, free praise, praise, courses",95
-SEO,"T11: wish, understandable, clear understandable, understandable wish",84
-SEO,"T5: start, ready, company, scratch",55
-SEO,"T9: time, save, save time, real time",48
-SEO,"T2: course, step, completed, hi",44
-SEO,"T6: chat, gpt, chat gpt, voice",18
-SaaS,"T4: think, new, agent, does",953
-SaaS,"T10: real, cloud, engineer, world",492
-SaaS,"T0: business, help, digitalmarketing, brand",350
-SaaS,"T9: time, save, save time, real time",136
-SaaS,"T7: rich, smart, broke, dumb",119
-SaaS,"T5: start, ready, company, scratch",86
-SaaS,"T8: easy, understand, easy understand, simple",86
-SaaS,"T3: free, free praise, praise, courses",77
-SaaS,"T2: course, step, completed, hi",20
-SaaS,"T1: clear, explaining, clearly, clearly clear",15
-SaaS,"T6: chat, gpt, chat gpt, voice",12
-SaaS,"T11: wish, understandable, clear understandable, understandable wish",8
-Startup,"T4: think, new, agent, does",1526
-Startup,"T10: real, cloud, engineer, world",721
-Startup,"T0: business, help, digitalmarketing, brand",406
-Startup,"T5: start, ready, company, scratch",167
-Startup,"T9: time, save, save time, real time",138
-Startup,"T7: rich, smart, broke, dumb",125
-Startup,"T8: easy, understand, easy understand, simple",101
-Startup,"T3: free, free praise, praise, courses",51
-Startup,"T1: clear, explaining, clearly, clearly clear",47
-Startup,"T6: chat, gpt, chat gpt, voice",32
-Startup,"T11: wish, understandable, clear understandable, understandable wish",23
-Startup,"T2: course, step, completed, hi",23
+Influencer Marketing,"T7: smart, rich, broke, dumb",53
+Influencer Marketing,"T10: easy, understand, easy understand, simple",41
+Influencer Marketing,"T6: start, ready, company, right",39
+Influencer Marketing,"T2: course, step, beginners, hi",38
+Influencer Marketing,"T9: clear, explaining, clearly, clearly clear",31
+Influencer Marketing,"T4: chat, gpt, chat gpt, voice",6
+Influencer Marketing,"T1: wish, understandable, clear understandable, understandable wish",5
+SEO,"T0: new, agent, think, real",1162
+SEO,"T5: business, help, digitalmarketing, brand",613
+SEO,"T9: clear, explaining, clearly, clearly clear",163
+SEO,"T10: easy, understand, easy understand, simple",148
+SEO,"T7: smart, rich, broke, dumb",105
+SEO,"T3: free, free praise, praise, courses",103
+SEO,"T1: wish, understandable, clear understandable, understandable wish",99
+SEO,"T8: time, save, save time, real time",52
+SEO,"T2: course, step, beginners, hi",51
+SEO,"T6: start, ready, company, right",51
+SEO,"T4: chat, gpt, chat gpt, voice",25
+SaaS,"T0: new, agent, think, real",1446
+SaaS,"T5: business, help, digitalmarketing, brand",437
+SaaS,"T7: smart, rich, broke, dumb",128
+SaaS,"T8: time, save, save time, real time",127
+SaaS,"T10: easy, understand, easy understand, simple",98
+SaaS,"T6: start, ready, company, right",89
+SaaS,"T3: free, free praise, praise, courses",63
+SaaS,"T2: course, step, beginners, hi",20
+SaaS,"T9: clear, explaining, clearly, clearly clear",15
+SaaS,"T4: chat, gpt, chat gpt, voice",12
+SaaS,"T1: wish, understandable, clear understandable, understandable wish",6
+Startup,"T0: new, agent, think, real",2232
+Startup,"T5: business, help, digitalmarketing, brand",523
+Startup,"T6: start, ready, company, right",165
+Startup,"T10: easy, understand, easy understand, simple",151
+Startup,"T8: time, save, save time, real time",128
+Startup,"T7: smart, rich, broke, dumb",124
+Startup,"T3: free, free praise, praise, courses",45
+Startup,"T9: clear, explaining, clearly, clearly clear",40
+Startup,"T4: chat, gpt, chat gpt, voice",34
+Startup,"T2: course, step, beginners, hi",21
+Startup,"T1: wish, understandable, clear understandable, understandable wish",19
