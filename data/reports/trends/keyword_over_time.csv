@@ -1,26 +1,15 @@
 ﻿week,Keyword,posts
-2026-06-01,AI Agents,11
-2026-06-01,AWS,6
-2026-06-01,Automation,15
-2026-06-01,ChatGPT,7
-2026-06-01,Data Engineering,5
-2026-06-01,Databricks,5
-2026-06-01,Digital Marketing,12
-2026-06-01,SEO,8
-2026-06-01,SaaS,10
-2026-06-01,Startup,6
-2026-06-08,AI Agents,156
-2026-06-08,AWS,54
-2026-06-08,Automation,131
-2026-06-08,ChatGPT,66
-2026-06-08,Data Engineering,43
-2026-06-08,Databricks,38
-2026-06-08,Digital Marketing,81
-2026-06-08,Digital Transformation,2
-2026-06-08,Influencer Marketing,7
-2026-06-08,SEO,51
-2026-06-08,SaaS,65
-2026-06-08,Startup,97
+2026-06-08,AI Agents,29
+2026-06-08,AWS,6
+2026-06-08,Automation,18
+2026-06-08,ChatGPT,9
+2026-06-08,Data Engineering,8
+2026-06-08,Databricks,3
+2026-06-08,Digital Marketing,8
+2026-06-08,Influencer Marketing,1
+2026-06-08,SEO,4
+2026-06-08,SaaS,18
+2026-06-08,Startup,9
 2026-06-15,AI Agents,224
 2026-06-15,AWS,78
 2026-06-15,Automation,185
@@ -33,15 +22,15 @@
 2026-06-15,SEO,107
 2026-06-15,SaaS,78
 2026-06-15,Startup,157
-2026-06-22,AI Agents,360
+2026-06-22,AI Agents,361
 2026-06-22,AWS,214
 2026-06-22,Automation,475
 2026-06-22,ChatGPT,1094
 2026-06-22,Data Engineering,179
-2026-06-22,Databricks,141
+2026-06-22,Databricks,144
 2026-06-22,Digital Marketing,196
 2026-06-22,Digital Transformation,167
-2026-06-22,Influencer Marketing,197
+2026-06-22,Influencer Marketing,198
 2026-06-22,SEO,236
 2026-06-22,SaaS,260
 2026-06-22,Startup,387
@@ -50,18 +39,18 @@
 2026-06-29,Automation,347
 2026-06-29,ChatGPT,646
 2026-06-29,Data Engineering,27
-2026-06-29,Databricks,22
-2026-06-29,Digital Marketing,101
+2026-06-29,Databricks,25
+2026-06-29,Digital Marketing,102
 2026-06-29,Influencer Marketing,137
 2026-06-29,SEO,99
-2026-06-29,SaaS,109
+2026-06-29,SaaS,111
 2026-06-29,Startup,133
-2026-07-06,AI Agents,376
+2026-07-06,AI Agents,377
 2026-07-06,AWS,163
 2026-07-06,Automation,249
 2026-07-06,ChatGPT,925
 2026-07-06,Data Engineering,130
-2026-07-06,Databricks,67
+2026-07-06,Databricks,69
 2026-07-06,Digital Marketing,89
 2026-07-06,Digital Transformation,26
 2026-07-06,Influencer Marketing,109
@@ -73,81 +62,92 @@
 2026-07-13,Automation,264
 2026-07-13,ChatGPT,640
 2026-07-13,Data Engineering,194
-2026-07-13,Databricks,190
+2026-07-13,Databricks,195
 2026-07-13,Digital Marketing,178
 2026-07-13,Digital Transformation,125
 2026-07-13,Influencer Marketing,125
 2026-07-13,SEO,157
 2026-07-13,SaaS,263
 2026-07-13,Startup,337
-2026-07-20,AI Agents,574
-2026-07-20,AWS,49
-2026-07-20,Automation,218
+2026-07-20,AI Agents,575
+2026-07-20,AWS,51
+2026-07-20,Automation,221
 2026-07-20,ChatGPT,229
 2026-07-20,Data Engineering,78
-2026-07-20,Databricks,47
+2026-07-20,Databricks,55
 2026-07-20,Digital Marketing,45
 2026-07-20,Digital Transformation,1
-2026-07-20,Influencer Marketing,6
+2026-07-20,Influencer Marketing,7
 2026-07-20,SEO,73
 2026-07-20,SaaS,39
 2026-07-20,Startup,245
-2026-07-27,AI Agents,585
+2026-07-27,AI Agents,596
 2026-07-27,AWS,84
-2026-07-27,Automation,155
+2026-07-27,Automation,156
 2026-07-27,ChatGPT,449
 2026-07-27,Data Engineering,123
-2026-07-27,Databricks,138
+2026-07-27,Databricks,147
 2026-07-27,Digital Marketing,152
 2026-07-27,Digital Transformation,1
 2026-07-27,Influencer Marketing,2
 2026-07-27,SEO,108
-2026-07-27,SaaS,153
+2026-07-27,SaaS,154
 2026-07-27,Startup,336
-2026-08-03,AI Agents,441
-2026-08-03,AWS,93
-2026-08-03,Automation,139
+2026-08-03,AI Agents,459
+2026-08-03,AWS,94
+2026-08-03,Automation,141
 2026-08-03,ChatGPT,476
 2026-08-03,Data Engineering,89
-2026-08-03,Databricks,28
+2026-08-03,Databricks,34
 2026-08-03,Digital Marketing,108
 2026-08-03,Influencer Marketing,5
-2026-08-03,SEO,137
+2026-08-03,SEO,138
 2026-08-03,SaaS,104
-2026-08-03,Startup,59
-2026-08-10,AI Agents,537
+2026-08-03,Startup,60
+2026-08-10,AI Agents,555
 2026-08-10,AWS,142
-2026-08-10,Automation,219
+2026-08-10,Automation,222
 2026-08-10,ChatGPT,552
 2026-08-10,Data Engineering,155
-2026-08-10,Databricks,160
+2026-08-10,Databricks,167
 2026-08-10,Digital Marketing,183
 2026-08-10,Digital Transformation,112
 2026-08-10,Influencer Marketing,209
 2026-08-10,SEO,276
-2026-08-10,SaaS,226
+2026-08-10,SaaS,231
 2026-08-10,Startup,222
-2026-08-17,AI Agents,221
+2026-08-17,AI Agents,250
 2026-08-17,AWS,52
-2026-08-17,Automation,139
+2026-08-17,Automation,141
 2026-08-17,ChatGPT,408
 2026-08-17,Data Engineering,72
-2026-08-17,Databricks,55
+2026-08-17,Databricks,61
 2026-08-17,Digital Marketing,103
 2026-08-17,Digital Transformation,23
 2026-08-17,Influencer Marketing,67
 2026-08-17,SEO,330
-2026-08-17,SaaS,60
+2026-08-17,SaaS,63
 2026-08-17,Startup,137
-2026-08-24,AI Agents,186
-2026-08-24,AWS,52
-2026-08-24,Automation,43
-2026-08-24,ChatGPT,335
-2026-08-24,Data Engineering,28
-2026-08-24,Databricks,23
-2026-08-24,Digital Marketing,36
+2026-08-24,AI Agents,232
+2026-08-24,AWS,59
+2026-08-24,Automation,52
+2026-08-24,ChatGPT,445
+2026-08-24,Data Engineering,30
+2026-08-24,Databricks,34
+2026-08-24,Digital Marketing,39
 2026-08-24,Digital Transformation,2
 2026-08-24,Influencer Marketing,12
-2026-08-24,SEO,113
-2026-08-24,SaaS,24
-2026-08-24,Startup,120
+2026-08-24,SEO,159
+2026-08-24,SaaS,26
+2026-08-24,Startup,124
+2026-08-31,AI Agents,241
+2026-08-31,AWS,15
+2026-08-31,Automation,69
+2026-08-31,ChatGPT,389
+2026-08-31,Data Engineering,20
+2026-08-31,Databricks,13
+2026-08-31,Digital Marketing,19
+2026-08-31,Influencer Marketing,64
+2026-08-31,SEO,104
+2026-08-31,SaaS,18
+2026-08-31,Startup,67

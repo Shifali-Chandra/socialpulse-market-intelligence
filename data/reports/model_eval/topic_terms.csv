@@ -1,14 +1,14 @@
 ﻿topic_id,rank,term
-0,1,new
-0,2,agent
+0,1,agent
+0,2,new
 0,3,think
 0,4,real
 0,5,does
 0,6,claude
-0,7,cloud
-0,8,build
+0,7,code
+0,8,better
 0,9,world
-0,10,code
+0,10,day
 1,1,wish
 1,2,understandable
 1,3,clear understandable
@@ -26,8 +26,8 @@
 2,5,completed
 2,6,sql
 2,7,complete
-2,8,free course
-2,9,pls
+2,8,pls
+2,9,free course
 2,10,complete course
 3,1,free
 3,2,free praise
@@ -35,25 +35,25 @@
 3,4,courses
 3,5,paid
 3,6,month
-3,7,pay
-3,8,guide
-3,9,edition
-3,10,version
+3,7,guide
+3,8,pay
+3,9,version
+3,10,edition
 4,1,chat
 4,2,gpt
 4,3,chat gpt
 4,4,voice
 4,5,claude
-4,6,gpt mastery
-4,7,beevaults
-4,8,beevaults chat
+4,6,beevaults chat
+4,7,gpt mastery
+4,8,beevaults
 4,9,mastery
 4,10,app
 5,1,business
 5,2,help
-5,3,digitalmarketing
-5,4,brand
-5,5,build
+5,3,build
+5,4,digitalmarketing
+5,5,brand
 5,6,right
 5,7,growth
 5,8,grow
@@ -64,8 +64,8 @@
 6,3,company
 6,4,right
 6,5,scratch
-6,6,start business
-6,7,stop
+6,6,stop
+6,7,start business
 6,8,journey
 6,9,skills
 6,10,beginner
@@ -79,33 +79,33 @@
 7,8,veyl
 7,9,zor veyl
 7,10,dumb rich
-8,1,time
-8,2,save
-8,3,save time
-8,4,real time
-8,5,waste
-8,6,long
-8,7,right
-8,8,real
-8,9,waste time
-8,10,long time
+8,1,easy
+8,2,understand
+8,3,easy understand
+8,4,simple
+8,5,follow
+8,6,easy follow
+8,7,didn
+8,8,clear easy
+8,9,making
+8,10,helped
 9,1,clear
 9,2,explaining
 9,3,clearly
 9,4,clearly clear
 9,5,explaining clearly
 9,6,water
-9,7,clear brief
-9,8,clear water
-9,9,brief clear
+9,7,clear water
+9,8,brief clear
+9,9,clear brief
 9,10,brief
-10,1,easy
-10,2,understand
-10,3,easy understand
-10,4,simple
-10,5,easy follow
-10,6,follow
-10,7,didn
-10,8,making
-10,9,clear easy
-10,10,helped
+10,1,time
+10,2,save
+10,3,save time
+10,4,real time
+10,5,long
+10,6,waste
+10,7,long time
+10,8,real
+10,9,right
+10,10,waste time

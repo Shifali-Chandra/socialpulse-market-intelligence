@@ -1,12 +1,12 @@
 ﻿dominant_topic_label,early_share,late_share,change_pct_points
-"T0: new, agent, think, real",0.5877704159016525,0.6070776718718313,1.93
-"T10: easy, understand, easy understand, simple",0.034565338868045026,0.04167511660920706,0.71
-"T9: clear, explaining, clearly, clearly clear",0.012053963438971822,0.017643480024335835,0.56
-"T1: wish, understandable, clear understandable, understandable wish",0.0039115510497325775,0.007706347596836341,0.38
-"T6: start, ready, company, right",0.026662409196136345,0.030318393834921922,0.37
-"T4: chat, gpt, chat gpt, voice",0.027221202203241,0.030723991076860677,0.35
-"T7: smart, rich, broke, dumb",0.03536361459248024,0.03863313729466639,0.33
-"T2: course, step, beginners, hi",0.021313961842420372,0.023017643480024337,0.17
-"T3: free, free praise, praise, courses",0.026662409196136345,0.025755424863110932,-0.09
-"T8: time, save, save time, real time",0.0450227508581464,0.04157371729872237,-0.34
-"T5: business, help, digitalmarketing, brand",0.17945238285303744,0.13587507604948287,-4.36
+"T0: agent, new, think, real",0.5911811500871278,0.6048601184398611,1.37
+"T8: easy, understand, easy understand, simple",0.031517539207515724,0.03951398815601389,0.8
+"T1: wish, understandable, clear understandable, understandable wish",0.0037124024547314192,0.008576679599754953,0.49
+"T9: clear, explaining, clearly, clearly clear",0.013182816880066672,0.017868082499489485,0.47
+"T6: start, ready, company, right",0.027274793544965526,0.03175413518480703,0.45
+"T7: smart, rich, broke, dumb",0.034623835139025685,0.03839085154176026,0.38
+"T4: chat, gpt, chat gpt, voice",0.0269717402833548,0.02991627527057382,0.29
+"T2: course, step, beginners, hi",0.02060762178952951,0.02287114559934654,0.23
+"T3: free, free praise, praise, courses",0.02522918402909311,0.025015315499285276,-0.02
+"T10: time, save, save time, real time",0.04939768164254868,0.03941188482744538,-1.0
+"T5: business, help, build, digitalmarketing",0.17630123494204106,0.14182152338166223,-3.45
