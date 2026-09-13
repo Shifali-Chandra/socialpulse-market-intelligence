@@ -1,12 +1,16 @@
 ﻿dominant_topic_label,early_share,late_share,change_pct_points
-"T0: agent, new, think, real",0.5911811500871278,0.6048601184398611,1.37
-"T8: easy, understand, easy understand, simple",0.031517539207515724,0.03951398815601389,0.8
-"T1: wish, understandable, clear understandable, understandable wish",0.0037124024547314192,0.008576679599754953,0.49
-"T9: clear, explaining, clearly, clearly clear",0.013182816880066672,0.017868082499489485,0.47
-"T6: start, ready, company, right",0.027274793544965526,0.03175413518480703,0.45
-"T7: smart, rich, broke, dumb",0.034623835139025685,0.03839085154176026,0.38
-"T4: chat, gpt, chat gpt, voice",0.0269717402833548,0.02991627527057382,0.29
-"T2: course, step, beginners, hi",0.02060762178952951,0.02287114559934654,0.23
-"T3: free, free praise, praise, courses",0.02522918402909311,0.025015315499285276,-0.02
-"T10: time, save, save time, real time",0.04939768164254868,0.03941188482744538,-1.0
-"T5: business, help, build, digitalmarketing",0.17630123494204106,0.14182152338166223,-3.45
+"T10: easy, understand, easy understand, simple",0.0439206133123164,0.06383395339729783,1.99
+"T11: agent, does, claude, code",0.170881994698001,0.19052281182690425,1.96
+"T8: clear, clearly, clearly clear, explaining clearly",0.01024575481837071,0.016545917368317994,0.63
+"T1: wish, understandable, clear understandable, understandable wish",0.003797377659955578,0.007930291756412767,0.41
+"T14: explaining, crisp, crisp smart, necessary sufficient",0.0053019989969191085,0.009105149794399843,0.38
+"T4: chat, gpt, chat gpt, voice",0.025506914093286523,0.029077736440180146,0.36
+"T2: free, free praise, praise, paid",0.01905853693487139,0.020657920501272763,0.16
+"T5: broke, rich, dumb, broke dumb",0.03510783119581572,0.035147836303113376,0.0
+"T12: new, idea, subscriber, new subscriber",0.04657161281077595,0.044742510280007836,-0.18
+"T7: start, company, idea, ready",0.03030737264455112,0.02829449774818876,-0.2
+"T3: course, step, beginners, hi",0.024718779107258008,0.021636968866261992,-0.31
+"T6: business, help, digitalmarketing, right",0.12746292183133912,0.12267476013315058,-0.48
+"T9: time, save, save time, long",0.054882854481622126,0.04699432151948306,-0.79
+"T13: think, better, youtube, idea",0.10424876406104464,0.08899549637752105,-1.53
+"T0: real, cloud, world, engineer",0.29798667335387263,0.27383982768748777,-2.41
