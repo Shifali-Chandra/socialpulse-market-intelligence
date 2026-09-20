@@ -1,16 +1,12 @@
 ﻿dominant_topic_label,early_share,late_share,change_pct_points
-"T10: easy, understand, easy understand, simple",0.0439206133123164,0.06383395339729783,1.99
-"T11: agent, does, claude, code",0.170881994698001,0.19052281182690425,1.96
-"T8: clear, clearly, clearly clear, explaining clearly",0.01024575481837071,0.016545917368317994,0.63
-"T1: wish, understandable, clear understandable, understandable wish",0.003797377659955578,0.007930291756412767,0.41
-"T14: explaining, crisp, crisp smart, necessary sufficient",0.0053019989969191085,0.009105149794399843,0.38
-"T4: chat, gpt, chat gpt, voice",0.025506914093286523,0.029077736440180146,0.36
-"T2: free, free praise, praise, paid",0.01905853693487139,0.020657920501272763,0.16
-"T5: broke, rich, dumb, broke dumb",0.03510783119581572,0.035147836303113376,0.0
-"T12: new, idea, subscriber, new subscriber",0.04657161281077595,0.044742510280007836,-0.18
-"T7: start, company, idea, ready",0.03030737264455112,0.02829449774818876,-0.2
-"T3: course, step, beginners, hi",0.024718779107258008,0.021636968866261992,-0.31
-"T6: business, help, digitalmarketing, right",0.12746292183133912,0.12267476013315058,-0.48
-"T9: time, save, save time, long",0.054882854481622126,0.04699432151948306,-0.79
-"T13: think, better, youtube, idea",0.10424876406104464,0.08899549637752105,-1.53
-"T0: real, cloud, world, engineer",0.29798667335387263,0.27383982768748777,-2.41
+"T0: business, help, digitalmarketing, brand",0.10980199639993454,0.1535819430814524,4.38
+"T10: understand, easy, easy understand, simple",0.04819178530518737,0.0565096499836441,0.83
+"T1: clear, wish, understandable, clear understandable",0.012518409425625921,0.01717369970559372,0.47
+"T9: explaining, clearly, clearly clear, explaining clearly",0.0057273768613974796,0.009895322211318286,0.42
+"T5: chat, gpt, chat gpt, claude",0.03264604810996564,0.03516519463526333,0.25
+"T3: free, free praise, praise, paid",0.02683685157911962,0.025351651946352634,-0.15
+"T8: start, ready, stop, company",0.033382425135002454,0.02764147857376513,-0.57
+"T7: time, real time, save time, save",0.05424644084437899,0.046368989205103045,-0.79
+"T2: course, step, hi, pls",0.024545900834560628,0.015538109257441937,-0.9
+"T4: agent, new, real, think",0.6003109147439044,0.5854596009159306,-1.49
+"T6: rich, broke, dumb, broke dumb",0.05179185076092293,0.027314360484134773,-2.45

@@ -1,151 +1,111 @@
 ﻿topic_id,rank,term
-0,1,real
-0,2,cloud
-0,3,world
-0,4,engineer
-0,5,build
-0,6,career
-0,7,day
-0,8,azure
-0,9,sql
-0,10,future
-1,1,wish
-1,2,understandable
-1,3,clear understandable
-1,4,understandable wish
-1,5,clear
-1,6,knew
-1,7,sooner
-1,8,wish luck
-1,9,luck
-1,10,able
-2,1,free
-2,2,free praise
-2,3,praise
-2,4,paid
-2,5,courses
-2,6,month
-2,7,resources
-2,8,guide
-2,9,pay
-2,10,version
-3,1,course
-3,2,step
-3,3,beginners
-3,4,hi
-3,5,youtube
-3,6,completed
-3,7,complete
-3,8,pls
-3,9,free course
-3,10,complete course
-4,1,chat
-4,2,gpt
-4,3,chat gpt
-4,4,voice
-4,5,beevaults chat
-4,6,gpt mastery
-4,7,beevaults
-4,8,mastery
-4,9,app
-4,10,used
-5,1,broke
-5,2,rich
-5,3,dumb
-5,4,broke dumb
-5,5,smart broke
-5,6,zor
-5,7,veyl
-5,8,zor veyl
-5,9,dumb rich
-5,10,smart
-6,1,business
-6,2,help
-6,3,digitalmarketing
-6,4,right
-6,5,brand
-6,6,grow
-6,7,growth
-6,8,website
-6,9,businessgrowth
-6,10,media
-7,1,start
-7,2,company
-7,3,idea
-7,4,ready
-7,5,stop
-7,6,scratch
-7,7,right
-7,8,start business
-7,9,step
-7,10,journey
-8,1,clear
-8,2,clearly
-8,3,clearly clear
-8,4,explaining clearly
-8,5,explaining
-8,6,water
-8,7,clear water
-8,8,clear brief
-8,9,brief clear
-8,10,brief
-9,1,time
-9,2,save
-9,3,save time
-9,4,long
-9,5,real time
-9,6,waste
-9,7,long time
-9,8,right
-9,9,money
-9,10,waste time
-10,1,easy
-10,2,understand
+0,1,business
+0,2,help
+0,3,digitalmarketing
+0,4,brand
+0,5,right
+0,6,growth
+0,7,grow
+0,8,build
+0,9,businessgrowth
+0,10,website
+1,1,clear
+1,2,wish
+1,3,understandable
+1,4,clear understandable
+1,5,understandable wish
+1,6,water
+1,7,brief clear
+1,8,clear brief
+1,9,clear water
+1,10,brief
+2,1,course
+2,2,step
+2,3,hi
+2,4,pls
+2,5,beginners
+2,6,complete
+2,7,completed
+2,8,sql
+2,9,youtube
+2,10,complete course
+3,1,free
+3,2,free praise
+3,3,praise
+3,4,paid
+3,5,courses
+3,6,month
+3,7,resources
+3,8,guide
+3,9,version
+3,10,pay
+4,1,agent
+4,2,new
+4,3,real
+4,4,think
+4,5,does
+4,6,build
+4,7,world
+4,8,cloud
+4,9,claude
+4,10,day
+5,1,chat
+5,2,gpt
+5,3,chat gpt
+5,4,claude
+5,5,voice
+5,6,beevaults
+5,7,gpt mastery
+5,8,beevaults chat
+5,9,mastery
+5,10,app
+6,1,rich
+6,2,broke
+6,3,dumb
+6,4,broke dumb
+6,5,smart
+6,6,smart broke
+6,7,zor
+6,8,veyl
+6,9,zor veyl
+6,10,dumb rich
+7,1,time
+7,2,real time
+7,3,save time
+7,4,save
+7,5,long
+7,6,waste
+7,7,long time
+7,8,waste time
+7,9,right
+7,10,real
+8,1,start
+8,2,ready
+8,3,stop
+8,4,company
+8,5,right
+8,6,scratch
+8,7,step
+8,8,start business
+8,9,journey
+8,10,beginner
+9,1,explaining
+9,2,clearly
+9,3,clearly clear
+9,4,explaining clearly
+9,5,crisp
+9,6,smart explaining
+9,7,necessary sufficient
+9,8,crisp smart
+9,9,explaining necessary
+9,10,sufficient
+10,1,understand
+10,2,easy
 10,3,easy understand
 10,4,simple
-10,5,follow
-10,6,easy follow
+10,5,easy follow
+10,6,follow
 10,7,tutorial
-10,8,helped
-10,9,clear easy
-10,10,didn
-11,1,agent
-11,2,does
-11,3,claude
-11,4,code
-11,5,prompt
-11,6,app
-11,7,model
-11,8,claude code
-11,9,tool
-11,10,create
-12,1,new
-12,2,idea
-12,3,subscriber
-12,4,new subscriber
-12,5,today
-12,6,youtube
-12,7,old
-12,8,tips
-12,9,app
-12,10,model
-13,1,think
-13,2,better
-13,3,youtube
-13,4,idea
-13,5,used
-13,6,try
-13,7,didn
-13,8,point
-13,9,answer
-13,10,makes
-14,1,explaining
-14,2,crisp
-14,3,crisp smart
-14,4,necessary sufficient
-14,5,smart explaining
-14,6,explaining necessary
-14,7,sufficient
-14,8,necessary
-14,9,smart
-14,10,explaining clearly
+10,8,didn
+10,9,helped
+10,10,clear easy

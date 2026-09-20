@@ -1,195 +1,144 @@
 ﻿week,dominant_topic_label,posts
-2026-06-15,"T0: real, cloud, world, engineer",54
-2026-06-15,"T13: think, better, youtube, idea",35
-2026-06-15,"T11: agent, does, claude, code",31
-2026-06-15,"T4: chat, gpt, chat gpt, voice",12
-2026-06-15,"T9: time, save, save time, long",12
-2026-06-15,"T6: business, help, digitalmarketing, right",11
-2026-06-15,"T10: easy, understand, easy understand, simple",8
-2026-06-15,"T12: new, idea, subscriber, new subscriber",8
-2026-06-15,"T5: broke, rich, dumb, broke dumb",6
-2026-06-15,"T2: free, free praise, praise, paid",4
-2026-06-15,"T3: course, step, beginners, hi",4
-2026-06-15,"T7: start, company, idea, ready",3
-2026-06-15,"T8: clear, clearly, clearly clear, explaining clearly",2
-2026-06-15,"T1: wish, understandable, clear understandable, understandable wish",1
-2026-06-22,"T0: real, cloud, world, engineer",1087
-2026-06-22,"T6: business, help, digitalmarketing, right",661
-2026-06-22,"T11: agent, does, claude, code",505
-2026-06-22,"T13: think, better, youtube, idea",328
-2026-06-22,"T9: time, save, save time, long",189
-2026-06-22,"T12: new, idea, subscriber, new subscriber",147
-2026-06-22,"T10: easy, understand, easy understand, simple",125
-2026-06-22,"T7: start, company, idea, ready",102
-2026-06-22,"T4: chat, gpt, chat gpt, voice",90
-2026-06-22,"T5: broke, rich, dumb, broke dumb",82
-2026-06-22,"T3: course, step, beginners, hi",62
-2026-06-22,"T2: free, free praise, praise, paid",53
-2026-06-22,"T8: clear, clearly, clearly clear, explaining clearly",28
-2026-06-22,"T14: explaining, crisp, crisp smart, necessary sufficient",20
-2026-06-22,"T1: wish, understandable, clear understandable, understandable wish",5
-2026-06-29,"T0: real, cloud, world, engineer",498
-2026-06-29,"T11: agent, does, claude, code",337
-2026-06-29,"T13: think, better, youtube, idea",283
-2026-06-29,"T6: business, help, digitalmarketing, right",143
-2026-06-29,"T5: broke, rich, dumb, broke dumb",119
-2026-06-29,"T9: time, save, save time, long",110
-2026-06-29,"T10: easy, understand, easy understand, simple",94
-2026-06-29,"T12: new, idea, subscriber, new subscriber",83
-2026-06-29,"T7: start, company, idea, ready",51
-2026-06-29,"T3: course, step, beginners, hi",43
-2026-06-29,"T2: free, free praise, praise, paid",41
-2026-06-29,"T4: chat, gpt, chat gpt, voice",38
-2026-06-29,"T8: clear, clearly, clearly clear, explaining clearly",27
-2026-06-29,"T1: wish, understandable, clear understandable, understandable wish",20
-2026-06-29,"T14: explaining, crisp, crisp smart, necessary sufficient",18
-2026-07-06,"T0: real, cloud, world, engineer",718
-2026-07-06,"T11: agent, does, claude, code",413
-2026-07-06,"T13: think, better, youtube, idea",242
-2026-07-06,"T6: business, help, digitalmarketing, right",238
-2026-07-06,"T12: new, idea, subscriber, new subscriber",138
-2026-07-06,"T10: easy, understand, easy understand, simple",119
-2026-07-06,"T9: time, save, save time, long",118
-2026-07-06,"T4: chat, gpt, chat gpt, voice",95
-2026-07-06,"T5: broke, rich, dumb, broke dumb",84
-2026-07-06,"T3: course, step, beginners, hi",83
-2026-07-06,"T7: start, company, idea, ready",74
-2026-07-06,"T2: free, free praise, praise, paid",55
-2026-07-06,"T8: clear, clearly, clearly clear, explaining clearly",23
-2026-07-06,"T14: explaining, crisp, crisp smart, necessary sufficient",15
-2026-07-06,"T1: wish, understandable, clear understandable, understandable wish",8
-2026-07-13,"T0: real, cloud, world, engineer",975
-2026-07-13,"T6: business, help, digitalmarketing, right",564
-2026-07-13,"T11: agent, does, claude, code",458
-2026-07-13,"T13: think, better, youtube, idea",214
-2026-07-13,"T9: time, save, save time, long",174
-2026-07-13,"T12: new, idea, subscriber, new subscriber",124
-2026-07-13,"T10: easy, understand, easy understand, simple",93
-2026-07-13,"T7: start, company, idea, ready",91
-2026-07-13,"T2: free, free praise, praise, paid",58
-2026-07-13,"T5: broke, rich, dumb, broke dumb",54
-2026-07-13,"T3: course, step, beginners, hi",51
-2026-07-13,"T4: chat, gpt, chat gpt, voice",43
-2026-07-13,"T8: clear, clearly, clearly clear, explaining clearly",27
-2026-07-13,"T1: wish, understandable, clear understandable, understandable wish",9
-2026-07-13,"T14: explaining, crisp, crisp smart, necessary sufficient",7
-2026-07-20,"T0: real, cloud, world, engineer",352
-2026-07-20,"T11: agent, does, claude, code",319
-2026-07-20,"T13: think, better, youtube, idea",152
-2026-07-20,"T10: easy, understand, easy understand, simple",89
-2026-07-20,"T9: time, save, save time, long",88
-2026-07-20,"T6: business, help, digitalmarketing, right",71
-2026-07-20,"T12: new, idea, subscriber, new subscriber",68
-2026-07-20,"T5: broke, rich, dumb, broke dumb",48
-2026-07-20,"T7: start, company, idea, ready",44
-2026-07-20,"T3: course, step, beginners, hi",41
-2026-07-20,"T4: chat, gpt, chat gpt, voice",36
-2026-07-20,"T2: free, free praise, praise, paid",28
-2026-07-20,"T8: clear, clearly, clearly clear, explaining clearly",22
-2026-07-20,"T14: explaining, crisp, crisp smart, necessary sufficient",6
-2026-07-20,"T1: wish, understandable, clear understandable, understandable wish",1
-2026-07-27,"T0: real, cloud, world, engineer",560
-2026-07-27,"T11: agent, does, claude, code",379
-2026-07-27,"T13: think, better, youtube, idea",235
-2026-07-27,"T5: broke, rich, dumb, broke dumb",127
-2026-07-27,"T6: business, help, digitalmarketing, right",107
-2026-07-27,"T10: easy, understand, easy understand, simple",94
-2026-07-27,"T9: time, save, save time, long",94
-2026-07-27,"T12: new, idea, subscriber, new subscriber",91
-2026-07-27,"T7: start, company, idea, ready",77
-2026-07-27,"T3: course, step, beginners, hi",67
-2026-07-27,"T4: chat, gpt, chat gpt, voice",56
-2026-07-27,"T2: free, free praise, praise, paid",33
-2026-07-27,"T8: clear, clearly, clearly clear, explaining clearly",19
-2026-07-27,"T1: wish, understandable, clear understandable, understandable wish",10
-2026-07-27,"T14: explaining, crisp, crisp smart, necessary sufficient",9
-2026-08-03,"T0: real, cloud, world, engineer",373
-2026-08-03,"T11: agent, does, claude, code",278
-2026-08-03,"T13: think, better, youtube, idea",142
-2026-08-03,"T6: business, help, digitalmarketing, right",97
-2026-08-03,"T5: broke, rich, dumb, broke dumb",77
-2026-08-03,"T9: time, save, save time, long",77
-2026-08-03,"T10: easy, understand, easy understand, simple",64
-2026-08-03,"T12: new, idea, subscriber, new subscriber",60
-2026-08-03,"T3: course, step, beginners, hi",54
-2026-08-03,"T7: start, company, idea, ready",45
-2026-08-03,"T4: chat, gpt, chat gpt, voice",41
-2026-08-03,"T2: free, free praise, praise, paid",30
-2026-08-03,"T8: clear, clearly, clearly clear, explaining clearly",22
-2026-08-03,"T14: explaining, crisp, crisp smart, necessary sufficient",12
-2026-08-03,"T1: wish, understandable, clear understandable, understandable wish",7
-2026-08-10,"T0: real, cloud, world, engineer",866
-2026-08-10,"T6: business, help, digitalmarketing, right",540
-2026-08-10,"T11: agent, does, claude, code",453
-2026-08-10,"T13: think, better, youtube, idea",164
-2026-08-10,"T10: easy, understand, easy understand, simple",136
-2026-08-10,"T12: new, idea, subscriber, new subscriber",120
-2026-08-10,"T9: time, save, save time, long",104
-2026-08-10,"T7: start, company, idea, ready",77
-2026-08-10,"T5: broke, rich, dumb, broke dumb",62
-2026-08-10,"T8: clear, clearly, clearly clear, explaining clearly",60
-2026-08-10,"T2: free, free praise, praise, paid",52
-2026-08-10,"T3: course, step, beginners, hi",50
-2026-08-10,"T4: chat, gpt, chat gpt, voice",46
-2026-08-10,"T14: explaining, crisp, crisp smart, necessary sufficient",20
-2026-08-10,"T1: wish, understandable, clear understandable, understandable wish",18
-2026-08-17,"T0: real, cloud, world, engineer",385
-2026-08-17,"T11: agent, does, claude, code",319
-2026-08-17,"T6: business, help, digitalmarketing, right",187
-2026-08-17,"T13: think, better, youtube, idea",141
-2026-08-17,"T10: easy, understand, easy understand, simple",106
-2026-08-17,"T12: new, idea, subscriber, new subscriber",71
-2026-08-17,"T9: time, save, save time, long",66
-2026-08-17,"T5: broke, rich, dumb, broke dumb",65
-2026-08-17,"T7: start, company, idea, ready",47
-2026-08-17,"T3: course, step, beginners, hi",42
-2026-08-17,"T2: free, free praise, praise, paid",33
-2026-08-17,"T4: chat, gpt, chat gpt, voice",31
-2026-08-17,"T8: clear, clearly, clearly clear, explaining clearly",24
-2026-08-17,"T1: wish, understandable, clear understandable, understandable wish",21
-2026-08-17,"T14: explaining, crisp, crisp smart, necessary sufficient",6
-2026-08-24,"T0: real, cloud, world, engineer",282
-2026-08-24,"T11: agent, does, claude, code",215
-2026-08-24,"T10: easy, understand, easy understand, simple",122
-2026-08-24,"T13: think, better, youtube, idea",121
-2026-08-24,"T6: business, help, digitalmarketing, right",83
-2026-08-24,"T4: chat, gpt, chat gpt, voice",65
-2026-08-24,"T9: time, save, save time, long",54
-2026-08-24,"T12: new, idea, subscriber, new subscriber",51
-2026-08-24,"T5: broke, rich, dumb, broke dumb",38
-2026-08-24,"T7: start, company, idea, ready",26
-2026-08-24,"T2: free, free praise, praise, paid",25
-2026-08-24,"T3: course, step, beginners, hi",22
-2026-08-24,"T14: explaining, crisp, crisp smart, necessary sufficient",19
-2026-08-24,"T1: wish, understandable, clear understandable, understandable wish",17
-2026-08-24,"T8: clear, clearly, clearly clear, explaining clearly",14
-2026-08-31,"T11: agent, does, claude, code",278
-2026-08-31,"T0: real, cloud, world, engineer",266
-2026-08-31,"T13: think, better, youtube, idea",156
-2026-08-31,"T10: easy, understand, easy understand, simple",99
-2026-08-31,"T6: business, help, digitalmarketing, right",74
-2026-08-31,"T9: time, save, save time, long",65
-2026-08-31,"T12: new, idea, subscriber, new subscriber",49
-2026-08-31,"T7: start, company, idea, ready",33
-2026-08-31,"T4: chat, gpt, chat gpt, voice",29
-2026-08-31,"T2: free, free praise, praise, paid",28
-2026-08-31,"T5: broke, rich, dumb, broke dumb",26
-2026-08-31,"T8: clear, clearly, clearly clear, explaining clearly",22
-2026-08-31,"T3: course, step, beginners, hi",19
-2026-08-31,"T14: explaining, crisp, crisp smart, necessary sufficient",17
-2026-08-31,"T1: wish, understandable, clear understandable, understandable wish",6
-2026-09-07,"T0: real, cloud, world, engineer",540
-2026-09-07,"T11: agent, does, claude, code",346
-2026-09-07,"T6: business, help, digitalmarketing, right",256
-2026-09-07,"T13: think, better, youtube, idea",151
-2026-09-07,"T10: easy, understand, easy understand, simple",116
-2026-09-07,"T12: new, idea, subscriber, new subscriber",97
-2026-09-07,"T9: time, save, save time, long",95
-2026-09-07,"T4: chat, gpt, chat gpt, voice",71
-2026-09-07,"T5: broke, rich, dumb, broke dumb",61
-2026-09-07,"T7: start, company, idea, ready",42
-2026-09-07,"T2: free, free praise, praise, paid",37
-2026-09-07,"T3: course, step, beginners, hi",28
-2026-09-07,"T8: clear, clearly, clearly clear, explaining clearly",22
-2026-09-07,"T14: explaining, crisp, crisp smart, necessary sufficient",18
-2026-09-07,"T1: wish, understandable, clear understandable, understandable wish",11
+2026-06-22,"T4: agent, new, real, think",205
+2026-06-22,"T6: rich, broke, dumb, broke dumb",20
+2026-06-22,"T0: business, help, digitalmarketing, brand",16
+2026-06-22,"T5: chat, gpt, chat gpt, claude",16
+2026-06-22,"T10: understand, easy, easy understand, simple",14
+2026-06-22,"T7: time, real time, save time, save",12
+2026-06-22,"T8: start, ready, stop, company",9
+2026-06-22,"T3: free, free praise, praise, paid",8
+2026-06-22,"T2: course, step, hi, pls",6
+2026-06-22,"T1: clear, wish, understandable, clear understandable",3
+2026-06-22,"T9: explaining, clearly, clearly clear, explaining clearly",1
+2026-06-29,"T4: agent, new, real, think",1165
+2026-06-29,"T0: business, help, digitalmarketing, brand",147
+2026-06-29,"T6: rich, broke, dumb, broke dumb",140
+2026-06-29,"T7: time, real time, save time, save",104
+2026-06-29,"T10: understand, easy, easy understand, simple",103
+2026-06-29,"T3: free, free praise, praise, paid",56
+2026-06-29,"T5: chat, gpt, chat gpt, claude",51
+2026-06-29,"T8: start, ready, stop, company",51
+2026-06-29,"T2: course, step, hi, pls",42
+2026-06-29,"T1: clear, wish, understandable, clear understandable",41
+2026-06-29,"T9: explaining, clearly, clearly clear, explaining clearly",17
+2026-07-06,"T4: agent, new, real, think",1488
+2026-07-06,"T0: business, help, digitalmarketing, brand",243
+2026-07-06,"T6: rich, broke, dumb, broke dumb",122
+2026-07-06,"T10: understand, easy, easy understand, simple",120
+2026-07-06,"T5: chat, gpt, chat gpt, claude",116
+2026-07-06,"T7: time, real time, save time, save",110
+2026-07-06,"T8: start, ready, stop, company",75
+2026-07-06,"T2: course, step, hi, pls",66
+2026-07-06,"T3: free, free praise, praise, paid",59
+2026-07-06,"T1: clear, wish, understandable, clear understandable",24
+2026-07-06,"T9: explaining, clearly, clearly clear, explaining clearly",8
+2026-07-13,"T4: agent, new, real, think",1601
+2026-07-13,"T0: business, help, digitalmarketing, brand",653
+2026-07-13,"T7: time, real time, save time, save",196
+2026-07-13,"T8: start, ready, stop, company",101
+2026-07-13,"T10: understand, easy, easy understand, simple",95
+2026-07-13,"T3: free, free praise, praise, paid",86
+2026-07-13,"T6: rich, broke, dumb, broke dumb",75
+2026-07-13,"T5: chat, gpt, chat gpt, claude",60
+2026-07-13,"T2: course, step, hi, pls",46
+2026-07-13,"T1: clear, wish, understandable, clear understandable",27
+2026-07-13,"T9: explaining, clearly, clearly clear, explaining clearly",9
+2026-07-20,"T4: agent, new, real, think",899
+2026-07-20,"T10: understand, easy, easy understand, simple",88
+2026-07-20,"T7: time, real time, save time, save",88
+2026-07-20,"T0: business, help, digitalmarketing, brand",70
+2026-07-20,"T6: rich, broke, dumb, broke dumb",50
+2026-07-20,"T5: chat, gpt, chat gpt, claude",45
+2026-07-20,"T8: start, ready, stop, company",44
+2026-07-20,"T3: free, free praise, praise, paid",38
+2026-07-20,"T2: course, step, hi, pls",35
+2026-07-20,"T1: clear, wish, understandable, clear understandable",14
+2026-07-20,"T9: explaining, clearly, clearly clear, explaining clearly",14
+2026-07-27,"T4: agent, new, real, think",1213
+2026-07-27,"T6: rich, broke, dumb, broke dumb",145
+2026-07-27,"T0: business, help, digitalmarketing, brand",119
+2026-07-27,"T10: understand, easy, easy understand, simple",106
+2026-07-27,"T7: time, real time, save time, save",91
+2026-07-27,"T8: start, ready, stop, company",90
+2026-07-27,"T5: chat, gpt, chat gpt, claude",64
+2026-07-27,"T2: course, step, hi, pls",62
+2026-07-27,"T3: free, free praise, praise, paid",44
+2026-07-27,"T1: clear, wish, understandable, clear understandable",26
+2026-07-27,"T9: explaining, clearly, clearly clear, explaining clearly",8
+2026-08-03,"T4: agent, new, real, think",848
+2026-08-03,"T0: business, help, digitalmarketing, brand",103
+2026-08-03,"T6: rich, broke, dumb, broke dumb",82
+2026-08-03,"T7: time, real time, save time, save",71
+2026-08-03,"T10: understand, easy, easy understand, simple",68
+2026-08-03,"T5: chat, gpt, chat gpt, claude",54
+2026-08-03,"T2: course, step, hi, pls",45
+2026-08-03,"T3: free, free praise, praise, paid",42
+2026-08-03,"T8: start, ready, stop, company",42
+2026-08-03,"T1: clear, wish, understandable, clear understandable",22
+2026-08-03,"T9: explaining, clearly, clearly clear, explaining clearly",20
+2026-08-10,"T4: agent, new, real, think",1502
+2026-08-10,"T0: business, help, digitalmarketing, brand",636
+2026-08-10,"T10: understand, easy, easy understand, simple",135
+2026-08-10,"T7: time, real time, save time, save",119
+2026-08-10,"T8: start, ready, stop, company",84
+2026-08-10,"T3: free, free praise, praise, paid",75
+2026-08-10,"T6: rich, broke, dumb, broke dumb",70
+2026-08-10,"T5: chat, gpt, chat gpt, claude",65
+2026-08-10,"T1: clear, wish, understandable, clear understandable",50
+2026-08-10,"T2: course, step, hi, pls",50
+2026-08-10,"T9: explaining, clearly, clearly clear, explaining clearly",32
+2026-08-17,"T4: agent, new, real, think",942
+2026-08-17,"T0: business, help, digitalmarketing, brand",221
+2026-08-17,"T10: understand, easy, easy understand, simple",104
+2026-08-17,"T7: time, real time, save time, save",73
+2026-08-17,"T8: start, ready, stop, company",51
+2026-08-17,"T1: clear, wish, understandable, clear understandable",45
+2026-08-17,"T5: chat, gpt, chat gpt, claude",44
+2026-08-17,"T3: free, free praise, praise, paid",42
+2026-08-17,"T2: course, step, hi, pls",32
+2026-08-17,"T6: rich, broke, dumb, broke dumb",26
+2026-08-17,"T9: explaining, clearly, clearly clear, explaining clearly",5
+2026-08-24,"T4: agent, new, real, think",707
+2026-08-24,"T10: understand, easy, easy understand, simple",118
+2026-08-24,"T0: business, help, digitalmarketing, brand",87
+2026-08-24,"T5: chat, gpt, chat gpt, claude",72
+2026-08-24,"T7: time, real time, save time, save",57
+2026-08-24,"T6: rich, broke, dumb, broke dumb",45
+2026-08-24,"T8: start, ready, stop, company",32
+2026-08-24,"T3: free, free praise, praise, paid",28
+2026-08-24,"T1: clear, wish, understandable, clear understandable",26
+2026-08-24,"T9: explaining, clearly, clearly clear, explaining clearly",24
+2026-08-24,"T2: course, step, hi, pls",18
+2026-08-31,"T4: agent, new, real, think",823
+2026-08-31,"T10: understand, easy, easy understand, simple",108
+2026-08-31,"T0: business, help, digitalmarketing, brand",99
+2026-08-31,"T7: time, real time, save time, save",60
+2026-08-31,"T5: chat, gpt, chat gpt, claude",41
+2026-08-31,"T3: free, free praise, praise, paid",37
+2026-08-31,"T6: rich, broke, dumb, broke dumb",35
+2026-08-31,"T8: start, ready, stop, company",32
+2026-08-31,"T9: explaining, clearly, clearly clear, explaining clearly",23
+2026-08-31,"T1: clear, wish, understandable, clear understandable",19
+2026-08-31,"T2: course, step, hi, pls",17
+2026-09-07,"T4: agent, new, real, think",1451
+2026-09-07,"T0: business, help, digitalmarketing, brand",308
+2026-09-07,"T10: understand, easy, easy understand, simple",125
+2026-09-07,"T5: chat, gpt, chat gpt, claude",121
+2026-09-07,"T7: time, real time, save time, save",109
+2026-09-07,"T6: rich, broke, dumb, broke dumb",85
+2026-09-07,"T3: free, free praise, praise, paid",63
+2026-09-07,"T8: start, ready, stop, company",54
+2026-09-07,"T1: clear, wish, understandable, clear understandable",40
+2026-09-07,"T2: course, step, hi, pls",37
+2026-09-07,"T9: explaining, clearly, clearly clear, explaining clearly",22
+2026-09-14,"T4: agent, new, real, think",1652
+2026-09-14,"T0: business, help, digitalmarketing, brand",518
+2026-09-14,"T7: time, real time, save time, save",140
+2026-09-14,"T10: understand, easy, easy understand, simple",96
+2026-09-14,"T8: start, ready, stop, company",81
+2026-09-14,"T5: chat, gpt, chat gpt, claude",80
+2026-09-14,"T6: rich, broke, dumb, broke dumb",72
+2026-09-14,"T3: free, free praise, praise, paid",60
+2026-09-14,"T2: course, step, hi, pls",34
+2026-09-14,"T1: clear, wish, understandable, clear understandable",26
+2026-09-14,"T9: explaining, clearly, clearly clear, explaining clearly",8
