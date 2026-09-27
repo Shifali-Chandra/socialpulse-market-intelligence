@@ -1,12 +1,12 @@
 ﻿dominant_topic_label,early_share,late_share,change_pct_points
-"T0: business, help, digitalmarketing, brand",0.10980199639993454,0.1535819430814524,4.38
-"T10: understand, easy, easy understand, simple",0.04819178530518737,0.0565096499836441,0.83
-"T1: clear, wish, understandable, clear understandable",0.012518409425625921,0.01717369970559372,0.47
-"T9: explaining, clearly, clearly clear, explaining clearly",0.0057273768613974796,0.009895322211318286,0.42
-"T5: chat, gpt, chat gpt, claude",0.03264604810996564,0.03516519463526333,0.25
-"T3: free, free praise, praise, paid",0.02683685157911962,0.025351651946352634,-0.15
-"T8: start, ready, stop, company",0.033382425135002454,0.02764147857376513,-0.57
-"T7: time, real time, save time, save",0.05424644084437899,0.046368989205103045,-0.79
-"T2: course, step, hi, pls",0.024545900834560628,0.015538109257441937,-0.9
-"T4: agent, new, real, think",0.6003109147439044,0.5854596009159306,-1.49
-"T6: rich, broke, dumb, broke dumb",0.05179185076092293,0.027314360484134773,-2.45
+"T4: agent, new, real, think",0.5855869939033922,0.602481777160708,1.69
+"T10: easy, understand, easy understand, simple",0.05400969204314522,0.0693335647344672,1.53
+"T5: chat, gpt, chat gpt, claude",0.0311864936689073,0.03523082263103089,0.4
+"T9: explaining, crisp, smart explaining, crisp smart",0.0067219008910426765,0.010065949323151684,0.33
+"T1: clear, wish, understandable, clear understandable",0.013052993590745661,0.015879902811523777,0.28
+"T3: free, free praise, praise, paid",0.028607159606065344,0.028115237764665048,-0.05
+"T7: time, real time, long, save time",0.049867125214944505,0.046077750780978824,-0.38
+"T8: start, ready, stop, company",0.028138189776457715,0.022388059701492536,-0.58
+"T2: course, hi, step, pls",0.023057683289041737,0.014838597709128775,-0.82
+"T0: business, help, right, digitalmarketing",0.1396748475848054,0.1302499132245748,-0.94
+"T6: rich, broke, dumb, broke dumb",0.04009692043145224,0.025338424158278375,-1.48

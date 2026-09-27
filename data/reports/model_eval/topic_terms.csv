@@ -1,14 +1,14 @@
 ﻿topic_id,rank,term
 0,1,business
 0,2,help
-0,3,digitalmarketing
-0,4,brand
-0,5,right
-0,6,growth
-0,7,grow
-0,8,build
-0,9,businessgrowth
-0,10,website
+0,3,right
+0,4,digitalmarketing
+0,5,brand
+0,6,build
+0,7,growth
+0,8,grow
+0,9,website
+0,10,businessgrowth
 1,1,clear
 1,2,wish
 1,3,understandable
@@ -16,29 +16,29 @@
 1,5,understandable wish
 1,6,water
 1,7,brief clear
-1,8,clear brief
-1,9,clear water
+1,8,clear water
+1,9,clear brief
 1,10,brief
 2,1,course
-2,2,step
-2,3,hi
+2,2,hi
+2,3,step
 2,4,pls
-2,5,beginners
-2,6,complete
-2,7,completed
-2,8,sql
-2,9,youtube
-2,10,complete course
+2,5,youtube
+2,6,completed
+2,7,sql
+2,8,complete
+2,9,beginners
+2,10,azure
 3,1,free
 3,2,free praise
 3,3,praise
 3,4,paid
 3,5,courses
 3,6,month
-3,7,resources
-3,8,guide
+3,7,guide
+3,8,resources
 3,9,version
-3,10,pay
+3,10,account
 4,1,agent
 4,2,new
 4,3,real
@@ -46,9 +46,9 @@
 4,5,does
 4,6,build
 4,7,world
-4,8,cloud
-4,9,claude
-4,10,day
+4,8,claude
+4,9,day
+4,10,code
 5,1,chat
 5,2,gpt
 5,3,chat gpt
@@ -63,49 +63,49 @@
 6,2,broke
 6,3,dumb
 6,4,broke dumb
-6,5,smart
-6,6,smart broke
-6,7,zor
+6,5,smart broke
+6,6,zor
+6,7,smart
 6,8,veyl
 6,9,zor veyl
 6,10,dumb rich
 7,1,time
 7,2,real time
-7,3,save time
-7,4,save
-7,5,long
+7,3,long
+7,4,save time
+7,5,save
 7,6,waste
 7,7,long time
 7,8,waste time
-7,9,right
-7,10,real
+7,9,real
+7,10,right
 8,1,start
 8,2,ready
 8,3,stop
 8,4,company
-8,5,right
-8,6,scratch
-8,7,step
-8,8,start business
+8,5,scratch
+8,6,pls
+8,7,right
+8,8,step
 8,9,journey
 8,10,beginner
 9,1,explaining
-9,2,clearly
-9,3,clearly clear
-9,4,explaining clearly
-9,5,crisp
-9,6,smart explaining
-9,7,necessary sufficient
-9,8,crisp smart
-9,9,explaining necessary
-9,10,sufficient
-10,1,understand
-10,2,easy
+9,2,crisp
+9,3,smart explaining
+9,4,crisp smart
+9,5,explaining necessary
+9,6,necessary sufficient
+9,7,sufficient
+9,8,necessary
+9,9,smart
+9,10,clearly
+10,1,easy
+10,2,understand
 10,3,easy understand
 10,4,simple
 10,5,easy follow
 10,6,follow
 10,7,tutorial
 10,8,didn
-10,9,helped
-10,10,clear easy
+10,9,clear easy
+10,10,helped
