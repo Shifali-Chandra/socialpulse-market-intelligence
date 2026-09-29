@@ -6,17 +6,6 @@
 
 ---
 
-## Team (Group 8)
-
-| Name | Roll No |
-|------|---------|
-| Shifali Chandra | G25AI1040 |
-| Rubansakthi KL | G25AI1036 |
-| Ruchit Gandhi | G25AI1037 |
-| Ruchita Bhandari | G25AI1038 |
-
----
-
 ## Table of Contents
 
 1. [Project Overview](#project-overview)
