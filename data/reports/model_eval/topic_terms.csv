@@ -19,93 +19,103 @@
 1,8,clear water
 1,9,clear brief
 1,10,brief
-2,1,course
-2,2,hi
-2,3,step
-2,4,pls
-2,5,youtube
-2,6,completed
-2,7,sql
-2,8,complete
-2,9,beginners
-2,10,azure
-3,1,free
-3,2,free praise
-3,3,praise
-3,4,paid
-3,5,courses
-3,6,month
-3,7,guide
-3,8,resources
-3,9,version
-3,10,account
+2,1,free
+2,2,free praise
+2,3,praise
+2,4,paid
+2,5,courses
+2,6,month
+2,7,guide
+2,8,resources
+2,9,version
+2,10,account
+3,1,course
+3,2,hi
+3,3,step
+3,4,pls
+3,5,youtube
+3,6,completed
+3,7,complete
+3,8,sql
+3,9,beginners
+3,10,azure
 4,1,agent
-4,2,new
+4,2,think
 4,3,real
-4,4,think
-4,5,does
-4,6,build
-4,7,world
-4,8,claude
-4,9,day
-4,10,code
+4,4,does
+4,5,claude
+4,6,day
+4,7,build
+4,8,world
+4,9,code
+4,10,cloud
 5,1,chat
 5,2,gpt
 5,3,chat gpt
 5,4,claude
 5,5,voice
 5,6,beevaults
-5,7,gpt mastery
-5,8,beevaults chat
+5,7,beevaults chat
+5,8,gpt mastery
 5,9,mastery
 5,10,app
-6,1,rich
-6,2,broke
-6,3,dumb
-6,4,broke dumb
-6,5,smart broke
-6,6,zor
-6,7,smart
-6,8,veyl
-6,9,zor veyl
-6,10,dumb rich
+6,1,explaining
+6,2,crisp
+6,3,smart explaining
+6,4,explaining necessary
+6,5,necessary sufficient
+6,6,crisp smart
+6,7,sufficient
+6,8,necessary
+6,9,smart
+6,10,clearly
 7,1,time
-7,2,real time
-7,3,long
-7,4,save time
-7,5,save
-7,6,waste
-7,7,long time
+7,2,long
+7,3,real time
+7,4,waste
+7,5,long time
+7,6,save time
+7,7,save
 7,8,waste time
-7,9,real
-7,10,right
+7,9,right
+7,10,real
 8,1,start
 8,2,ready
 8,3,stop
 8,4,company
-8,5,scratch
-8,6,pls
-8,7,right
-8,8,step
-8,9,journey
-8,10,beginner
-9,1,explaining
-9,2,crisp
-9,3,smart explaining
-9,4,crisp smart
-9,5,explaining necessary
-9,6,necessary sufficient
-9,7,sufficient
-9,8,necessary
-9,9,smart
-9,10,clearly
+8,5,pls
+8,6,scratch
+8,7,start business
+8,8,right
+8,9,help
+8,10,step
+9,1,rich
+9,2,broke
+9,3,dumb
+9,4,broke dumb
+9,5,smart
+9,6,smart broke
+9,7,zor
+9,8,veyl
+9,9,zor veyl
+9,10,dumb rich
 10,1,easy
 10,2,understand
 10,3,easy understand
-10,4,simple
-10,5,easy follow
-10,6,follow
-10,7,tutorial
-10,8,didn
-10,9,clear easy
+10,4,tutorial
+10,5,follow
+10,6,easy follow
+10,7,simple
+10,8,clear easy
+10,9,didn
 10,10,helped
+11,1,new
+11,2,today
+11,3,subscriber
+11,4,new subscriber
+11,5,old
+11,6,youtube
+11,7,ideas
+11,8,technology
+11,9,model
+11,10,starting
