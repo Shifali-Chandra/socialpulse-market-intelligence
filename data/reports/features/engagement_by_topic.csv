@@ -1,8 +1,7 @@
 ﻿dominant_topic_label,posts,avg_engagement_pct,pct_high
-"T2: free, free praise, praise, paid",1227,0.524,0.286
-"T3: course, hi, step, pls",1561,0.523,0.281
-"T4: time, agent, new, think",35050,0.506,0.253
-"T0: business, help, build, right",7517,0.492,0.26
-"T5: chat, gpt, chat gpt, claude",1171,0.48,0.199
-"T1: clear, wish, understandable, clear understandable",920,0.465,0.168
-"T6: smart, explaining, crisp, explaining necessary",1196,0.461,0.158
+"T2: free, free praise, praise, paid",1375,0.526,0.293
+"T4: course, hi, engineer, step",2709,0.516,0.269
+"T0: business, time, build, real",43652,0.504,0.257
+"T3: chat, gpt, chat gpt, claude",3076,0.486,0.214
+"T1: clear, wish, understandable, clear understandable",1126,0.469,0.179
+"T5: explaining, smart, crisp, necessary sufficient",1020,0.455,0.146
