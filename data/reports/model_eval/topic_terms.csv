@@ -27,8 +27,8 @@
 2,6,month
 2,7,guide
 2,8,resources
-2,9,version
-2,10,pay
+2,9,pay
+2,10,version
 3,1,chat
 3,2,gpt
 3,3,chat gpt
@@ -36,15 +36,15 @@
 3,5,does
 3,6,voice
 3,7,app
-3,8,used
-3,9,beevaults
+3,8,gemini
+3,9,used
 3,10,gpt mastery
 4,1,course
 4,2,hi
 4,3,engineer
-4,4,step
-4,5,youtube
-4,6,start
+4,4,start
+4,5,step
+4,6,youtube
 4,7,sql
 4,8,pls
 4,9,azure
@@ -52,8 +52,8 @@
 5,1,explaining
 5,2,smart
 5,3,crisp
-5,4,necessary sufficient
-5,5,crisp smart
+5,4,crisp smart
+5,5,necessary sufficient
 5,6,explaining necessary
 5,7,smart explaining
 5,8,sufficient
