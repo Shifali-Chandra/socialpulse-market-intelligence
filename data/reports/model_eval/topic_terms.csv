@@ -1,14 +1,14 @@
 ﻿topic_id,rank,term
-0,1,business
-0,2,time
-0,3,build
-0,4,real
-0,5,help
-0,6,right
-0,7,new
-0,8,start
-0,9,agent
-0,10,think
+0,1,time
+0,2,agent
+0,3,think
+0,4,new
+0,5,real
+0,6,start
+0,7,does
+0,8,better
+0,9,day
+0,10,understand
 1,1,clear
 1,2,wish
 1,3,understandable
@@ -29,33 +29,43 @@
 2,8,resources
 2,9,pay
 2,10,version
-3,1,chat
-3,2,gpt
-3,3,chat gpt
-3,4,claude
-3,5,does
-3,6,voice
-3,7,app
-3,8,gemini
-3,9,used
-3,10,gpt mastery
-4,1,course
-4,2,hi
-4,3,engineer
-4,4,start
-4,5,step
-4,6,youtube
-4,7,sql
-4,8,pls
-4,9,azure
-4,10,complete
-5,1,explaining
-5,2,smart
-5,3,crisp
-5,4,crisp smart
-5,5,necessary sufficient
-5,6,explaining necessary
-5,7,smart explaining
-5,8,sufficient
-5,9,necessary
-5,10,clearly
+3,1,course
+3,2,hi
+3,3,complete
+3,4,engineer
+3,5,step
+3,6,pls
+3,7,azure
+3,8,sql
+3,9,completed
+3,10,youtube
+4,1,chat
+4,2,gpt
+4,3,chat gpt
+4,4,voice
+4,5,claude
+4,6,gemini
+4,7,app
+4,8,gpt mastery
+4,9,beevaults
+4,10,beevaults chat
+5,1,business
+5,2,help
+5,3,build
+5,4,right
+5,5,digitalmarketing
+5,6,brand
+5,7,growth
+5,8,grow
+5,9,website
+5,10,businessgrowth
+6,1,explaining
+6,2,smart
+6,3,crisp
+6,4,necessary sufficient
+6,5,crisp smart
+6,6,explaining necessary
+6,7,smart explaining
+6,8,sufficient
+6,9,necessary
+6,10,clearly
