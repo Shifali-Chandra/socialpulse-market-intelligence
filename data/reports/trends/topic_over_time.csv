@@ -1,92 +1,92 @@
 ﻿week,dominant_topic_label,posts
-2026-08-03,"T0: time, agent, think, new",104
-2026-08-03,"T5: business, help, build, right",20
-2026-08-03,"T6: explaining, smart, crisp, necessary sufficient",9
-2026-08-03,"T4: chat, gpt, chat gpt, voice",7
-2026-08-03,"T2: free, free praise, praise, paid",5
-2026-08-03,"T3: course, hi, complete, engineer",5
-2026-08-03,"T1: clear, wish, understandable, clear understandable",4
-2026-08-10,"T0: time, agent, think, new",1779
-2026-08-10,"T5: business, help, build, right",853
-2026-08-10,"T6: explaining, smart, crisp, necessary sufficient",73
-2026-08-10,"T2: free, free praise, praise, paid",71
-2026-08-10,"T4: chat, gpt, chat gpt, voice",71
-2026-08-10,"T1: clear, wish, understandable, clear understandable",70
-2026-08-10,"T3: course, hi, complete, engineer",64
-2026-08-17,"T0: time, agent, think, new",1186
-2026-08-17,"T5: business, help, build, right",329
-2026-08-17,"T1: clear, wish, understandable, clear understandable",61
+2026-08-10,"T0: time, agent, think, new",307
+2026-08-10,"T5: business, help, build, right",151
+2026-08-10,"T2: free, free praise, praise, paid",9
+2026-08-10,"T3: course, hi, engineer, pls",9
+2026-08-10,"T6: explaining, smart, crisp, necessary sufficient",9
+2026-08-10,"T4: chat, gpt, chat gpt, claude",8
+2026-08-10,"T1: clear, wish, understandable, clear understandable",4
+2026-08-17,"T0: time, agent, think, new",1179
+2026-08-17,"T5: business, help, build, right",338
+2026-08-17,"T1: clear, wish, understandable, clear understandable",62
+2026-08-17,"T3: course, hi, engineer, pls",48
 2026-08-17,"T2: free, free praise, praise, paid",46
-2026-08-17,"T4: chat, gpt, chat gpt, voice",45
-2026-08-17,"T3: course, hi, complete, engineer",43
-2026-08-17,"T6: explaining, smart, crisp, necessary sufficient",13
-2026-08-24,"T0: time, agent, think, new",1009
-2026-08-24,"T5: business, help, build, right",143
-2026-08-24,"T4: chat, gpt, chat gpt, voice",80
+2026-08-17,"T4: chat, gpt, chat gpt, claude",44
+2026-08-17,"T6: explaining, smart, crisp, necessary sufficient",12
+2026-08-24,"T0: time, agent, think, new",1019
+2026-08-24,"T5: business, help, build, right",142
+2026-08-24,"T4: chat, gpt, chat gpt, claude",80
 2026-08-24,"T1: clear, wish, understandable, clear understandable",42
-2026-08-24,"T6: explaining, smart, crisp, necessary sufficient",37
 2026-08-24,"T2: free, free praise, praise, paid",36
-2026-08-24,"T3: course, hi, complete, engineer",25
-2026-08-31,"T0: time, agent, think, new",1167
-2026-08-31,"T5: business, help, build, right",146
-2026-08-31,"T4: chat, gpt, chat gpt, voice",46
-2026-08-31,"T2: free, free praise, praise, paid",44
+2026-08-24,"T6: explaining, smart, crisp, necessary sufficient",33
+2026-08-24,"T3: course, hi, engineer, pls",28
+2026-08-31,"T0: time, agent, think, new",1162
+2026-08-31,"T5: business, help, build, right",154
+2026-08-31,"T4: chat, gpt, chat gpt, claude",43
+2026-08-31,"T2: free, free praise, praise, paid",42
 2026-08-31,"T1: clear, wish, understandable, clear understandable",36
-2026-08-31,"T6: explaining, smart, crisp, necessary sufficient",33
-2026-08-31,"T3: course, hi, complete, engineer",22
-2026-09-07,"T0: time, agent, think, new",1895
-2026-09-07,"T5: business, help, build, right",458
-2026-09-07,"T4: chat, gpt, chat gpt, voice",126
-2026-09-07,"T2: free, free praise, praise, paid",75
-2026-09-07,"T6: explaining, smart, crisp, necessary sufficient",59
-2026-09-07,"T1: clear, wish, understandable, clear understandable",52
-2026-09-07,"T3: course, hi, complete, engineer",46
-2026-09-14,"T0: time, agent, think, new",2374
-2026-09-14,"T5: business, help, build, right",766
-2026-09-14,"T4: chat, gpt, chat gpt, voice",102
-2026-09-14,"T2: free, free praise, praise, paid",70
-2026-09-14,"T3: course, hi, complete, engineer",49
-2026-09-14,"T1: clear, wish, understandable, clear understandable",47
-2026-09-14,"T6: explaining, smart, crisp, necessary sufficient",23
-2026-09-21,"T0: time, agent, think, new",1193
-2026-09-21,"T5: business, help, build, right",138
-2026-09-21,"T2: free, free praise, praise, paid",41
-2026-09-21,"T4: chat, gpt, chat gpt, voice",39
-2026-09-21,"T3: course, hi, complete, engineer",34
-2026-09-21,"T6: explaining, smart, crisp, necessary sufficient",28
+2026-08-31,"T6: explaining, smart, crisp, necessary sufficient",32
+2026-08-31,"T3: course, hi, engineer, pls",26
+2026-09-07,"T0: time, agent, think, new",1904
+2026-09-07,"T5: business, help, build, right",473
+2026-09-07,"T4: chat, gpt, chat gpt, claude",125
+2026-09-07,"T2: free, free praise, praise, paid",77
+2026-09-07,"T1: clear, wish, understandable, clear understandable",56
+2026-09-07,"T3: course, hi, engineer, pls",55
+2026-09-07,"T6: explaining, smart, crisp, necessary sufficient",54
+2026-09-14,"T0: time, agent, think, new",2372
+2026-09-14,"T5: business, help, build, right",807
+2026-09-14,"T4: chat, gpt, chat gpt, claude",100
+2026-09-14,"T2: free, free praise, praise, paid",75
+2026-09-14,"T3: course, hi, engineer, pls",55
+2026-09-14,"T1: clear, wish, understandable, clear understandable",46
+2026-09-14,"T6: explaining, smart, crisp, necessary sufficient",22
+2026-09-21,"T0: time, agent, think, new",1211
+2026-09-21,"T5: business, help, build, right",140
+2026-09-21,"T2: free, free praise, praise, paid",42
+2026-09-21,"T4: chat, gpt, chat gpt, claude",39
+2026-09-21,"T3: course, hi, engineer, pls",36
+2026-09-21,"T6: explaining, smart, crisp, necessary sufficient",29
 2026-09-21,"T1: clear, wish, understandable, clear understandable",21
-2026-09-28,"T0: time, agent, think, new",1586
-2026-09-28,"T5: business, help, build, right",161
-2026-09-28,"T4: chat, gpt, chat gpt, voice",74
-2026-09-28,"T2: free, free praise, praise, paid",60
-2026-09-28,"T1: clear, wish, understandable, clear understandable",41
-2026-09-28,"T3: course, hi, complete, engineer",27
-2026-09-28,"T6: explaining, smart, crisp, necessary sufficient",22
-2026-10-05,"T0: time, agent, think, new",1626
-2026-10-05,"T5: business, help, build, right",206
-2026-10-05,"T4: chat, gpt, chat gpt, voice",77
+2026-09-28,"T0: time, agent, think, new",1604
+2026-09-28,"T5: business, help, build, right",168
+2026-09-28,"T4: chat, gpt, chat gpt, claude",67
+2026-09-28,"T2: free, free praise, praise, paid",62
+2026-09-28,"T1: clear, wish, understandable, clear understandable",42
+2026-09-28,"T3: course, hi, engineer, pls",30
+2026-09-28,"T6: explaining, smart, crisp, necessary sufficient",24
+2026-10-05,"T0: time, agent, think, new",1658
+2026-10-05,"T5: business, help, build, right",205
+2026-10-05,"T4: chat, gpt, chat gpt, claude",75
 2026-10-05,"T2: free, free praise, praise, paid",42
-2026-10-05,"T3: course, hi, complete, engineer",36
-2026-10-05,"T1: clear, wish, understandable, clear understandable",32
-2026-10-05,"T6: explaining, smart, crisp, necessary sufficient",25
-2026-10-12,"T0: time, agent, think, new",2024
-2026-10-12,"T5: business, help, build, right",958
+2026-10-05,"T3: course, hi, engineer, pls",37
+2026-10-05,"T1: clear, wish, understandable, clear understandable",34
+2026-10-05,"T6: explaining, smart, crisp, necessary sufficient",26
+2026-10-12,"T0: time, agent, think, new",2025
+2026-10-12,"T5: business, help, build, right",1002
 2026-10-12,"T2: free, free praise, praise, paid",108
-2026-10-12,"T4: chat, gpt, chat gpt, voice",77
-2026-10-12,"T3: course, hi, complete, engineer",45
-2026-10-12,"T6: explaining, smart, crisp, necessary sufficient",43
+2026-10-12,"T4: chat, gpt, chat gpt, claude",74
+2026-10-12,"T3: course, hi, engineer, pls",49
+2026-10-12,"T6: explaining, smart, crisp, necessary sufficient",42
 2026-10-12,"T1: clear, wish, understandable, clear understandable",32
-2026-10-19,"T0: time, agent, think, new",1524
-2026-10-19,"T5: business, help, build, right",180
-2026-10-19,"T4: chat, gpt, chat gpt, voice",50
-2026-10-19,"T1: clear, wish, understandable, clear understandable",33
-2026-10-19,"T2: free, free praise, praise, paid",31
-2026-10-19,"T3: course, hi, complete, engineer",31
-2026-10-19,"T6: explaining, smart, crisp, necessary sufficient",20
-2026-10-26,"T0: time, agent, think, new",1317
-2026-10-26,"T5: business, help, build, right",135
-2026-10-26,"T4: chat, gpt, chat gpt, voice",42
-2026-10-26,"T1: clear, wish, understandable, clear understandable",31
-2026-10-26,"T2: free, free praise, praise, paid",31
-2026-10-26,"T3: course, hi, complete, engineer",26
-2026-10-26,"T6: explaining, smart, crisp, necessary sufficient",25
+2026-10-19,"T0: time, agent, think, new",1603
+2026-10-19,"T5: business, help, build, right",199
+2026-10-19,"T4: chat, gpt, chat gpt, claude",52
+2026-10-19,"T3: course, hi, engineer, pls",39
+2026-10-19,"T2: free, free praise, praise, paid",34
+2026-10-19,"T1: clear, wish, understandable, clear understandable",31
+2026-10-19,"T6: explaining, smart, crisp, necessary sufficient",21
+2026-10-26,"T0: time, agent, think, new",1573
+2026-10-26,"T5: business, help, build, right",171
+2026-10-26,"T3: course, hi, engineer, pls",51
+2026-10-26,"T4: chat, gpt, chat gpt, claude",47
+2026-10-26,"T2: free, free praise, praise, paid",34
+2026-10-26,"T1: clear, wish, understandable, clear understandable",32
+2026-10-26,"T6: explaining, smart, crisp, necessary sufficient",27
+2026-11-02,"T0: time, agent, think, new",988
+2026-11-02,"T5: business, help, build, right",112
+2026-11-02,"T4: chat, gpt, chat gpt, claude",32
+2026-11-02,"T3: course, hi, engineer, pls",27
+2026-11-02,"T1: clear, wish, understandable, clear understandable",26
+2026-11-02,"T2: free, free praise, praise, paid",24
+2026-11-02,"T6: explaining, smart, crisp, necessary sufficient",16
