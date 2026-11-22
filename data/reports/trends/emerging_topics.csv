@@ -1,8 +1,8 @@
 ﻿dominant_topic_label,early_share,late_share,change_pct_points
-"T0: business, help, build, right",0.14800728943823785,0.17086689823368562,2.29
-"T3: course, hi, complete, youtube",0.02234371285951985,0.024388441356884193,0.2
-"T2: free, free praise, praise, paid",0.025671499881150462,0.02490577193112113,-0.08
-"T6: explaining, smart, crisp, necessary sufficient",0.01592583788923223,0.012342029413938364,-0.36
-"T1: clear, wish, understandable, clear understandable",0.019887489105459157,0.016111152169093194,-0.38
-"T4: time, agent, new, think",0.7320339117344109,0.7257408912866751,-0.63
-"T5: chat, gpt, chat gpt, claude",0.03613025909198954,0.02564481560860247,-1.05
+"T5: business, help, right, build",0.14055990059206197,0.17401457787842334,3.35
+"T2: course, engineer, hi, youtube",0.020173963891528396,0.02200835043521336,0.18
+"T3: free, free praise, praise, paid",0.0281412177472407,0.02802349444483759,-0.01
+"T6: explaining, smart, crisp, explaining necessary",0.012645274468240625,0.011251857618002972,-0.14
+"T1: clear, wish, understandable, clear understandable",0.019369929098750092,0.016913169627061072,-0.25
+"T4: chat, gpt, chat gpt, claude",0.033038520575981285,0.022503715236005944,-1.05
+"T0: time, agent, new, think",0.7460711936261969,0.7252848347604557,-2.08

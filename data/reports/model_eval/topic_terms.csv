@@ -1,71 +1,71 @@
 ﻿topic_id,rank,term
-0,1,business
-0,2,help
-0,3,build
-0,4,right
-0,5,brand
-0,6,digitalmarketing
-0,7,growth
-0,8,grow
-0,9,website
-0,10,businessgrowth
+0,1,time
+0,2,agent
+0,3,new
+0,4,think
+0,5,real
+0,6,start
+0,7,does
+0,8,better
+0,9,day
+0,10,understand
 1,1,clear
 1,2,wish
 1,3,understandable
 1,4,clear understandable
 1,5,understandable wish
 1,6,water
-1,7,brief clear
-1,8,clear water
+1,7,clear water
+1,8,brief clear
 1,9,clear brief
 1,10,brief
-2,1,free
-2,2,free praise
-2,3,praise
-2,4,paid
-2,5,courses
-2,6,month
-2,7,guide
-2,8,resources
-2,9,pay
-2,10,version
-3,1,course
-3,2,hi
-3,3,complete
-3,4,youtube
-3,5,sql
-3,6,engineer
-3,7,azure
-3,8,pls
-3,9,step
-3,10,complete course
-4,1,time
-4,2,agent
-4,3,new
-4,4,think
-4,5,real
-4,6,start
-4,7,does
-4,8,better
-4,9,day
-4,10,understand
-5,1,chat
-5,2,gpt
-5,3,chat gpt
-5,4,claude
-5,5,voice
-5,6,gemini
-5,7,app
-5,8,gpt mastery
-5,9,beevaults chat
-5,10,beevaults
+2,1,course
+2,2,engineer
+2,3,hi
+2,4,youtube
+2,5,complete
+2,6,pls
+2,7,sql
+2,8,beginners
+2,9,completed
+2,10,azure
+3,1,free
+3,2,free praise
+3,3,praise
+3,4,paid
+3,5,courses
+3,6,month
+3,7,guide
+3,8,pay
+3,9,link
+3,10,community
+4,1,chat
+4,2,gpt
+4,3,chat gpt
+4,4,claude
+4,5,voice
+4,6,gemini
+4,7,gpt mastery
+4,8,beevaults
+4,9,beevaults chat
+4,10,app
+5,1,business
+5,2,help
+5,3,right
+5,4,build
+5,5,brand
+5,6,digitalmarketing
+5,7,growth
+5,8,grow
+5,9,website
+5,10,businessgrowth
 6,1,explaining
 6,2,smart
 6,3,crisp
-6,4,necessary sufficient
-6,5,crisp smart
-6,6,smart explaining
-6,7,explaining necessary
+6,4,explaining necessary
+6,5,smart explaining
+6,6,crisp smart
+6,7,necessary sufficient
 6,8,sufficient
 6,9,necessary
 6,10,clearly

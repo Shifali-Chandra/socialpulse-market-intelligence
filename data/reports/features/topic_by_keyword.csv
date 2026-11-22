@@ -1,85 +1,85 @@
 ﻿Keyword,dominant_topic_label,count
-AI Agents,"T4: time, agent, new, think",9225
-AI Agents,"T0: business, help, build, right",963
-AI Agents,"T2: free, free praise, praise, paid",240
-AI Agents,"T3: course, hi, complete, youtube",220
-AI Agents,"T6: explaining, smart, crisp, necessary sufficient",196
-AI Agents,"T1: clear, wish, understandable, clear understandable",191
-AI Agents,"T5: chat, gpt, chat gpt, claude",144
-AWS,"T4: time, agent, new, think",2654
-AWS,"T0: business, help, build, right",518
-AWS,"T3: course, hi, complete, youtube",314
-AWS,"T2: free, free praise, praise, paid",109
-AWS,"T1: clear, wish, understandable, clear understandable",78
-AWS,"T6: explaining, smart, crisp, necessary sufficient",34
-AWS,"T5: chat, gpt, chat gpt, claude",8
-Automation,"T4: time, agent, new, think",4655
-Automation,"T0: business, help, build, right",1032
-Automation,"T3: course, hi, complete, youtube",265
-Automation,"T2: free, free praise, praise, paid",218
-Automation,"T1: clear, wish, understandable, clear understandable",101
-Automation,"T6: explaining, smart, crisp, necessary sufficient",81
-Automation,"T5: chat, gpt, chat gpt, claude",44
-ChatGPT,"T4: time, agent, new, think",9619
-ChatGPT,"T5: chat, gpt, chat gpt, claude",1243
-ChatGPT,"T0: business, help, build, right",826
-ChatGPT,"T2: free, free praise, praise, paid",240
-ChatGPT,"T3: course, hi, complete, youtube",215
-ChatGPT,"T6: explaining, smart, crisp, necessary sufficient",117
-ChatGPT,"T1: clear, wish, understandable, clear understandable",109
-Data Engineering,"T4: time, agent, new, think",2894
-Data Engineering,"T0: business, help, build, right",394
-Data Engineering,"T3: course, hi, complete, youtube",301
-Data Engineering,"T2: free, free praise, praise, paid",78
-Data Engineering,"T1: clear, wish, understandable, clear understandable",48
-Data Engineering,"T6: explaining, smart, crisp, necessary sufficient",22
-Data Engineering,"T5: chat, gpt, chat gpt, claude",15
-Databricks,"T4: time, agent, new, think",2223
-Databricks,"T0: business, help, build, right",298
-Databricks,"T3: course, hi, complete, youtube",152
-Databricks,"T2: free, free praise, praise, paid",59
-Databricks,"T1: clear, wish, understandable, clear understandable",55
-Databricks,"T6: explaining, smart, crisp, necessary sufficient",29
-Databricks,"T5: chat, gpt, chat gpt, claude",9
-Digital Marketing,"T4: time, agent, new, think",1739
-Digital Marketing,"T0: business, help, build, right",1227
-Digital Marketing,"T3: course, hi, complete, youtube",334
-Digital Marketing,"T2: free, free praise, praise, paid",111
-Digital Marketing,"T1: clear, wish, understandable, clear understandable",72
-Digital Marketing,"T6: explaining, smart, crisp, necessary sufficient",39
-Digital Marketing,"T5: chat, gpt, chat gpt, claude",16
-Digital Transformation,"T0: business, help, build, right",734
-Digital Transformation,"T4: time, agent, new, think",435
+AI Agents,"T0: time, agent, new, think",10094
+AI Agents,"T5: business, help, right, build",1020
+AI Agents,"T3: free, free praise, praise, paid",282
+AI Agents,"T1: clear, wish, understandable, clear understandable",211
+AI Agents,"T6: explaining, smart, crisp, explaining necessary",197
+AI Agents,"T2: course, engineer, hi, youtube",190
+AI Agents,"T4: chat, gpt, chat gpt, claude",141
+AWS,"T0: time, agent, new, think",2889
+AWS,"T5: business, help, right, build",469
+AWS,"T2: course, engineer, hi, youtube",243
+AWS,"T3: free, free praise, praise, paid",131
+AWS,"T1: clear, wish, understandable, clear understandable",83
+AWS,"T6: explaining, smart, crisp, explaining necessary",30
+AWS,"T4: chat, gpt, chat gpt, claude",4
+Automation,"T0: time, agent, new, think",4839
+Automation,"T5: business, help, right, build",1032
+Automation,"T2: course, engineer, hi, youtube",273
+Automation,"T3: free, free praise, praise, paid",250
+Automation,"T1: clear, wish, understandable, clear understandable",109
+Automation,"T6: explaining, smart, crisp, explaining necessary",80
+Automation,"T4: chat, gpt, chat gpt, claude",38
+ChatGPT,"T0: time, agent, new, think",10135
+ChatGPT,"T4: chat, gpt, chat gpt, claude",1274
+ChatGPT,"T5: business, help, right, build",876
+ChatGPT,"T3: free, free praise, praise, paid",274
+ChatGPT,"T2: course, engineer, hi, youtube",155
+ChatGPT,"T6: explaining, smart, crisp, explaining necessary",121
+ChatGPT,"T1: clear, wish, understandable, clear understandable",116
+Data Engineering,"T0: time, agent, new, think",3212
+Data Engineering,"T5: business, help, right, build",391
+Data Engineering,"T2: course, engineer, hi, youtube",307
+Data Engineering,"T3: free, free praise, praise, paid",104
+Data Engineering,"T1: clear, wish, understandable, clear understandable",53
+Data Engineering,"T6: explaining, smart, crisp, explaining necessary",25
+Data Engineering,"T4: chat, gpt, chat gpt, claude",14
+Databricks,"T0: time, agent, new, think",2433
+Databricks,"T5: business, help, right, build",308
+Databricks,"T2: course, engineer, hi, youtube",140
+Databricks,"T3: free, free praise, praise, paid",83
+Databricks,"T1: clear, wish, understandable, clear understandable",58
+Databricks,"T6: explaining, smart, crisp, explaining necessary",27
+Databricks,"T4: chat, gpt, chat gpt, claude",11
+Digital Marketing,"T0: time, agent, new, think",1841
+Digital Marketing,"T5: business, help, right, build",1268
+Digital Marketing,"T2: course, engineer, hi, youtube",322
+Digital Marketing,"T3: free, free praise, praise, paid",122
+Digital Marketing,"T1: clear, wish, understandable, clear understandable",79
+Digital Marketing,"T6: explaining, smart, crisp, explaining necessary",35
+Digital Marketing,"T4: chat, gpt, chat gpt, claude",14
+Digital Transformation,"T5: business, help, right, build",774
+Digital Transformation,"T0: time, agent, new, think",476
+Digital Transformation,"T3: free, free praise, praise, paid",25
 Digital Transformation,"T1: clear, wish, understandable, clear understandable",22
-Digital Transformation,"T2: free, free praise, praise, paid",19
-Digital Transformation,"T3: course, hi, complete, youtube",18
-Digital Transformation,"T6: explaining, smart, crisp, necessary sufficient",12
-Digital Transformation,"T5: chat, gpt, chat gpt, claude",5
-Influencer Marketing,"T4: time, agent, new, think",1656
-Influencer Marketing,"T0: business, help, build, right",1241
-Influencer Marketing,"T3: course, hi, complete, youtube",92
-Influencer Marketing,"T2: free, free praise, praise, paid",88
-Influencer Marketing,"T1: clear, wish, understandable, clear understandable",45
-Influencer Marketing,"T6: explaining, smart, crisp, necessary sufficient",32
-Influencer Marketing,"T5: chat, gpt, chat gpt, claude",5
-SEO,"T4: time, agent, new, think",2085
-SEO,"T0: business, help, build, right",1131
-SEO,"T1: clear, wish, understandable, clear understandable",351
-SEO,"T6: explaining, smart, crisp, necessary sufficient",289
-SEO,"T2: free, free praise, praise, paid",187
-SEO,"T3: course, hi, complete, youtube",108
-SEO,"T5: chat, gpt, chat gpt, claude",28
-SaaS,"T4: time, agent, new, think",3255
-SaaS,"T0: business, help, build, right",997
-SaaS,"T2: free, free praise, praise, paid",139
-SaaS,"T3: course, hi, complete, youtube",84
-SaaS,"T1: clear, wish, understandable, clear understandable",45
-SaaS,"T6: explaining, smart, crisp, necessary sufficient",41
-SaaS,"T5: chat, gpt, chat gpt, claude",26
-Startup,"T4: time, agent, new, think",4247
-Startup,"T0: business, help, build, right",997
-Startup,"T1: clear, wish, understandable, clear understandable",125
-Startup,"T3: course, hi, complete, youtube",100
-Startup,"T2: free, free praise, praise, paid",76
-Startup,"T6: explaining, smart, crisp, necessary sufficient",59
-Startup,"T5: chat, gpt, chat gpt, claude",41
+Digital Transformation,"T2: course, engineer, hi, youtube",16
+Digital Transformation,"T6: explaining, smart, crisp, explaining necessary",11
+Digital Transformation,"T4: chat, gpt, chat gpt, claude",4
+Influencer Marketing,"T0: time, agent, new, think",1744
+Influencer Marketing,"T5: business, help, right, build",1290
+Influencer Marketing,"T3: free, free praise, praise, paid",95
+Influencer Marketing,"T2: course, engineer, hi, youtube",83
+Influencer Marketing,"T1: clear, wish, understandable, clear understandable",53
+Influencer Marketing,"T6: explaining, smart, crisp, explaining necessary",29
+Influencer Marketing,"T4: chat, gpt, chat gpt, claude",3
+SEO,"T0: time, agent, new, think",2313
+SEO,"T5: business, help, right, build",1214
+SEO,"T1: clear, wish, understandable, clear understandable",470
+SEO,"T3: free, free praise, praise, paid",207
+SEO,"T6: explaining, smart, crisp, explaining necessary",201
+SEO,"T2: course, engineer, hi, youtube",147
+SEO,"T4: chat, gpt, chat gpt, claude",22
+SaaS,"T0: time, agent, new, think",3560
+SaaS,"T5: business, help, right, build",1069
+SaaS,"T3: free, free praise, praise, paid",164
+SaaS,"T2: course, engineer, hi, youtube",88
+SaaS,"T1: clear, wish, understandable, clear understandable",50
+SaaS,"T6: explaining, smart, crisp, explaining necessary",41
+SaaS,"T4: chat, gpt, chat gpt, claude",26
+Startup,"T0: time, agent, new, think",4500
+Startup,"T5: business, help, right, build",1016
+Startup,"T1: clear, wish, understandable, clear understandable",128
+Startup,"T3: free, free praise, praise, paid",94
+Startup,"T2: course, engineer, hi, youtube",91
+Startup,"T6: explaining, smart, crisp, explaining necessary",55
+Startup,"T4: chat, gpt, chat gpt, claude",35
